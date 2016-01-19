@@ -7,7 +7,7 @@ CONFIG=$1
 SSH=$2
 
 rm -r public
-hugo --config=config.$CONFIG.toml --destination=public
+hugo --config=config.$CONFIG.toml
 cp Caddyfile.$CONFIG public/Caddyfile
 
 # TODO: Replace scp with rsync differential.
