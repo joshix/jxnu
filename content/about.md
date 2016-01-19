@@ -1,14 +1,11 @@
 ---
-Categories:
-- Development
-- GoLang
-Description: ""
+Description: "About Joshix.com: Josh Wood"
 Tags:
 - Development
 - golang
-date: 2016-01-19T02:47:53-08:00
+date: 2009-01-19T02:47:53-08:00
 menu: main
-title: about
+title: About
 ---
 
 
