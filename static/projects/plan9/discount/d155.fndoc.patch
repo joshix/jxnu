@@ -1,0 +1,40 @@
+diff -Naur /n/tapefs/discount-1.5.5/Plan9/markdown.2 ./Plan9/markdown.2
+--- /n/tapefs/discount-1.5.5/Plan9/markdown.2	Fri Sep 18 10:04:31 2009
++++ ./Plan9/markdown.2	Wed Sep 16 09:10:44 2009
+@@ -9,10 +9,10 @@
+ .B #include <mkdio.h>
+ .PP
+ .B
+-MMIOT* mkd_in(FILE *input)
++MMIOT* mkd_in(FILE *input, int flags)
+ .PP
+ .B
+-MMIOT* mkd_string(char *string, int size)
++MMIOT* mkd_string(char *buf, int size, int flags)
+ .PP
+ .B
+ int	markdown(MMIOT *doc, FILE *output, int flags)
+@@ -39,7 +39,7 @@
+ int	mkd_toc(MMIOT *document, char **doc)
+ .PP
+ .B
+-void	mkd_generatetoc(MMIOT *document, FILE *output)
++int	mkd_generatetoc(MMIOT *document, FILE *output)
+ .PP
+ .B
+ void	mkd_cleanup(MMIOT*);
+diff -Naur /n/tapefs/discount-1.5.5/markdown.3 ./markdown.3
+--- /n/tapefs/discount-1.5.5/markdown.3	Fri Sep 18 10:04:31 2009
++++ ./markdown.3	Wed Sep 16 09:10:40 2009
+@@ -11,9 +11,9 @@
+ .Sh SYNOPSIS
+ .Fd #include <mkdio.h>
+ .Ft MMIOT
+-.Fn *mkd_in "FILE *input"
++.Fn *mkd_in "FILE *input" "int flags"
+ .Ft MMIOT
+-.Fn *mkd_string "char *string" "int size"
++.Fn *mkd_string "char *string" "int size" "int flags"
+ .Ft int
+ .Fn markdown "MMIOT *doc" "FILE *output" "int flags"
+ .Sh DESCRIPTION

@@ -1,0 +1,40 @@
+#!/bin/rc
+
+# Based on 'tweet' by anothy.
+
+rfork en
+
+flagfmt='d,h url'
+args='[text]'
+if(! ifs=() eval `{aux/getflags $*}){
+	aux/usage
+	exit usage
+}
+
+#url=https://identi.ca/api
+if(~ $#mbapiurl 1)
+	url=$mbapiurl
+if(~ $#flagh 1)
+	url=$flagh
+if(! ~ $#url 1){
+	echo 'set $mbapiurl or give -h url' >[1=2]
+	exit usage
+}
+
+if(~ $#* 0)
+	msg=`{read}
+if not
+	msg=$"*
+
+MAXC=140
+msgc=`{echo -n $msg |wc -r}
+if(! ~ $msgc `{seq $MAXC}) {
+	echo Not posted. Wanted ≤ $MAXC characters, got $msgc. >[1=2]
+	exit length
+}
+
+q=statuses/update.xml
+ofile=/dev/null
+if(~ $#flagd 1)
+	ofile=/fd/2
+hget -p 'source=mb/write&status='^$"msg $url/$q > $ofile

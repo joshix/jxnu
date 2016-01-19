@@ -1,0 +1,70 @@
+<head>
+<title>Plan 9 /sys/man/1/mountnfs</title>
+<meta content="text/html; charset=utf-8" http-equiv=Content-Type>
+</head>
+<body bgcolor=#ffffff>
+   <br>
+<p><font size=+1><b>NAME     <br></b></font>
+
+<table border=0 cellpadding=0 cellspacing=0><tr height=2><td><tr><td width=20><td>
+
+    mountnfs &ndash; Connect to and mount NFS service<br>
+    
+</table>
+<p><font size=+1><b>SYNOPSIS     <br></b></font>
+
+<table border=0 cellpadding=0 cellspacing=0><tr height=2><td><tr><td width=20><td>
+
+    <tt><font size=+1>mountnfs</font></tt> <i>nfshost export<br>
+    </i>
+</table>
+<p><font size=+1><b>DESCRIPTION     <br></b></font>
+
+<table border=0 cellpadding=0 cellspacing=0><tr height=2><td><tr><td width=20><td>
+
+    The <a href="/magic/man2html/1/rc"><i>rc</i>(1)</a> script <i>mountnfs</i> invokes <a href="/magic/man2html/4/nfs"><i>nfs</i>(4)</a> to create at <tt><font size=+1>/srv/nfs.</font></tt><i>nfshost</i>
+    a channel to the NFS service on <i>nfshost,</i> then mounts <i>nfshost</i>'s
+    <i>export</i> at <tt><font size=+1>/n/</font></tt><i>nfshost.<br>
+    </i>
+</table>
+<p><font size=+1><b>EXAMPLE     <br></b></font>
+
+<table border=0 cellpadding=0 cellspacing=0><tr height=2><td><tr><td width=20><td>
+
+    Make available at <tt><font size=+1>/n/intranet</font></tt> NFS server <tt><font size=+1>intranet</font></tt>'s <i>export</i> <tt><font size=+1>/home/public</font></tt>:<br>
+    <tt><font size=+1>% mountnfs intranet /home/public<br>
+    </font></tt>
+</table>
+<p><font size=+1><b>FILES     <br></b></font>
+
+<table border=0 cellpadding=0 cellspacing=0><tr height=2><td><tr><td width=20><td>
+
+    <tt><font size=+1>/lib/ndb/nfshost.^(password group)<br>
+    </font></tt>
+    <table border=0 cellpadding=0 cellspacing=0><tr height=2><td><tr><td width=20><td>
+
+        Expected UNIX&ndash;format password and group files for uid&ndash;to&ndash;name mapping.
+        See &ndash;<i>u</i> in <a href="/magic/man2html/4/nfs"><i>nfs</i>(4)</a>.<br>
+        
+    </table>
+    
+</table>
+<p><font size=+1><b>SOURCE     <br></b></font>
+
+<table border=0 cellpadding=0 cellspacing=0><tr height=2><td><tr><td width=20><td>
+
+    <tt><font size=+1>/rc/bin/mountnfs<br>
+    </font></tt>
+</table>
+<p><font size=+1><b>SEE ALSO    <br></b></font>
+
+<table border=0 cellpadding=0 cellspacing=0><tr height=2><td><tr><td width=20><td>
+
+    <a href="/magic/man2html/1/mount"><i>mount</i>(1)</a><i>, <a href="/magic/man2html/4/nfs">nfs</a></i><a href="/magic/man2html/4/nfs">(4)</a><i>, <a href="/magic/man2html/3/srv">srv</a></i><a href="/magic/man2html/3/srv">(3)<br></a>
+    
+</table>
+
+<table border=0 cellpadding=0 cellspacing=0><tr height=20><td></table>
+<font size=-1><a href="http://utopian.net/copyright/">
+Copyright</a> &#169; 2008 Utopian.net.  No rights reserved.</font>
+</body></html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<meta charset="UTF-8" />
+<title>Discount on Plan 9</title>
+</head>
+<body>
+<h1><em>Discount</em> Markdown compiler on Plan 9</h1>
+
+<p><b>This work has been absorbed upstream into the
+<a href="http://www.pell.portland.or.us/~orc/Code/markdown/"><em>Discount</em></a>
+project. Please visit there for up-to-date information and the latest versions including Plan 9
+support in the official distribution.</b></p>
+
+<p>David Parsons&rsquo;s
+<a href="http://www.pell.portland.or.us/~orc/Code/markdown/"><em>Discount</em></a>
+with an added mkfile and manpages for building and using on Plan 9.</p>
+
+<h2>Build</h2>
+
+<pre><code>% CONFIG='--enable-all-features' mk config
+% mk install
+% markdown -V
+markdown: discount X.Y.Z DL_TAG HEADER DEBUG SUPERSCRIPT RELAXED DIV
+</code></pre>
+
+<p><code>--enable-all-features</code> may be replaced by zero or more of:</p>
+
+<pre><code>    --enable-dl-tag     Use the DL tag extension
+    --enable-pandoc-header  Use pandoc-style header blocks
+    --enable-superscript    A^B becomes A&lt;sup&gt;B&lt;/sup&gt;
+    --enable-amalloc    Enable memory allocation debugging
+    --relaxed-emphasis  underscores aren't special in the middle of words
+    --with-tabstops=N   Set tabstops to N characters (default is 4)
+    --enable-div        Enable &gt;%id% divisions
+    --enable-alpha-list Enable (a)/(b)/(c) lists
+    --enable-all-features   Turn on all stable optional features
+</code></pre>
+
+<h2>Notes</h2>
+
+<p>The supplied mkfile merely drives Discount&rsquo;s own configure script and
+then APE&rsquo;s <em>psh</em> environment to build the Discount source, then copies
+the result(s) to locations appropriate for system-wide use on Plan 9. There are
+a few other <em>mk</em>(1) targets:</p>
+
+<p><code>install.libs</code>: Discount includes a C library and header.
+Installation is optional.  Plan 9 binaries are statically linked.</p>
+
+<p><code>install.man</code>: Add manual pages for markdown(1) and (6).</p>
+
+<p><code>install.progs</code>: Extra programs.  <em>makepage</em> writes complete
+XHTML documents, rather than fragments.  <em>mkd2html</em> is similar, but
+produces HTML.</p>
+
+<p><code>test</code>: Parsons&rsquo;s <em>Discount</em> <a href="testresults.html">test suite succeeds</a>.</p>
+</body>
+</html>

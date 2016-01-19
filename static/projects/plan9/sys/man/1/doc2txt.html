@@ -1,0 +1,150 @@
+<head>
+<title>Plan 9 /sys/man/1/doc2txt</title>
+<meta content="text/html; charset=utf-8" http-equiv=Content-Type>
+</head>
+<body bgcolor=#ffffff>
+   <br>
+<p><font size=+1><b>NAME     <br></b></font>
+
+<table border=0 cellpadding=0 cellspacing=0><tr height=2><td><tr><td width=20><td>
+
+    doc2ps, doc2txt, wdoc2txt, xls2txt, antiword, msexceltables, mswordstrings,
+    olefs &ndash; read Microsoft Office documents<br>
+    
+</table>
+<p><font size=+1><b>SYNOPSIS     <br></b></font>
+
+<table border=0 cellpadding=0 cellspacing=0><tr height=2><td><tr><td width=20><td>
+
+    <tt><font size=+1>doc2ps</font></tt> [ <i>file.doc</i> ]<br>
+    <tt><font size=+1>doc2txt</font></tt> [ <i>file.doc</i> ]<br>
+    <tt><font size=+1>wdoc2txt</font></tt> [ <i>file.doc</i> ]<br>
+    <tt><font size=+1>xls2txt</font></tt> [ <i>file.xls</i> ]<br>
+    <tt><font size=+1>aux/antiword</font></tt> [ <i>options</i> ] <i>file.doc ...<br>
+    </i><tt><font size=+1>aux/msexceltables</font></tt> [ &ndash;<tt><font size=+1>Dant</font></tt> ] [ &ndash;<tt><font size=+1>d</font></tt> <i>delim</i> ] [ &ndash;<tt><font size=+1>w</font></tt> <i>worksheets</i> ] <i>/mnt/doc/Workbook<br>
+    </i><tt><font size=+1>aux/mswordstrings</font></tt> <i>/mnt/doc/WordDocument<br>
+    </i><tt><font size=+1>aux/olefs</font></tt> [ &ndash;<tt><font size=+1>m</font></tt> <i>mtpt</i> ] <i>file.doc<br>
+    </i>
+</table>
+<p><font size=+1><b>DESCRIPTION     <br></b></font>
+
+<table border=0 cellpadding=0 cellspacing=0><tr height=2><td><tr><td width=20><td>
+
+    The <a href="/magic/man2html/1/rc"><i>rc</i>(1)</a> script <i>doc2txt</i> uses <i>olefs</i> and <i>mswordstrings</i> to extract
+    printable text from the body of a Microsoft Word document and
+    write it to standard output. <i>Wdoc2txt</i> plumbs extracted text to
+    a new <a href="/magic/man2html/1/acme"><i>acme</i>(1)</a> window. <i>Xls2txt</i> writes to standard output the printable
+    text from a Microsoft Excel document.  <P>
+    Legacy Microsoft Office documents are stored in the Object Linking
+    and Embedding (OLE) subset of the FAT file system format. <i>Olefs</i>
+    exploits this to present the contents of an Office document as
+    a file system at <tt><font size=+1>/mnt/doc</font></tt> (or at <i>mtpt</i> specified with &ndash;<tt><font size=+1>m</font></tt>). <i>Mswordstrings</i>
+    or <i>msexceltables</i> can extract strings from the files
+    there. <i>Msexceltables</i> takes the options:<br>
+    &ndash;<tt><font size=+1>D&nbsp;&nbsp;&nbsp;</font></tt>Print verbose debugging on standard output.<br>
+    &ndash;<tt><font size=+1>a&nbsp;&nbsp;&nbsp;</font></tt>Attempt conversion of non&ndash;tabular sheets (e.g., charts and graphs).<br>
+    &ndash;<tt><font size=+1>d</font></tt> <i>delim<br>
+    </i>
+    <table border=0 cellpadding=0 cellspacing=0><tr height=2><td><tr><td width=20><td>
+
+        Set the field delimiter to the string <i>delim</i>, by default a single
+        space.<br>
+        &ndash;
+    </table>
+    <tt><font size=+1>n&nbsp;&nbsp;&nbsp;</font></tt>Do not pad fields to the column width.<br>
+    &ndash;<tt><font size=+1>t&nbsp;&nbsp;&nbsp;</font></tt>Truncate fields to the column width.<br>
+    &ndash;<tt><font size=+1>w</font></tt> <i>worksheets<br>
+    </i>
+    <table border=0 cellpadding=0 cellspacing=0><tr height=2><td><tr><td width=20><td>
+
+        Specify which worksheets to process. By default all tabular sheets
+        are output. Lists of pages or page ranges may be given with individual
+        pages separated by commas, ranges by a minus. Suppressed pages
+        are always included in the sheet count.  <P>
+        
+    </table>
+    <i>Doc2ps</i> uses <i>antiword</i> to write to standard output a <tt><font size=+1>letter&ndash;</font></tt>sized
+    PostScript approximation of the Word document <i>file.doc</i>.  <P>
+    <i>Antiword</i> reads text, formatting, and images from the given Microsoft
+    Word file(s) to write a representation of them to standard output.
+    Three major options select among output modes, with sub&ndash;options
+    unique to each mode:<br>
+    &ndash;<tt><font size=+1>p</font></tt> <i>paper<br>
+    </i>
+    <table border=0 cellpadding=0 cellspacing=0><tr height=2><td><tr><td width=20><td>
+
+        PostScript output sized to <i>paper</i>, one of common sheet sizes <tt><font size=+1>10x14</font></tt>,
+        <tt><font size=+1>a4</font></tt>, <tt><font size=+1>a5</font></tt>, <tt><font size=+1>b4</font></tt>, <tt><font size=+1>b5</font></tt>, <tt><font size=+1>executive</font></tt>, <tt><font size=+1>folio</font></tt>, <tt><font size=+1>legal</font></tt>, <tt><font size=+1>letter</font></tt>, <tt><font size=+1>note</font></tt>, <tt><font size=+1>quarto</font></tt>,
+        <tt><font size=+1>statement</font></tt>, or <tt><font size=+1>tabloid</font></tt>. Under &ndash;<tt><font size=+1>p</font></tt>, &ndash;<tt><font size=+1>i</font></tt> <i>level</i> sets the handling of images
+        to <i>level</i>, one of <tt><font size=+1>1</font></tt> (no image output), <tt><font size=+1>2</font></tt> (PostScript level 2, the
+        default), <tt><font size=+1>3</font></tt> (PostScript level
+        3, experimental), or <tt><font size=+1>0</font></tt> (incompatible Ghostscript extensions).
+        &ndash;<tt><font size=+1>L</font></tt> sets landscape output, horizontally oriented.<br>
+        &ndash;
+    </table>
+    <tt><font size=+1>t&nbsp;&nbsp;&nbsp;</font></tt>Text output (the default). Under &ndash;<tt><font size=+1>t</font></tt>, &ndash;<tt><font size=+1>w</font></tt> <i>width</i> breaks output lines
+    after <i>width</i> number of characters.<br>
+    &ndash;<tt><font size=+1>x</font></tt> <i>dtd<br>
+    </i>
+    <table border=0 cellpadding=0 cellspacing=0><tr height=2><td><tr><td width=20><td>
+
+        XML output according to the Document Type Definition represented
+        by <i>dtd</i>. Currently <tt><font size=+1>db</font></tt>, representing DocBook, is the only useful
+        <i>dtd</i> code.  <P>
+        
+    </table>
+    In all modes, &ndash;<tt><font size=+1>s</font></tt> prints `hidden' text normally suppressed by Word.<br>
+    
+</table>
+<p><font size=+1><b>EXAMPLE     <br></b></font>
+
+<table border=0 cellpadding=0 cellspacing=0><tr height=2><td><tr><td width=20><td>
+
+    To print text from selected pages in the Excel document <i>file.xls</i>,
+    delimiting unpadded output fields with <tt><font size=+1>@</font></tt>:<br>
+    
+    <table border=0 cellpadding=0 cellspacing=0><tr height=2><td><tr><td width=20><td>
+
+        <tt><font size=+1>aux/olefs file.xls<br>
+        aux/msexceltables &ndash;n &ndash;d '@' &ndash;w 1,7,9&ndash;14,3&ndash;4 /mnt/doc/Workbook<br>
+        unmount /mnt/doc<br>
+        </font></tt>
+    </table>
+    The <i>xls2txt</i> script performs a similar procedure, modulo <i>msexceltables</i>
+    options.<br>
+    
+</table>
+<p><font size=+1><b>SOURCE     <br></b></font>
+
+<table border=0 cellpadding=0 cellspacing=0><tr height=2><td><tr><td width=20><td>
+
+    <tt><font size=+1>/rc/bin<br>
+    /sys/src/cmd/aux<br>
+    /sys/src/cmd/aux/antiword<br>
+    </font></tt>
+</table>
+<p><font size=+1><b>SEE ALSO    <br></b></font>
+
+<table border=0 cellpadding=0 cellspacing=0><tr height=2><td><tr><td width=20><td>
+
+    <a href="/magic/man2html/1/acme"><i>acme</i>(1)</a>, <a href="/magic/man2html/1/gs"><i>gs</i>(1)</a>, <a href="/magic/man2html/1/plumb"><i>plumb</i>(1)</a>, <a href="/magic/man2html/1/strings"><i>strings</i>(1)</a>  <P>
+    Microsoft MSDN, ``Microsoft Word 97 Binary File Format''.<br>
+    http://user.cs.tu&ndash;berlin.de/~schwartz/pmh/, ``LAOLA Binary Structures''.<br>
+    http://sc.openoffice.org/excelfileformat.pdf, OpenOffice.Org's
+    Excel format documentation.<br>
+    
+</table>
+<p><font size=+1><b>BUGS     <br></b></font>
+
+<table border=0 cellpadding=0 cellspacing=0><tr height=2><td><tr><td width=20><td>
+
+    The obscure and mercurial Office document file formats.  <P>
+    This manual page omits <i>antiword</i>'s &ndash;<tt><font size=+1>m</font></tt> character set map option in
+    favor of this pointer to <a href="/magic/man2html/1/tcs"><i>tcs</i>(1)</a>.<br>
+    
+</table>
+
+<table border=0 cellpadding=0 cellspacing=0><tr height=20><td></table>
+<font size=-1><a href="http://www.lucent.com/copyright.html">
+Copyright</A> &#169; 2008 Lucent Technologies.  All rights reserved.</font>
+</body></html>

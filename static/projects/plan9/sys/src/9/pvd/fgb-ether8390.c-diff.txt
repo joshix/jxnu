@@ -1,0 +1,4 @@
+/sys/src/9/pc/ether8390.c:393 c /sys/src/9/pvd/ether8390.c:393
+< 		if(hdr.len0 > (Dp8390BufSz-sizeof(Hdr)))
+---
+> 		if(hdr.len0 >= (Dp8390BufSz-sizeof(Hdr)))

@@ -1,0 +1,5 @@
+https://jxnu.joshix.com {
+	tls j@joshix.com
+	gzip
+	log stdout
+}

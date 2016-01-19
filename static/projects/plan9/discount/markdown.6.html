@@ -1,0 +1,444 @@
+<head>
+<title>Plan 9 /sys/man/6/markdown</title>
+<meta content="text/html; charset=utf-8" http-equiv=Content-Type>
+</head>
+<body bgcolor=#ffffff>
+   <br>
+<p><font size=+1><b>NAME     <br></b></font>
+
+<table border=0 cellpadding=0 cellspacing=0><tr height=2><td><tr><td width=20><td>
+
+    Markdown &ndash; text formatting syntax<br>
+    
+</table>
+<p><font size=+1><b>DESCRIPTION     <br></b></font>
+
+<table border=0 cellpadding=0 cellspacing=0><tr height=2><td><tr><td width=20><td>
+
+    Markdown is a text markup syntax for machine conversion to the
+    more complex HTML or XHTML markup languages. It is intended to
+    be easy to read and to write, with emphasis on readability. A
+    Markdown&ndash;formatted document should be publishable as&ndash;is, in plain
+    text, without the formatting distracting the reader.  <P>
+    The biggest source of inspiration for Markdown's syntax is the
+    format of plain text email. The markup is comprised entirely of
+    punctuation characters, chosen so as to look like what they mean.
+    Asterisks around a word look like <i>*emphasis*</i>. Markdown lists look
+    like lists. Even blockquotes look like quoted passages of
+    text, assuming the reader has used email.  <P>
+    <p><font size=+1><b>Block Elements    <br></b></font>
+    Paragraphs and Line Breaks<br>
+    
+    <table border=0 cellpadding=0 cellspacing=0><tr height=2><td><tr><td width=20><td>
+
+        A paragraph is one or more consecutive lines of text, separated
+        by one or more blank lines. (A blank line is any line that looks
+        like a blank line &ndash;&ndash; a line containing nothing but spaces or tabs
+        is considered blank.) Normal paragraphs should not be indented
+        with spaces or tabs.<br>
+        Lines may be freely broken for readability; Markdown does not
+        translate source line breaks to &lt;<tt><font size=+1>br /&gt;</font></tt> tags. To request generation
+        of &lt;<tt><font size=+1>br /&gt;</font></tt> in the output, end a line with two or more spaces, then
+        a newline.<br>
+        
+    </table>
+    Headings<br>
+    
+    <table border=0 cellpadding=0 cellspacing=0><tr height=2><td><tr><td width=20><td>
+
+        Headings can be marked in two ways, called <i>setext</i> and <i>atx</i>.<br>
+        Setext&ndash;style headings are ``underlined'' using equal signs (for
+        first&ndash;level headings) and dashes (for second&ndash;level headings).<br>
+        Atx&ndash;style headings use 1&ndash;6 hash characters at the start of the line,
+        corresponding to HTML &lt;<tt><font size=+1>h^(1&ndash;6)^&gt;</font></tt>. Optional closing hashes may follow
+        the heading text.<br>
+        
+    </table>
+    Blockquotes<br>
+    
+    <table border=0 cellpadding=0 cellspacing=0><tr height=2><td><tr><td width=20><td>
+
+        Lines beginning with &gt; are output in blockquotes. Blockquotes can
+        be nested by multiple levels of &gt;&gt;. Blockquotes can contain other
+        Markdown elements, including headings, lists, and code blocks.<br>
+        
+    </table>
+    Lists<br>
+    
+    <table border=0 cellpadding=0 cellspacing=0><tr height=2><td><tr><td width=20><td>
+
+        Markdown supports ordered (numbered) and unordered (bulleted)
+        lists. List markers typically start at the left margin, but may
+        be indented by up to three spaces. List markers must be followed
+        by one or more spaces or a tab, then the list item text. A newline
+        terminates each list item.
+        Unordered lists use asterisks, pluses, and hyphens interchangeably
+        as list markers.<br>
+        Ordered lists use integers followed by periods as list markers.
+        The order of the integers is not interpreted, but the list should
+        begin with <tt><font size=+1>1</font></tt>.<br>
+        If list items are separated by blank lines, Markdown will wrap
+        each list item in &lt;<tt><font size=+1>p&gt;</font></tt> tags in the HTML output.<br>
+        List items may consist of multiple paragraphs. Each subsequent
+        paragraph within a list item must be indented by either 4 spaces
+        or one tab. To put a blockquote within a list item, the blockquote's
+        &gt; marker needs to be indented. To put a code block within a list
+        item, the code block needs to be indented <i>twice &ndash;&ndash;</i>
+        8 spaces or two tabs.<br>
+        
+    </table>
+    Code Blocks<br>
+    
+    <table border=0 cellpadding=0 cellspacing=0><tr height=2><td><tr><td width=20><td>
+
+        To produce a code block, indent every line of the block by at
+        least 4 spaces or 1 tab. A code block continues until it reaches
+        a line that is not indented.<br>
+        Rather than forming normal paragraphs, the lines of a code block
+        are interpreted literally. Regular Markdown syntax is not processed
+        within code blocks. Markdown wraps a code block in both &lt;<tt><font size=+1>pre&gt;</font></tt> and
+        &lt;<tt><font size=+1>code&gt;</font></tt> tags. One level of indentation &ndash;&ndash; 4 spaces or 1 tab &ndash;&ndash; is removed
+        from each line of the code block
+        in the output.<br>
+        
+    </table>
+    Horizontal Rules<br>
+    
+    <table border=0 cellpadding=0 cellspacing=0><tr height=2><td><tr><td width=20><td>
+
+        Produce a horizontal rule tag (&lt;<tt><font size=+1>hr /&gt;</font></tt>) by placing three or more
+        hyphens, asterisks, or underscores on a line by themselves.<br>
+        
+    </table>
+    <p><font size=+1><b>Span Elements    <br></b></font>
+    Links<br>
+    
+    <table border=0 cellpadding=0 cellspacing=0><tr height=2><td><tr><td width=20><td>
+
+        Markdown supports two styles of links: <i>inline</i> and <i>reference</i>. In
+        both styles, the link text is delimited by square brackets (<tt><font size=+1>[]</font></tt>).
+        To create an inline link, use a set of regular parentheses immediately
+        after the link text's closing square bracket. Inside the parentheses,
+        put the link URL, along with an optional title for the
+        link surrounded in double quotes. For example:<br>
+        
+        <table border=0 cellpadding=0 cellspacing=0><tr height=2><td><tr><td width=20><td>
+
+            <tt><font size=+1>An [example](http://example.com/ &quot;Title&quot;) inline link.<br>
+            </font></tt>
+        </table>
+        Reference&ndash;style links use a second set of square brackets, inside
+        which you place a label of your choosing to identify the link:<br>
+        
+        <table border=0 cellpadding=0 cellspacing=0><tr height=2><td><tr><td width=20><td>
+
+            <tt><font size=+1>An [example][id] reference&ndash;style link.<br>
+            </font></tt>
+        </table>
+        The label is then assigned a value on its own line, anywhere in
+        the document:<br>
+        
+        <table border=0 cellpadding=0 cellspacing=0><tr height=2><td><tr><td width=20><td>
+
+            <tt><font size=+1>[id]: http://example.com/ &nbsp;&nbsp;&nbsp;&quot;Optional Title&quot;<br>
+            </font></tt>
+        </table>
+        Link label names may consist of letters, numbers, spaces, and
+        punctuation. Labels are not case sensitive. An empty label bracket
+        set after a reference&ndash;style link implies the link label is equivalent
+        to the link text. A URL value can then be assigned to the link
+        by referencing the link text as the label name.
+        
+    </table>
+    Emphasis<br>
+    
+    <table border=0 cellpadding=0 cellspacing=0><tr height=2><td><tr><td width=20><td>
+
+        Markdown treats asterisks (<tt><font size=+1>*</font></tt>) and underscores (<tt><font size=+1>_</font></tt>) as indicators
+        of emphasis. Text surrounded with single asterisks or underscores
+        will be wrapped with an HTML &lt;<tt><font size=+1>em&gt;</font></tt> tag. Double asterisks or underscores
+        generate an HTML &lt;<tt><font size=+1>strong&gt;</font></tt> tag.<br>
+        
+    </table>
+    Code<br>
+    
+    <table border=0 cellpadding=0 cellspacing=0><tr height=2><td><tr><td width=20><td>
+
+        To indicate a span of code, wrap it with backtick quotes (<tt><font size=+1>`</font></tt>).
+        Unlike a code block, a code span indicates code within a normal
+        paragraph. To include a literal backtick character within a code
+        span, you can use multiple backticks as the opening and closing
+        delimiters:<br>
+        
+        <table border=0 cellpadding=0 cellspacing=0><tr height=2><td><tr><td width=20><td>
+
+            <tt><font size=+1>``There is a literal backtick (`) here.``<br>
+            </font></tt>
+        </table>
+        
+    </table>
+    Images<br>
+    
+    <table border=0 cellpadding=0 cellspacing=0><tr height=2><td><tr><td width=20><td>
+
+        Markdown image syntax is intended to resemble that for links,
+        allowing for two styles, once again <i>inline</i> and <i>reference</i>. The
+        syntax is as for each respective style of link, described above,
+        but prefixed with an exclamation mark character (<tt><font size=+1>!</font></tt>). Inline image
+        syntax looks like this:<br>
+        
+        <table border=0 cellpadding=0 cellspacing=0><tr height=2><td><tr><td width=20><td>
+
+            <tt><font size=+1>![Alt text](/path/to/img.jpg &quot;Optional title&quot;)<br>
+            </font></tt>
+        </table>
+        That is: An exclamation mark; followed by a set of square brackets
+        containing the `alt' attribute text for the image; followed by
+        a set of parentheses containing the URL or path to the image,
+        and an optional `title' attribute enclosed in double or single
+        quotes.<br>
+        Reference&ndash;style image syntax looks like this:<br>
+        
+        <table border=0 cellpadding=0 cellspacing=0><tr height=2><td><tr><td width=20><td>
+
+            <tt><font size=+1>![Alt text][id]<br>
+            </font></tt>
+        </table>
+        Where <i>id</i> is a label used as for reference&ndash;style URL links, described
+        above.<br>
+        
+    </table>
+    <p><font size=+1><b>Convenience     <br></b></font>
+    Automatic Links<br>
+    
+    <table border=0 cellpadding=0 cellspacing=0><tr height=2><td><tr><td width=20><td>
+
+        There is a shortcut style for creating ``automatic'' links for
+        URLs and email addresses. Surround the URL or address with angle
+        brackets.<br>
+        
+    </table>
+    Backslash Escapes<br>
+    
+    <table border=0 cellpadding=0 cellspacing=0><tr height=2><td><tr><td width=20><td>
+
+        Use backslash escapes to generate literal characters which would
+        otherwise have special meaning in Markdown's formatting syntax.<br>
+        
+    </table>
+    Inline HTML<br>
+    
+    <table border=0 cellpadding=0 cellspacing=0><tr height=2><td><tr><td width=20><td>
+
+        For markup that is not covered by Markdown's syntax, simply use
+        the HTML directly. The only restrictions are that block&ndash;level HTML
+        elements &ndash;&ndash; &lt;<tt><font size=+1>div&gt;</font></tt>, &lt;<tt><font size=+1>table&gt;</font></tt>, &lt;<tt><font size=+1>pre&gt;</font></tt>, &lt;<tt><font size=+1>p&gt;</font></tt>, etc. &ndash;&ndash; must be separated from surrounding
+        content by blank lines, and the start and end tags of the block
+        should not be indented with
+        tabs or spaces. Markdown formatting syntax is not processed within
+        block&ndash;level HTML tags.<br>
+        Span&ndash;level HTML tags &ndash;&ndash; e.g. &lt;<tt><font size=+1>span&gt;</font></tt>, &lt;<tt><font size=+1>cite&gt;</font></tt>, or &lt;<tt><font size=+1>del&gt; &ndash;&ndash;</font></tt> can be used anywhere
+        in a Markdown paragraph, list item, or heading. It is permitted
+        to use HTML tags instead of Markdown formatting; e.g. HTML &lt;<tt><font size=+1>a&gt;</font></tt> or
+        &lt;<tt><font size=+1>img&gt;</font></tt> tags instead of Markdown's link or image syntax. Unlike block&ndash;level
+        HTML tags,
+        Markdown syntax <i>is</i> processed within the elements of span&ndash;level
+        tags.<br>
+        
+    </table>
+    Automatic Special Character Escapes<br>
+    
+    <table border=0 cellpadding=0 cellspacing=0><tr height=2><td><tr><td width=20><td>
+
+        To be displayed literally in a user agent, the characters &lt; and
+        &amp; must appear as escaped entities in HTML source, e.g. &amp;<tt><font size=+1>lt;</font></tt> and
+        &amp;<tt><font size=+1>amp;</font></tt>. Markdown allows natural use of these characters, taking
+        care of the necessary escaping. The ampersand part of a directly&ndash;used
+        HTML entity remains unchanged; otherwise it will
+        be translated into &amp;<tt><font size=+1>amp;</font></tt>. Inside code spans and blocks, angle brackets
+        and ampersands are always encoded automatically. This makes it
+        easy to use Markdown to write about HTML code.  <P>
+        
+    </table>
+    <p><font size=+1><b>Smarty Pants    <br></b></font>
+    The <a href="markdown.1.html"><i>markdown</i>(1)</a> utility transforms a few plain text symbols into
+    their typographically&ndash;fancier HTML entity equivalents. These are
+    extensions to the standard Markdown syntax.<br>
+    Punctuation<br>
+    
+    <table border=0 cellpadding=0 cellspacing=0><tr height=2><td><tr><td width=20><td>
+
+        Input single&ndash; and double&ndash;quotes are transformed into ``curly'' quote
+        entities in the output (e.g., <tt><font size=+1>'text'</font></tt> becomes &amp;<tt><font size=+1>lsquo;text&amp;rsquo;</font></tt>).
+        Input double&ndash;dashes (&ndash;&ndash;) and triple&ndash;dashes become en&ndash; and em&ndash;dashes,
+        respectively, while a series of three dots (<tt><font size=+1>...</font></tt>) in the input
+        becomes an ellipsis entity
+        (&amp;<tt><font size=+1>hellip;</font></tt>) in the HTML output.<br>
+        
+    </table>
+    Symbols<br>
+    
+    <table border=0 cellpadding=0 cellspacing=0><tr height=2><td><tr><td width=20><td>
+
+        Three other transformations replace the common plain&ndash;text shorthands
+        <tt><font size=+1>(c)</font></tt>, <tt><font size=+1>(r)</font></tt>, and <tt><font size=+1>(tm)</font></tt> from the input with their respective HTML entities.
+        (As in <tt><font size=+1>(c)</font></tt> becoming &amp;<tt><font size=+1>copy;</font></tt>, the Copyright symbol entity.)<br>
+        
+    </table>
+    Fractions<br>
+    
+    <table border=0 cellpadding=0 cellspacing=0><tr height=2><td><tr><td width=20><td>
+
+        A small set of plain&ndash;text shorthands for fractions is recognized.
+        <tt><font size=+1>1/4</font></tt> becomes &amp;<tt><font size=+1>frac14;</font></tt>, for example. These fraction notations are
+        replaced with their HTML entity equivalents: <tt><font size=+1>1/4</font></tt>, <tt><font size=+1>1/2</font></tt>, <tt><font size=+1>3/4</font></tt>. <tt><font size=+1>1/4th</font></tt>
+        and <tt><font size=+1>3/4ths</font></tt> are replaced with their entity and the indicated ordinal
+        suffix letters.  <P>
+        
+    </table>
+    Like the basic Markdown syntax, none of the ``Smarty Pants'' extensions
+    are processed inside code blocks or spans.  <P>
+    <p><font size=+1><b>Discount Extensions    <br></b></font>
+    <a href="markdown.1.html"><i>Markdown</i>(1)</a> recognizes some extensions to the Markdown format,
+    many of them adopted or adapted from other Markdown interpreters
+    or document formatting systems.<br>
+    Pandoc Headers<br>
+    
+    <table border=0 cellpadding=0 cellspacing=0><tr height=2><td><tr><td width=20><td>
+
+        If <i>markdown</i> was configured with &ndash;&ndash;<tt><font size=+1>enable&ndash;pandoc&ndash;header</font></tt>, the markdown
+        source can have a 3&ndash;line Pandoc header in the format of<br>
+        <tt><font size=+1>% Title<br>
+        % Author<br>
+        % Date<br>
+        </font></tt>whose data is available to the <i>mkd_doc_title</i>, <i>mkd_doc_author</i>,
+        and <i>mkd_doc_date</i> (in <a href="markdown.2.html"><i>markdown</i>(2)</a>) functions.<br>
+        
+    </table>
+    Embedded Stylesheets<br>
+    
+    <table border=0 cellpadding=0 cellspacing=0><tr height=2><td><tr><td width=20><td>
+
+        Stylesheets may be defined and modified in a &lt;<tt><font size=+1>style&gt;</font></tt> block. A style
+        block is parsed like any other block&ndash;level HTML; &lt;<tt><font size=+1>style&gt;</font></tt> starting
+        on column 1, raw HTML (or, in this case, CSS ) following it, and
+        either ending with a &lt;<tt><font size=+1>/style&gt;</font></tt> at the end of the line or at the beginning
+        of a subsequent line.
+        Style blocks apply to the entire document regardless of where
+        they are defined.<br>
+        
+    </table>
+    Image Dimensions<br>
+    
+    <table border=0 cellpadding=0 cellspacing=0><tr height=2><td><tr><td width=20><td>
+
+        Image specification has been extended with an argument describing
+        image dimensions: <tt><font size=+1>=</font></tt><i>height</i><tt><font size=+1>x</font></tt><i>width.</i> For an image 400 pixels high
+        and 300 wide, the new syntax is:<br>
+        
+        <table border=0 cellpadding=0 cellspacing=0><tr height=2><td><tr><td width=20><td>
+
+            <tt><font size=+1>![Alt text](/path/to/image.jpg =400x300 &quot;Title&quot;)<br>
+            </font></tt>
+        </table>
+        
+    </table>
+    Pseudo&ndash;Protocols<br>
+    
+    <table border=0 cellpadding=0 cellspacing=0><tr height=2><td><tr><td width=20><td>
+
+        Pseudo&ndash;protocols that may replace the common <tt><font size=+1>http:</font></tt> or <tt><font size=+1>mailto:</font></tt> have
+        been added to the link syntax described above.<br>
+        <tt><font size=+1>abbr</font></tt>: Text following is used as the <tt><font size=+1>title</font></tt> attribute of an <tt><font size=+1>abbr</font></tt>
+        tag wrapping the link text. So <tt><font size=+1>[LT](abbr:Link Text)</font></tt> gives &lt;<tt><font size=+1>abbr
+        title=&quot;Link Text&quot;&gt;LT&lt;/abbr&gt;.<br>
+        id</font></tt>: The link text is marked up and written to the output, wrapped
+        with &lt;<tt><font size=+1>a id=text following&gt;</font></tt> and &lt;<tt><font size=+1>/a&gt;</font></tt>.<br>
+        <tt><font size=+1>class</font></tt>:<br>
+        The link text is marked up and written to the output, wrapped
+        with &lt;<tt><font size=+1>span class=text following&gt;</font></tt> and &lt;<tt><font size=+1>/span&gt;</font></tt>.<br>
+        <tt><font size=+1>raw</font></tt>: Text following is written to the output with no further processing.
+        The link text is discarded.<br>
+        
+    </table>
+    Alphabetic Lists<br>
+    
+    <table border=0 cellpadding=0 cellspacing=0><tr height=2><td><tr><td width=20><td>
+
+        If <i>markdown</i> was configured with &ndash;&ndash;<tt><font size=+1>enable&ndash;alpha&ndash;list</font></tt>,<br>
+        <tt><font size=+1>a. this<br>
+        b. is<br>
+        c. an alphabetic<br>
+        d. list<br>
+        </font></tt>yields an HTML <tt><font size=+1>ol</font></tt> ordered list.<br>
+        
+    </table>
+    Definition Lists<br>
+    
+    <table border=0 cellpadding=0 cellspacing=0><tr height=2><td><tr><td width=20><td>
+
+        If configured with &ndash;&ndash;<tt><font size=+1>enable&ndash;dl&ndash;tag</font></tt>, markup for definition lists is
+        enabled. A definition list item is defined as<br>
+        <tt><font size=+1>=term=<br>
+        
+        <table border=0 cellpadding=0 cellspacing=0><tr height=2><td><tr><td width=20><td>
+
+            definition<br>
+            
+        </table>
+        </font></tt>
+    </table>
+    Tables<br>
+    
+    <table border=0 cellpadding=0 cellspacing=0><tr height=2><td><tr><td width=20><td>
+
+        Tables are specified with a pipe (<tt><font size=+1>|</font></tt>) and dash (&ndash;) marking. The
+        markdown text<br>
+        <tt><font size=+1>header0|header1<br>
+        &ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;|&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;<br>
+         
+        <table border=0 cellpadding=0 cellspacing=0><tr height=2><td><tr><td width=20><td>
+
+            textA|textB<br>
+             textC|textD<br>
+            
+        </table>
+        </font></tt>will produce an HTML <tt><font size=+1>table</font></tt> of two columns and three rows. A header
+        row is designated by ``underlining'' with dashes. Declare a column's
+        alignment by affixing a colon (<tt><font size=+1>:</font></tt>) to the left or right end of
+        the dashes underlining its header. In the output, this yields
+        the corresponding value for the <tt><font size=+1>align</font></tt> attribute on
+        each <tt><font size=+1>td</font></tt> cell in the column. A colon at both ends of a column's
+        header dashes indicates center alignment.<br>
+        
+    </table>
+    Relaxed Emphasis<br>
+    
+    <table border=0 cellpadding=0 cellspacing=0><tr height=2><td><tr><td width=20><td>
+
+        If configured with &ndash;&ndash;<tt><font size=+1>relaxed&ndash;emphasis</font></tt>, the rules for emphasis are
+        changed so that a single <tt><font size=+1>_</font></tt> will not count as an emphasis character
+        in the middle of a word. This is useful for documenting some code
+        where <tt><font size=+1>_</font></tt> appears frequently, and would normally require a backslash
+        escape.
+        
+    </table>
+    
+</table>
+<p><font size=+1><b>SEE ALSO    <br></b></font>
+
+<table border=0 cellpadding=0 cellspacing=0><tr height=2><td><tr><td width=20><td>
+
+    <a href="markdown.1.html"><i>markdown</i>(1)</a>, <a href="markdown.2.html"><i>markdown</i>(2)</a>  <P>
+    http://daringfireball.net/projects/markdown/syntax/, ``Markdown:
+    Syntax''.  <P>
+    http://daringfireball.net/projects/smartypants/, ``Smarty Pants''.
+     <P>
+    http://michelf.com/projects/php&ndash;markdown/extra/#table, ``PHP Markdown
+    Extra: Tables''.<br>
+    
+</table>
+
+<table border=0 cellpadding=0 cellspacing=0><tr height=20><td></table>
+
+</body></html>

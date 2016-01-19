@@ -1,0 +1,482 @@
+diff -Naur /tmp/discount-1.4.4/Plan9/markdown.1 ./Plan9/markdown.1
+--- /tmp/discount-1.4.4/Plan9/markdown.1	Thu Jul  9 06:11:34 2009
++++ ./Plan9/markdown.1	Thu Jul  9 00:14:05 2009
+@@ -7,6 +7,9 @@
+ .B -dTV
+ ]
+ [
++.BI -b " url-base
++]
++[
+ .BI -F " bitmap
+ ]
+ [
+@@ -37,18 +40,23 @@
+ The options are:
+ .TF dfdoptions
+ .TP
++.BI -b " url-base
++Links in source begining with
++.B /
++will be prefixed with
++.I url-base
++in the output.
++.TP
+ .B -d
+-Instead of writing the
++Instead of printing an
+ .SM HTML
+-file, dump a parse tree to stdout.
++fragment, print a parse tree.
+ .TP
+ .BI -F " bitmap
+ Set translation flags.
+ .I Bitmap
+ is a bit map of the various configuration options described in
+ .IR markdown (2).
+-(The flag values are defined in
+-.BR mkdio.h ).
+ .TP
+ .BI -f " flags
+ Set or clear various translation
+@@ -70,13 +78,15 @@
+ .IR markdown (2)
+ function to format the
+ .I text
+-on standard input (the default behavior).
++on standard input.
+ .TP
+ .B -T
+ Under
+ .B -f
+ .BR toc ,
+-dump the table of contents before the formatted text.
++print the table of contents as an unordered list before the usual
++.SM HTML
++output.
+ .TP
+ .BI -t " text
+ Use
+@@ -128,7 +138,9 @@
+ Enable superscript and relaxed emphasis (the default).
+ .TP
+ .B toc
+-Enable table of contents support.
++Enable table of contents support, generated from headings (in 
++.IR markdown (6))
++in the source.
+ .TP
+ .B 1.0
+ Revert to Markdown 1.0 compatibility.
+diff -Naur /tmp/discount-1.4.4/Plan9/markdown.2 ./Plan9/markdown.2
+--- /tmp/discount-1.4.4/Plan9/markdown.2	Wed Dec 31 16:00:00 1969
++++ ./Plan9/markdown.2	Sat Jul 11 07:33:43 2009
+@@ -0,0 +1,328 @@
++.TH MARKDOWN 2
++.SH NAME
++mkd_in, mkd_string, markdown, mkd_compile, mkd_css, mkd_generatecss,
++mkd_document, mkd_generatehtml, mkd_xhtmlpage, mkd_toc, mkd_generatetoc,
++mkd_cleanup, mkd_doc_title, mkd_doc_author, mkd_doc_date, mkd_line,
++mkd_generateline \- convert Markdown text to HTML
++.SH SYNOPSIS
++.ta \w'MMIOT* 'u
++.B #include <mkdio.h>
++.PP
++.B
++MMIOT* mkd_in(FILE *input)
++.PP
++.B
++MMIOT* mkd_string(char *string, int size)
++.PP
++.B
++int	markdown(MMIOT *doc, FILE *output, int flags)
++.PP
++.B
++int	mkd_compile(MMIOT *document, int flags)
++.PP
++.B
++int	mkd_css(MMIOT *document, char **doc)
++.PP
++.B
++int	mkd_generatecss(MMIOT *document, FILE *output)
++.PP
++.B
++int	mkd_document(MMIOT *document, char **doc)
++.PP
++.B
++int	mkd_generatehtml(MMIOT *document, FILE *output)
++.PP
++.B
++int	mkd_xhtmlpage(MMIOT *document, int flags, FILE *output)
++.PP
++.B
++int	mkd_toc(MMIOT *document, char **doc)
++.PP
++.B
++void	mkd_generatetoc(MMIOT *document, FILE *output)
++.PP
++.B
++void	mkd_cleanup(MMIOT*);
++.PP
++.B
++char*	mkd_doc_title(MMIOT*)
++.PP
++.B
++char*	mkd_doc_author(MMIOT*)
++.PP
++.B
++char*	mkd_doc_date(MMIOT*)
++.PP
++.B
++int	mkd_line(char *string, int size, char **doc, int flags)
++.PP
++.B
++int	mkd_generateline(char *string, int size, FILE *output, int flags)
++.PD
++.PP
++.SH DESCRIPTION
++These functions convert
++.IR Markdown (6)
++text into
++.SM HTML
++markup.
++.PP
++.I Mkd_in
++reads the text referenced by pointer to
++.B FILE
++.I input
++and returns a pointer to an
++.B MMIOT
++structure of the form expected by
++.I markdown
++and the other converters.
++.I Mkd_string
++accepts one
++.I string
++and returns a pointer to
++.BR MMIOT .
++.PP
++After such preparation,
++.I markdown
++converts
++.I doc
++and writes the result to
++.IR output ,
++while
++.I mkd_compile
++transforms
++.I document
++in-place.
++.PP
++One or more of the following
++.I flags
++(combined with
++.BR OR )
++control
++.IR markdown 's
++processing of
++.IR doc :
++.TF MKD_NOIMAGE
++.TP
++.B MKD_NOIMAGE
++Do not process
++.B ![]
++and remove
++.B <img>
++tags from the output.
++.TP
++.B MKD_NOLINKS
++Do not process
++.B []
++and remove
++.B <a>
++tags from the output.
++.TP
++.B MKD_NOPANTS
++Suppress Smartypants-style replacement of quotes, dashes, or ellipses.
++.TP
++.B MKD_STRICT
++Disable superscript and relaxed emphasis processing if configured; otherwise a no-op.
++.TP
++.B MKD_TAGTEXT
++Process as inside an
++.SM HTML
++tag: no
++.BR <em> ,
++no
++.BR <bold> ,
++no
++.SM HTML
++or
++.B []
++expansion.
++.TP
++.B MKD_NO_EXT
++Don't process pseudo-protocols (in
++.IR markdown (6)).
++.TP
++.B MKD_CDATA
++Generate code for
++.SM XML
++.B ![CDATA[...]]
++element.
++.TP
++.B MKD_NOHEADER
++Don't process Pandoc-style headers.
++.TP
++.B MKD_TABSTOP
++When reading documents, expand tabs to 4 spaces, overriding any compile-time configuration.
++.TP
++.B MKD_TOC
++Label headings for use with the
++.I mkd_generatetoc
++and
++.I mkd_toc
++functions.
++.TP
++.B MKD_1_COMPAT
++MarkdownTest_1.0 compatibility. Trim trailing spaces from first line of code blocks and disable implicit reference links (in
++.IR markdown (6)).
++.TP
++.B MKD_AUTOLINK
++Greedy
++.SM URL
++generation. When set, any
++.SM URL
++is converted to a hyperlink, even those not encased in
++.BR <> .
++.TP
++.B MKD_SAFELINK
++Don't make hyperlinks from
++.B [][]
++links that have unknown
++.SM URL
++protocol types.
++.TP
++.B MKD_EMBED
++All of
++.BR MKD_NOLINKS ,
++.BR MKD_NOIMAGE ,
++and
++.BR MKD_TAGTEXT .
++.PD
++.PP
++This implementation supports
++Pandoc-style
++headers and inline
++.SM CSS
++.B <style>
++blocks, but
++.I markdown
++does not access the data provided by these extensions.
++The following functions do, and allow other manipulations.
++.PP
++Given a pointer to
++.B MMIOT
++prepared by
++.I mkd_in
++or
++.IR mkd_string ,
++.I mkd_compile
++compiles the
++.I document
++into
++.BR <style> ,
++Pandoc, and
++.SM HTML
++sections. It accepts the
++.I flags
++described for
++.IR markdown ,
++above.
++.PP
++Once compiled, the document particulars can be read and written:
++.PP
++.I Mkd_css
++allocates a string and populates it with any
++.B <style>
++sections from the document.
++.I Mkd_generatecss
++writes any
++.B <style>
++sections to
++.IR output .
++.PP
++.I Mkd_document
++points
++.I doc
++to the
++.B MMIOT
++.IR document ,
++returning
++.IR document 's
++size.
++.PP
++.I Mkd_generatehtml
++writes the rest of the
++.I document
++to the
++.IR output .
++.PP
++.IR Mkd_doc_title ,
++.IR mkd_doc_author ,
++and
++.I mkd_doc_date
++read the contents of any Pandoc header.
++.PP
++.I Mkd_xhtmlpage
++writes an
++.SM XHTML
++page representation of the document.
++It accepts the
++.I flags
++described for
++.IR markdown ,
++above.
++.PP
++.I Mkd_toc
++.IR malloc s
++a buffer into which it writes an outline, in the form of a
++.B <ul>
++element populated with
++.BR <li> s
++each containing a link to successive headings in the
++.IR document .
++It returns the size of that string.
++.I Mkd_generatetoc
++is similar,
++but writes the outline to the
++.I output
++referenced by a pointer to
++.BR FILE .
++.PP
++.I Mkd_cleanup
++deletes a processed
++.BR MMIOT .
++.PP
++The last two functions convert a single line of markdown source, for example a page title or a signature.
++.I Mkd_line
++allocates a buffer into which it writes an
++.SM HTML
++fragment representation of the
++.IR string .
++.I Mkd_generateline
++writes the result to
++.IR output .
++.SH SOURCE
++.B /sys/src/cmd/discount
++.SH SEE ALSO
++.IR markdown (1),
++.IR markdown (6)
++.SH DIAGNOSTICS
++The
++.I mkd_in
++and
++.I mkd_string
++functions return a pointer to
++.B MMIOT
++on success, null on failure.
++.IR Markdown ,
++.IR mkd_compile ,
++.IR mkd_style ,
++and
++.I mkd_generatehtml
++return
++.B 0
++on success,
++.B -1
++otherwise.
++.SH BUGS
++Error handling is minimal at best.
++.PP
++The
++.B MMIOT
++created by
++.I mkd_string
++is deleted by the
++.I markdown
++function.
++.PP
++This is an
++.SM APE
++library.
+diff -Naur /tmp/discount-1.4.4/Plan9/markdown.6 ./Plan9/markdown.6
+--- /tmp/discount-1.4.4/Plan9/markdown.6	Thu Jul  9 06:11:34 2009
++++ ./Plan9/markdown.6	Thu Jul  9 04:21:18 2009
+@@ -40,22 +40,22 @@
+ .B <br />
+ in the output, end a line with two or more spaces, then a newline.
+ .TP
+-Headers
+-Markdown defines two header styles,
++Headings
++Headings can be marked in two ways, called
+ .I setext
+ and
+ .IR atx .
+ .IP
+-Setext-style headers are
++Setext-style headings are
+ ``underlined'' using equal signs (for first-level
+-headers) and dashes (for second-level headers).
++headings) and dashes (for second-level headings).
+ .IP
+-Atx-style headers use 1-6 hash characters at the start of the line,
++Atx-style headings use 1-6 hash characters at the start of the line,
+ corresponding to
+ .SM HTML
+ .BR <h^(1-6)^> .
+ Optional closing hashes may follow
+-the header text.
++the heading text.
+ .TP
+ Blockquotes
+ Lines beginning with
+@@ -65,7 +65,7 @@
+ by multiple levels of
+ .BR >> .
+ Blockquotes can contain other Markdown elements, including
+-headers, lists, and code blocks.
++headings, lists, and code blocks.
+ .TP
+ Lists
+ Markdown supports ordered (numbered) and unordered (bulleted) lists.
+@@ -274,7 +274,7 @@
+ .B <del>
+ -- can be
+ used anywhere in a Markdown
+-paragraph, list item, or header.
++paragraph, list item, or heading.
+ It is permitted to use
+ .SM HTML
+ tags instead of Markdown formatting; e.g.
+@@ -442,6 +442,8 @@
+ .IR mkd_doc_author ,
+ and
+ .I mkd_doc_date
++(in
++.IR markdown (2))
+ functions.
+ .TP
+ Definition Lists
+@@ -501,7 +503,8 @@
+ ordered list.
+ .PD
+ .SH SEE ALSO
+-.IR markdown (1)
++.IR markdown (1),
++.IR markdown (2)
+ .PP
+ http://daringfireball.net/projects/markdown/syntax/,
+ ``Markdown: Syntax''.
+diff -Naur /tmp/discount-1.4.4/Plan9/mkfile ./Plan9/mkfile
+--- /tmp/discount-1.4.4/Plan9/mkfile	Thu Jul  9 06:11:34 2009
++++ ./Plan9/mkfile	Thu Jul  9 02:27:34 2009
+@@ -22,6 +22,7 @@
+ 
+ install.man: install
+ 	cp markdown.1 /sys/man/1/markdown
++	cp markdown.2 /sys/man/2/markdown
+ 	cp markdown.6 /sys/man/6/markdown
+ 
+ installall:V: install.libs install.man install.progs
