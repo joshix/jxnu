@@ -13,6 +13,7 @@ Tags:
 date: 2016-01-19T03:34:56-08:00
 menu:
 title: Joshix.com Migration Brief
+author: Josh Wood
 ---
 
 This is a mid-migration version of the once and future joshix.com,
