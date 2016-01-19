@@ -11,7 +11,7 @@ Tags:
 - docker
 - hugo
 date: 2016-01-19T03:34:56-08:00
-menu: main
+menu:
 title: Joshix.com Migration Brief
 ---
 
