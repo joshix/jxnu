@@ -1,9 +1,9 @@
 +++
-title = "Sunrise, Πειραιάς"
+title = "Sunrise, Piraeus"
 date = 2006-11-27T00:34:00Z
 updated = 2013-05-24T01:54:56Z
-tags = ["Photo", "Piraeus", "port", "sunrise", "Athens", "ferry", "Greece", "sea"]
-blogimport = true 
+tags = ["Photo", "Πειραιάς", "Piraeus", "port", "sunrise", "Athens", "ferry", "Greece", "sea"]
+blogimport = true
 [author]
 	name = "Joshua Wood"
 	uri = "https://plus.google.com/106633459976108137947"
