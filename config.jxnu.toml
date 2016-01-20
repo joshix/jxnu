@@ -39,7 +39,7 @@ disqusShortname = ""
     email = "j@joshix.com"
 
 #
-# All parameters below here are optional and can be mixed and matched.
+# Optional parameters.
 #
 [params]
     # You can use markdown here.
