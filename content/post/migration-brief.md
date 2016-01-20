@@ -4,7 +4,7 @@ Categories:
 - GoLang
 Description: ""
 Tags:
-- Development
+- development
 - golang
 - CoreOS
 - containers
@@ -12,7 +12,7 @@ Tags:
 - hugo
 date: 2016-01-19T03:34:56-08:00
 menu:
-title: Joshix.com Migration Brief
+title: Migration Brief
 author: Josh Wood
 ---
 
