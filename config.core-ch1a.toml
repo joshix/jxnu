@@ -12,7 +12,7 @@ copyright = "(c) 2016 Josh Wood."
 
 # Metadata format
 # "yaml", "toml", "json"
-#metaDataFormat = "yaml"
+metaDataFormat = "yaml"
 
 # Theme to use (located in /themes/THEMENAME/)
 theme = "bootstrap"
