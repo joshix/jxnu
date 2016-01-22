@@ -2,7 +2,7 @@ baseurl = "http://core-ch1a.local/"
 languageCode = "en-us"
 
 # Site title
-title = "Jx% – Joshix"
+title = "Jx%"
 
 # Copyright
 copyright = "(c) 2016 Josh Wood."
@@ -25,7 +25,7 @@ paginatePath = "page"
 disqusShortname = ""
 
 [permalinks]
-    post = "/blog/:year/:month/:day/:slug/"
+    post = "/blog/:year/:month/:slug/"
 #    code = "/p/:slug/"
     page = "/:title/"
 
@@ -44,9 +44,9 @@ disqusShortname = ""
 [params]
     # You can use markdown here.
     brand = "foobar"
-    topline = "Izena duen guzia omen da"
+    #topline = "Izena duen guzia omen da"
     #footline = "code with <i class='fa fa-heart'></i>"
-    footline = "Izena duen guzia omen da"
+    footline = "*Izena duen guzia omen da*"
 
     # Text for the top menu link, which goes the root URL for the site.
     # Default (if omitted) is "Home".
