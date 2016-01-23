@@ -1,16 +1,17 @@
 ---
 Categories:
-- Development
-- GoLang
+- Site
+- Infrastructure
 Description: ""
 Tags:
 - development
 - golang
 - CoreOS
 - containers
-- docker
+- rkt
 - hugo
-date: 2016-01-19T03:34:56-08:00
+- caddy
+date: 2016-01-23T13:34:56-08:00
 menu:
 title: Migration Brief
 author: Josh Wood
@@ -19,7 +20,7 @@ author: Josh Wood
 This is a mid-migration version of the once and future joshix.com,
 
 * a site built with *Hugo*,
-* served by the *Caddy* web server providing automatic *Let's Encrypt* TLS and HTTP/2,
+* served by the [*Caddy* web server][caddy] providing automatic *Let's Encrypt* TLS and HTTP/2,
 * bundled with the site html in a container built `FROM` [*caddybox*][caddybox],
 * running on CoreOS<!--more-->
 * TODO:
@@ -28,4 +29,6 @@ This is a mid-migration version of the once and future joshix.com,
 
 To be continued...
 
+
+[caddy]: https://caddyserver.com
 [caddybox]: https://github.com/joshix/caddybox
