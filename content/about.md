@@ -1,13 +1,12 @@
 ---
-title: "About"
-Description: "About Josh Wood"
+Description: About Josh Wood
 Tags:
 - bio
-- "Josh Wood"
+- Josh Wood
 date: 2009-01-19T02:47:53-08:00
 menu: main
+title: About
 ---
-
 
 # Josh Wood
 
