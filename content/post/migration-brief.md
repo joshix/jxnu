@@ -25,8 +25,8 @@ This is a mid-migration version of the once and future joshix.com,
 * bundled with the site html in a container built `FROM` [*caddybox*][caddybox],
 * running on CoreOS<!--more-->
 * TODO:
-  * Use `rkt` instead of docker
-  * Cluster-ify with K8s and Tectonic
+  - [ ] Use `rkt` instead of docker
+  - [ ] Cluster-ify with K8s and Tectonic
 
 To be continued...
 
