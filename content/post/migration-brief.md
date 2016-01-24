@@ -25,7 +25,7 @@ This is a mid-migration version of the once and future joshix.com,
 * bundled with the site html in a container built `FROM` [*caddybox*][caddybox],
 * running on CoreOS<!--more-->
 * TODO:
-  - [ ] Use `rkt` instead of docker
+  - [~] Use `rkt` instead of docker (currently rkt running; need controlled net instead of `--net=host`; need systemd unit written)
   - [ ] Cluster-ify with K8s and Tectonic
   - [x] convert all topmatter to YAML (from TOML)
 
