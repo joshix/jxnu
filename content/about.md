@@ -1,11 +1,11 @@
 ---
-Description: "About Joshix.com: Josh Wood"
+title: "About"
+Description: "About Josh Wood"
 Tags:
-- Development
-- golang
+- bio
+- "Josh Wood"
 date: 2009-01-19T02:47:53-08:00
 menu: main
-title: About
 ---
 
 
