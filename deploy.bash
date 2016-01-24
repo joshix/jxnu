@@ -1,6 +1,7 @@
 #!/bin/bash
 
-# deploy.bash <user@sshsrv.example.com>
+# Change $SSH to your user@sshhost.example.com string.
+SSH=core@jxnu.joshix.com
 
 # Build the site into the public/ directory.
 rm -rf public
@@ -10,14 +11,14 @@ cp Caddyfile public/Caddyfile
 
 # Copy the public dir and Dockerfile to the target server.
 tar czf public.tgz public
-scp public.tgz $1:
+scp public.tgz $SSH:
 rm public.tgz
-scp Dockerfile $1:
+scp Dockerfile $SSH:
 
 # Remote server operations. Set up the directory, build the image,
 # and run the container.
 # --warning=no-unknown-keyword quiets gnutar complaints about bsdtar headers.
-ssh $1 'rm -rf jxsite && mkdir -p jxsite && \
+ssh $SSH 'rm -rf jxsite && mkdir -p jxsite && \
 mv Dockerfile public.tgz jxsite/ && cd jxsite && \
 tar --warning=no-unknown-keyword -xzf public.tgz && \
 docker build -t josh_wood/jxsite . && \
