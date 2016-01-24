@@ -27,6 +27,7 @@ This is a mid-migration version of the once and future joshix.com,
 * TODO:
   - [ ] Use `rkt` instead of docker
   - [ ] Cluster-ify with K8s and Tectonic
+  - [x] convert all topmatter to YAML (from TOML)
 
 To be continued...
 
