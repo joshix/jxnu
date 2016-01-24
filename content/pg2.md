@@ -1,13 +1,17 @@
 ---
-categories: 
-  - "Development"
-  - "Golang"
-description: "The second page"
-tags: ["Development", "golang", "test", "markdown"]
-date: "2016-01-17T06:31:03-08:00"
-menu: "main"
-title: "Pg2"
-author: "Josh Wood"
+author: Josh Wood
+categories:
+- Development
+- Golang
+date: 2016-01-17T06:31:03-08:00
+description: The second page
+menu: main
+tags:
+- Development
+- golang
+- test
+- markdown
+title: Pg2
 ---
 
 # Page number two

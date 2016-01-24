@@ -1,10 +1,11 @@
 ---
-title: "From the Desert"
-date: "2011-07-10T07:07:00Z"
-updated: "2013-05-24T01:33:26Z"
-tags: ["Collected"]
+author: Joshua Wood
 blogimport: true
-author: "Joshua Wood"
+date: 2011-07-10T07:07:00Z
+tags:
+- Collected
+title: From the Desert
+updated: 2013-05-24T01:33:26Z
 ---
 
 I bought some cigarettes with a coupon. I've only done this once or twice before because buying your addictive drugs with a coupon seems less than shabby and none of my other dealers even take them, but Mr. R.J. Reynolds mails them to me. Direct.

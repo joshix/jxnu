@@ -3,11 +3,18 @@ Categories:
 - Site
 - Infrastructure
 Description: ""
-Tags: ["development", "CoreOS", "containers", "rkt", "hugo", "caddy", "Let's Encrypt"]
-date: 2016-01-23T13:34:56-08:00
-menu:
-title: Migration Brief
+Tags:
+- development
+- CoreOS
+- containers
+- rkt
+- hugo
+- caddy
+- Let's Encrypt
 author: Josh Wood
+date: 2016-01-23T13:34:56-08:00
+menu: null
+title: Migration Brief
 ---
 
 This is a mid-migration version of the once and future joshix.com,
