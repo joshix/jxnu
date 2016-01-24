@@ -3,14 +3,7 @@ Categories:
 - Site
 - Infrastructure
 Description: ""
-Tags:
-- development
-- golang
-- CoreOS
-- containers
-- rkt
-- hugo
-- caddy
+Tags: ["development", "CoreOS", "containers", "rkt", "hugo", "caddy", "Let's Encrypt"]
 date: 2016-01-23T13:34:56-08:00
 menu:
 title: Migration Brief

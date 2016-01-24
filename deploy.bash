@@ -1,19 +1,17 @@
 #!/bin/bash
 
-# deploy.bash <config> <sshuri>
-# e.g., ./deploy.bash jxnu core@jxnu.joshix.com
+# deploy.bash <user@sshsrv.example.com>
 
-CONFIG=$1
-SSH=$2
+SSH=$1
 
 rm -r public
-hugo --config=config.$CONFIG.toml
-cp Caddyfile.$CONFIG public/Caddyfile
+hugo
+cp Caddyfile public/Caddyfile
 
 # TODO: Replace scp with rsync differential.
-ssh $2 'cd jxsite && rm -rf public'
-scp -r public $2:jxsite/public
-ssh $2 'cd jxsite && \
+ssh $1 'cd jxsite && rm -rf public'
+scp -r public $1:jxsite/public
+ssh $1 'cd jxsite && \
 docker build -t josh_wood/jxsite . && \
 docker stop jxsite && \
 docker rm -v jxsite && \
