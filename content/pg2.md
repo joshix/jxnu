@@ -1,12 +1,14 @@
-+++
-Categories = ["Development", "GoLang"]
-Description = "The second page"
-Tags = ["Development", "golang", "test", "markdown"]
-date = "2016-01-17T06:31:03-08:00"
-menu = "main"
-title = "pg2"
-
-+++
+---
+categories: 
+  - "Development"
+  - "Golang"
+description: "The second page"
+tags: ["Development", "golang", "test", "markdown"]
+date: "2016-01-17T06:31:03-08:00"
+menu: "main"
+title: "Pg2"
+author: "Josh Wood"
+---
 
 # Page number two
 
