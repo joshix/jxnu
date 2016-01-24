@@ -2,21 +2,21 @@
 
 # deploy.bash <user@sshsrv.example.com>
 
-SSH=$1
-
-# Delete and rebuild the hugo public/ directory.
+# Build the site into the public/ directory.
 rm -rf public
 rm -rf public.tgz
 hugo
 cp Caddyfile public/Caddyfile
 
-# TODO: Replace scp with rsync differential.
 # Copy the public dir and Dockerfile to the target server.
 tar czf public.tgz public
 scp public.tgz $1:
 rm public.tgz
 scp Dockerfile $1:
-# Remote srv side
+
+# Remote server operations. Set up the directory, build the image,
+# and run the container.
+# --warning=no-unknown-keyword quiets gnutar complaints about bsdtar headers.
 ssh $1 'rm -rf jxsite && mkdir -p jxsite && \
 mv Dockerfile public.tgz jxsite/ && cd jxsite && \
 tar --warning=no-unknown-keyword -xzf public.tgz && \
