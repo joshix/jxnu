@@ -16,4 +16,4 @@
 [projects]
     Name = "Projects"
     Title = "Old code, covered in mold"
-    URL = "/projects/"
+    URL = "/projects"
