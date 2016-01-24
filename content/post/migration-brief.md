@@ -1,9 +1,9 @@
 ---
-Categories:
+categories:
 - Site
 - Infrastructure
-Description: ""
-Tags:
+description: "Report on joshix.com migration status"
+tags:
 - development
 - CoreOS
 - containers
