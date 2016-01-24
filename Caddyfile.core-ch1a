@@ -1,6 +1,0 @@
-http://core-ch1a.local {
-	root /var/www/html/
-	tls off
-	gzip
-	log stdout
-}
