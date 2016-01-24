@@ -1,7 +1,5 @@
 ---
-author:
-  name: Joshua Wood
-  uri: https://plus.google.com/106633459976108137947
+author: Joshua Wood
 blogimport: true
 date: 2011-10-21T18:34:00Z
 tags:
@@ -19,6 +17,7 @@ with my greaserag this time<br/>
 that last incident having been merely<br/>
 a confusion of identity of me<br/>
 for my brother who is not me<br/>
-but is often mistaken for me<br/><br/>
+but is often mistaken for me
+
 he’s the one who can play guitar
 <!--more-->
