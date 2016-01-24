@@ -4,15 +4,24 @@
 
 SSH=$1
 
-rm -r public
+# Delete and rebuild the hugo public/ directory.
+rm -rf public
+rm -rf public.tgz
 hugo
 cp Caddyfile public/Caddyfile
 
 # TODO: Replace scp with rsync differential.
-ssh $1 'cd jxsite && rm -rf public'
-scp -r public $1:jxsite/public
-ssh $1 'cd jxsite && \
+# Copy the public dir and Dockerfile to the target server.
+tar czf public.tgz public
+scp public.tgz $1:
+rm public.tgz
+scp Dockerfile $1:
+# Remote srv side
+ssh $1 'rm -rf jxsite && mkdir -p jxsite && \
+mv Dockerfile public.tgz jxsite/ && cd jxsite && \
+tar --warning=no-unknown-keyword -xzf public.tgz && \
 docker build -t josh_wood/jxsite . && \
+cd .. && rm -rf jxsite && \
 docker stop jxsite && \
 docker rm -v jxsite && \
 docker run --name jxsite -d -v /home/core/dotcaddy:/.caddy:rw \
