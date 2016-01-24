@@ -5,7 +5,7 @@ SSH=core@jxnu.joshix.com
 
 # Build the site into the public/ directory.
 rm -rf public
-rm -rf public.tgz
+rm public.tgz
 hugo
 cp Caddyfile public/Caddyfile
 
