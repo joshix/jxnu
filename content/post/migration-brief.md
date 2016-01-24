@@ -13,7 +13,6 @@ Tags:
 - Let's Encrypt
 author: Josh Wood
 date: 2016-01-23T13:34:56-08:00
-menu: null
 title: Migration Brief
 ---
 

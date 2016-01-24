@@ -43,10 +43,10 @@ disqusShortname = ""
 #
 [params]
     # You can use markdown here.
-    brand = "foobar"
+    brand = "Jx%"
     topline = "Izena duen guzia omen da"
     #footline = "code with <i class='fa fa-heart'></i>"
-    footline = "Izena duen guzia omen da"
+    footline = "rktship"
 
     # Text for the top menu link, which goes the root URL for the site.
     # Default (if omitted) is "Home".
