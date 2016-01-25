@@ -34,8 +34,8 @@ disqusShortname = ""
 
 [taxonomies]
     tag = "tags"
-    topic = "topics"
-    category = "categories"
+#    topic = "topics"
+#    category = "categories"
 
 [author]
     name = "Josh Wood"
