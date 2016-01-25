@@ -25,9 +25,12 @@ paginatePath = "page"
 disqusShortname = ""
 
 [permalinks]
-    post = "/blog/:year/:month/:day/:slug/"
+# While we could declare a 'slug' in each document's metadata,
+# ':filename' lets us name things as a matter of course, and yields a
+# file hierarchy that more or less matches the httpd URL name space.
+    post = "/blog/:year/:month/:day/:filename/"
 #    code = "/p/:slug/"
-    page = "/:title/"
+    page = "/:filename/"
 
 [taxonomies]
     tag = "tags"

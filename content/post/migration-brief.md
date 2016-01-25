@@ -2,7 +2,7 @@
 categories:
 - Site
 - Infrastructure
-description: "Report on joshix.com migration status"
+description: "A report on joshix.com migration status."
 tags:
 - development
 - CoreOS

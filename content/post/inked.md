@@ -7,6 +7,7 @@ date: 2005-11-13T22:05:00Z
 tags:
 - Sessions
 title: Inked (Don’t You Call Me (two (too) Haikus))
+slug: inked
 updated: 2013-05-24T01:41:19Z
 ---
 
@@ -14,7 +15,8 @@ updated: 2013-05-24T01:41:19Z
 
 triple ribbon is<br/>
 efficient because it<br/>
-abandoned hue<!--more-->
+abandoned hue
+<!--more-->
 
 any color you<br/>
 want so long as it is black<br/>
