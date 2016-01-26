@@ -17,8 +17,3 @@ projects:
     Name: "Projects"
     Title: "Old code, covered in mold"
     URL: "/projects"
-
-pg2:
-    Name: "Pg2"
-    Title: "The second page"
-    URL: "/pg2"
