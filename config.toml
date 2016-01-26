@@ -47,9 +47,9 @@ disqusShortname = ""
 [params]
     # You can use markdown here.
     brand = "Jx%"
-    topline = "Izena duen guzia omen da"
+    footline = "Izena duen guzia omen da"
     #footline = "code with <i class='fa fa-heart'></i>"
-    footline = "rktship"
+    topline = "rktship"
 
     # Text for the top menu link, which goes the root URL for the site.
     # Default (if omitted) is "Home".
@@ -65,7 +65,7 @@ disqusShortname = ""
     # Sidebar social links.
     github = "joshix" # Your Github profile ID
     bitbucket = "" # Your Bitbucket profile ID
-    linkedin = "" # Your LinkedIn profile ID (from public URL)
+    linkedin = "joshua-wood-a453aa90" # Your LinkedIn profile ID (from public URL)
     googleplus = "JoshuaWoodOrJoshix" # Your Google+ profile ID
     facebook = "" # Your Facebook profile ID
     twitter = "joshixisjosh9" # Your Twitter profile ID
