@@ -1,12 +1,11 @@
 ---
-author:
-  name: Joshua Wood
-  uri: https://plus.google.com/106633459976108137947
+author: Josh Wood
 blogimport: true
 date: 2007-02-23T15:51:00Z
 tags:
 - illustration friday
-- Drawing
+- drawing
+- schematic
 title: 'Illustration Friday: Communication'
 updated: 2013-06-09T20:11:56Z
 ---
