@@ -73,7 +73,7 @@ disqusShortname = ""
     flattr = ""  # populate with your flattr uid
 
 [blackfriday]
-    angledQuotes = true
+    angledQuotes = false
     fractions = false
     hrefTargetBlank = false
     latexDashes = true
