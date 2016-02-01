@@ -7,16 +7,15 @@ SSH=core@jxnu.joshix.com
 rm -rf public
 rm -f public.tgz
 hugo
-cp Caddyfile public/Caddyfile
 
-# Copy the public dir and Dockerfile to the target server.
+# Copy the public html dir to the target server.
 tar czf public.tgz public
-scp public.tgz $SSH:
+scp public.tgz $SSH:jxsite/
 rm public.tgz
 
 # Remote server operations. Set up the directory, build the image,
 # and run the container.
 # --warning=no-unknown-keyword quiets gnutar complaints about bsdtar headers.
 ssh $SSH 'cd jxsite && rm -rf public/* && \
-tar --warning=no-unknown-keyword -xzf ../public.tgz && \
-rm ../public.tgz'
+tar --warning=no-unknown-keyword -xzf public.tgz && \
+rm public.tgz'
