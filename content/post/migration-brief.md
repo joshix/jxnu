@@ -21,7 +21,7 @@ This is a mid-migration version of the once and future joshix.com,
 * a site built with *Hugo*,
 * served by the [*Caddy* web server](https://caddyserver.com) providing automatic
   *Let's Encrypt* TLS and HTTP/2,
-* bundled with the site html in a container built `FROM` [*caddybox*][caddybox],
+* ~~bundled with the site html in a container built `FROM` [*caddybox*][caddybox]~~,
 * running on CoreOS<!--more-->
 * TODO:
   - [x] Use `rkt` instead of docker. In a `rkt` container, caddy is better
