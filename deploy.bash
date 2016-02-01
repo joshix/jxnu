@@ -13,8 +13,7 @@ tar czf public.tgz public
 scp public.tgz $SSH:jxsite/
 rm public.tgz
 
-# Remote server operations. Set up the directory, build the image,
-# and run the container.
+# Remote server operations.
 # --warning=no-unknown-keyword quiets gnutar complaints about bsdtar headers.
 ssh $SSH 'cd jxsite && rm -rf public/* && \
 tar --warning=no-unknown-keyword -xzf public.tgz && \
