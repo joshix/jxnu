@@ -1,0 +1,35 @@
+[Unit]
+# Metadata
+Description=Jxnu-ACI
+Documentation=https://jxnu.joshix.com
+# Wait for networking
+Requires=network-online.target
+After=network-online.target
+
+[Service]
+Slice=machine.slice
+# Resource limits
+Delegate=true
+#CPUShares=512
+#MemoryLimit=512M
+# Env vars
+#Environment=HTTP_PROXY=192.0.2.3:5000
+#Environment=STORAGE_PATH=/opt/myapp
+#Environment=TMPDIR=/var/tmp
+# Fetch the app (not strictly required, `rkt run` will fetch the image if there is not one)
+#ExecStartPre=/usr/bin/rkt fetch quay.io/josh_wood/caddy:latest
+# Start the app
+ExecStart=/usr/bin/rkt run --insecure-options=image \
+--port http:80 --port https:443 --port http-alt:2015 \
+--volume caddyfile,kind=host,source=/home/core/jxsite/Caddyfile,readOnly=true \
+--mount volume=caddyfile,target=/Caddyfile \
+--volume html,kind=host,source=/home/core/jxsite/public,readOnly=true \
+--mount volume=html,target=/var/www/html \
+--volume dotcaddy,kind=host,source=/home/core/dotcaddy,readOnly=false \
+--volume resolv,kind=host,source=/etc/resolv.conf,readOnly=true \
+/home/core/caddy-v0.8.1-linux-amd64.aci
+KillMode=mixed
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
