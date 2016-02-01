@@ -24,9 +24,12 @@ This is a mid-migration version of the once and future joshix.com,
 * bundled with the site html in a container built `FROM` [*caddybox*][caddybox],
 * running on CoreOS<!--more-->
 * TODO:
-  - [~] Use `rkt` instead of docker (currently rkt running; need controlled net instead of `--net=host`; need systemd unit written)
+  - [x] Use `rkt` instead of docker. In a `rkt` container, caddy is better
+    behaved inside a more complete file
+    system and has `cwd(2)` `/` and its EUID has $HOME at `/root` so that the Let's Encrypt key store lives at `/root/.caddy/` inside the container.
   - [ ] Cluster-ify with K8s and Tectonic
   - [x] convert all topmatter to YAML (from TOML)
+  - [ ] convert site config.toml to config.yaml
 
 To be continued...
 
