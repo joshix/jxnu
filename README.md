@@ -1,3 +1,3 @@
 # Jxnu
 
-(Work in progress) Hugo markdown source and tools for the joshix.com container.
+(Work in progress) Markdown source, config, and tools for the `com.joshix.coreos.rkt.caddy.hugo` container.
