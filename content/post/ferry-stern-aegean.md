@@ -11,7 +11,7 @@ tags:
 - flag
 - Greece
 - sea
-title: Ferry Stern, Aegean
+title: Ferry stern, Aegean
 updated: 2013-05-24T01:53:41Z
 ---
 

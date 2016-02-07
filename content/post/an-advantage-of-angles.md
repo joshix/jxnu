@@ -4,7 +4,7 @@ blogimport: true
 date: 2005-11-15T22:20:00Z
 tags:
 - Sessions
-title: An Advantage of Angles
+title: An advantage of angles
 updated: 2013-05-24T01:33:26Z
 ---
 

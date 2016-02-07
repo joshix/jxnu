@@ -6,7 +6,7 @@ blogimport: true
 date: 2011-07-11T14:53:00Z
 tags:
 - Collected
-title: 'One Reader Writes:'
+title: 'One reader writes:'
 updated: 2013-05-24T01:33:26Z
 ---
 

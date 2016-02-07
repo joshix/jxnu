@@ -13,7 +13,7 @@ tags:
 - Let's Encrypt
 author: Josh Wood
 date: 2016-01-23T13:34:56-08:00
-title: Migration Brief
+title: Migration brief
 ---
 
 This is a mid-migration version of the once and future joshix.com,

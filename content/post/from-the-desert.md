@@ -4,7 +4,7 @@ blogimport: true
 date: 2011-07-10T07:07:00Z
 tags:
 - Collected
-title: From the Desert
+title: From the desert
 updated: 2013-05-24T01:33:26Z
 ---
 
