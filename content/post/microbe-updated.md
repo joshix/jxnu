@@ -42,7 +42,7 @@ from [Stanley Lieber’s tw][tw] Twitter script.
 
 Trivial. Write always spoke API, so the the changes were limited, syncing env names, etc.
 
-### Example: Twitter
+## Example: Twitter
 
 A side effect of proper API use gives mb/read ready access to Twitter timelines through services like the Supertweet API proxy.
 
