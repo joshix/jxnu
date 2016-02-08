@@ -2,11 +2,11 @@
 author: Josh Wood
 date: 2011-04-22T18:07:17-08:00
 description: Updates to Plan 9 twitter client
-draft: true
+draft: false
 tags:
 - mb
 - microblog
-- plan9
+- Plan 9
 - rc
 - Twitter
 - rc
@@ -66,5 +66,5 @@ You’ll be asked for the proxy name and password you created at Supertweet unle
 
 [man-acme]: https://plan9.bell-labs.com/sys/man/1/acme
 [man-factotum]: https://plan9.bell-labs.com/sys/man/4/factotum
-[mb]: http://joshix.com/projects/mb
+[mb]: /project/mb/
 [tw]: http://plan9.stanleylieber.com/rc/tw

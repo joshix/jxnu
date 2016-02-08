@@ -5,7 +5,7 @@ author:
 blogimport: true
 date: 2006-11-27T03:22:00Z
 tags:
-- Photo
+- photo
 - ferry
 - Aegean
 - flag

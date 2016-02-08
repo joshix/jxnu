@@ -5,7 +5,7 @@ author:
 blogimport: true
 date: 2006-11-26T08:14:00Z
 tags:
-- Photo
+- photo
 - castle
 - Germany
 title: Guardhouse, Attendorn

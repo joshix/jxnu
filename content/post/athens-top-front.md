@@ -5,7 +5,7 @@ author:
 blogimport: true
 date: 2006-10-31T14:33:00Z
 tags:
-- Photo
+- photo
 - Athens
 - Greece
 title: Athens top front

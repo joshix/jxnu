@@ -7,7 +7,7 @@ date: 2006-10-30T20:23:00Z
 tags:
 - Attalos
 - hotel
-- Photo
+- photo
 - Athens
 - Greece
 title: Hotel Attalos, Athens

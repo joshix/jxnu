@@ -5,7 +5,7 @@ author:
 blogimport: true
 date: 2006-09-28T09:39:00Z
 tags:
-- Photo
+- photo
 - Athens
 - Greece
 - sculpture
