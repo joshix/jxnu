@@ -10,56 +10,57 @@ updated: 2013-05-24T01:33:26Z
 
 *Kansas City/Paros. November 2005.*
 
-Not every night is different<br />
-most begin with much the same choreography<br />
-a geometry of sky folding closed and Sound<br />
-thrown out of a day’s dance with the wind<br />
-when Silence cuts in.<br />
+Not every night is different  
+most begin with much the same choreography  
+a geometry of sky folding closed and Sound  
+thrown out of a day’s dance with the wind  
+when Silence cuts in.  
 
-Stars pick out jasmine’s shadow negative against<br />
-their black matting, their paper backing, where<br /><!--more-->
-tonight it seems Orion aims his dart on a course<br />
-straight through the red heart of Mars and into<br />
-the moon’s sickly face for a trick shot.<br />
+Stars pick out jasmine’s shadow negative against  
+their black matting, their paper backing, where  
+<!--more-->
+tonight it seems Orion aims his dart on a course  
+straight through the red heart of Mars and into  
+the moon’s sickly face for a trick shot.
 
-As that pierced moon you have moved through<br />
-vast darkrooms bigger than this ocean-mirror sky<br />
-carrying photographs to be finished<br />
-on the process you invented in the bath one night<br />
-that the Kodak folks finally shook you down for. Tonight’s<br />
-moon would not brighten these gaping vault closets with<br />
-futile red lights and no poster on the bulwark walls<br />
-of this shadowbox could reduce the dimensions.<br />
+As that pierced moon you have moved through  
+vast darkrooms bigger than this ocean-mirror sky  
+carrying photographs to be finished  
+on the process you invented in the bath one night  
+that the Kodak folks finally shook you down for. Tonight’s  
+moon would not brighten these gaping vault closets with  
+futile red lights and no poster on the bulwark walls  
+of this shadowbox could reduce the dimensions.
 
-Rooms too big and black for living or falling asleep in,<br />
-walls too high for leaping, but you have a chance<br />
-to throw your hat over and you see that<br />
-the guests walk with the stiff steps of the uninvited<br />
-before you realize you arrived right on time<br />
-fit the dress code on the placard to a tee<br />
-but when trying to leave looked for nickels or dimes lost<br />
-in the funnel to the sewer line beneath the carpet<br />
-laid by man for dogs and nuns treading separately<br />
-past the case that locks the dirty negatives and<br />
-the chemicals. (You should not breathe these.)<br />
+Rooms too big and black for living or falling asleep in,  
+walls too high for leaping, but you have a chance  
+to throw your hat over and you see that  
+the guests walk with the stiff steps of the uninvited  
+before you realize you arrived right on time  
+fit the dress code on the placard to a tee  
+but when trying to leave looked for nickels or dimes lost  
+in the funnel to the sewer line beneath the carpet  
+laid by man for dogs and nuns treading separately  
+past the case that locks the dirty negatives and  
+the chemicals. (You should not breathe these.)
 
-You thought your lab partner stood near the other end’s exit<br />
-to pull on the string with the clothespins and things<br />
-that aren’t pictures yet hanging. “Why won’t you pull<br />
-the line away from me? I can’t push it.<br />
-Are you reeling now?<br />
-Can you hear me? Is it so dark that you’re deaf?<br />
-If so you won’t have noticed the noise that hides you.<br />
-Or are you raiding some other pantry?” (that will be<br />
-such broad blackness just like this one<br />
-with all the same mundane dunking, dousing,<br />
-pressing, printing, hanging, cutting machines.)<br />
+You thought your lab partner stood near the other end’s exit  
+to pull on the string with the clothespins and things  
+that aren’t pictures yet hanging. “Why won’t you pull  
+the line away from me? I can’t push it.  
+Are you reeling now?  
+Can you hear me? Is it so dark that you’re deaf?  
+If so you won’t have noticed the noise that hides you.  
+Or are you raiding some other pantry?” (that will be  
+such broad blackness just like this one  
+with all the same mundane dunking, dousing,  
+pressing, printing, hanging, cutting machines.)
 
-The door you must find by feeling and no<br />
-lightswitch sits near the jamb it’s in<br />
-But finally you get out as you got in, but thinking<br />
-as you push your head through the exit that<br />
-These marbles are plaster made forgetful<br />
-massaged with chisels until depicting<br />
-just the one thing but with the advantage of angles<br />
+The door you must find by feeling and no  
+lightswitch sits near the jamb it’s in  
+But finally you get out as you got in, but thinking  
+as you push your head through the exit that  
+These marbles are plaster made forgetful  
+massaged with chisels until depicting  
+just the one thing but with the advantage of angles  
 in the light tonight’s moon shines they define subtlety.

@@ -14,3 +14,4 @@ I stood on the rail and looked over the stone wall of the courtyard
 Through the crosshairs of the crucifix atop the blue dome of the church  
 I saw people moving in the house-lights on the hillside  
 They seemed like signals
+<!--more-->

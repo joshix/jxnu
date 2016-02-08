@@ -9,13 +9,12 @@ tags:
 - bird
 title: Scrub Jay
 updated: 2013-05-24T01:52:01Z
-Description: "Western Scrub Jay (Aphelocoma californica)"
+#Description: "Western Scrub Jay (Aphelocoma californica)"
 ---
 
+<div class="separator" style="clear: both; text-align: center;">
+  <img border="0" src="/img/scrubjay.jpg" /></a>
+  <p>Western Scrub Jay (<em>Aphelocoma californica</em>)</p>
+</div>
 
-![Scrub Jay][photo-scrubjay]  
-Western Scrub Jay (*Aphelocoma californica*)
-
-
-
-[photo-scrubjay]: /img/scrubjay.jpg "Western Scrub Jay"
+<!--more-->

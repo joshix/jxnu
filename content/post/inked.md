@@ -11,11 +11,11 @@ updated: 2013-05-24T01:41:19Z
 
 *Kansas City. November 2005.*
 
-triple ribbon is<br/>
-efficient because it<br/>
+triple ribbon is  
+efficient because it  
 abandoned hue
 <!--more-->
 
-any color you<br/>
-want so long as it is black<br/>
+any color you  
+want so long as it is black  
 like Henry Ford said
