@@ -4,9 +4,7 @@ Categories:
 - iphone
 - Drawing
 - eightball
-author:
-  name: Joshua Wood
-  uri: https://plus.google.com/106633459976108137947
+author: Josh Wood
 blogimport: true
 date: 2013-05-12T12:30:00Z
 tags:

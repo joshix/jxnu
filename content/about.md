@@ -5,8 +5,8 @@ tags:
 - Josh Wood
 date: 2009-01-19T02:47:53Z
 menu: main
-title: Josh Wood
-description: "About Joshix.com: Josh Wood"
+title: About Josh
+description: "Josh Wood"
 ---
 
 <j@joshix.com> § [@joshixisjosh9][jxtwitter] § [github.com/joshix][jxgithub]
@@ -25,11 +25,11 @@ polydactyl cats and writing short autobiographies.
 * [The Eclectilepsy][blog]
 
 
-[blog]: /blog/
+[blog]: /post/
 [coreos]: https://coreos.com/
 [ifri]: http://illustrationfriday.com
 [joco]: http://johncompanies.com
 [jxgithub]: https://github.com/joshix/
 [jxtwitter]: https://twitter.com/joshixisjosh9
-[projects]: /projects/
+[projects]: /project/
 [utopian]: http://utopian.net

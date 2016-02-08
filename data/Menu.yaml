@@ -3,10 +3,10 @@ about:
     IconClass: "fa-info-circle"
     URL: "/about"
 
-posts:
-    Name: "Posts"
-    Title: "Show list of posts"
-    URL: "/post"
+# posts:
+#     Name: "Posts"
+#     Title: "Show list of posts"
+#     URL: "/post"
 
 tags:
     Name: "Tags"
