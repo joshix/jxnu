@@ -14,6 +14,6 @@ tags:
     URL: "/tags"
 
 projects:
-    Name: "Projects"
-    Title: "Old code, covered in mold"
-    URL: "/projects"
+   Name: "Projects"
+   Title: "Old code, covered in mold"
+   URL: "/project"
