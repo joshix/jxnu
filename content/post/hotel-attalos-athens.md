@@ -1,7 +1,5 @@
 ---
-author:
-  name: Joshua Wood
-  uri: https://plus.google.com/106633459976108137947
+author: Josh Wood
 blogimport: true
 date: 2006-10-30T20:23:00Z
 tags:
