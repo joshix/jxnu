@@ -16,5 +16,4 @@ updated: 2013-05-24T01:52:01Z
   <img border="0" src="/img/scrubjay.jpg" /></a>
   <p>Western Scrub Jay (<em>Aphelocoma californica</em>)</p>
 </div>
-
 <!--more-->
