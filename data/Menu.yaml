@@ -1,7 +1,7 @@
 about:
-    Name: "About"
-    IconClass: "fa-info-circle"
-    URL: "/about"
+  Name: "About"
+  IconClass: "fa-info-circle"
+  URL: "/about"
 
 # posts:
 #     Name: "Posts"
@@ -9,11 +9,11 @@ about:
 #     URL: "/post"
 
 tags:
-    Name: "Tags"
-    Title: "Show list of tags"
-    URL: "/tags"
+  Name: "Tags"
+  Title: "Show list of tags"
+  URL: "/tags"
 
 projects:
-   Name: "Projects"
-   Title: "Old code, covered in mold"
-   URL: "/project"
+ Name: "Projects"
+ Title: "Old code, covered in mold"
+ URL: "/project"
