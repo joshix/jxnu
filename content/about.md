@@ -31,5 +31,5 @@ polydactyl cats and writing short autobiographies.
 [joco]: http://johncompanies.com
 [jxgithub]: https://github.com/joshix/
 [jxtwitter]: https://twitter.com/joshixisjosh9
-[projects]: /project/
+[projects]: /projects/
 [utopian]: http://utopian.net
