@@ -27,7 +27,7 @@ ExecStart=/usr/bin/rkt run --insecure-options=image \
 --volume html,kind=host,source=/home/core/jxsite/public,readOnly=true \
 --mount volume=html,target=/var/www/html \
 --volume dotcaddy,kind=host,source=/home/core/dotcaddy,readOnly=false \
-/home/core/caddy-v0.8.2-linux-amd64.aci
+/home/core/caddy-v0.8.3-linux-amd64.aci
 KillMode=mixed
 Restart=always
 
