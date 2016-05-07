@@ -16,5 +16,7 @@ title: 'Illustration Friday: Future'
 updated: 2013-06-09T20:12:20Z
 ---
 
-<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="/img/continuous8ball.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" height="320" src="/img/continuous8ball.png" width="232" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Signs point to Yes</td></tr></tbody></table><div class="separator" style="clear: both; text-align: center;"></div><div class="separator" style="clear: both; text-align: center;"></div>
-<!--more-->
+<div class="separator" style="clear: both; text-align: center;">
+  <img border="0" src="/img/continuous8ball.png" /></a>
+  <p>Signs point to Yes</p>
+</div>
