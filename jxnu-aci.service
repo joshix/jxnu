@@ -1,7 +1,7 @@
 [Unit]
 # Metadata
 Description=Jxnu-ACI
-Documentation=https://jxnu.joshix.com
+Documentation=https://jxnu.joshix.com/2016/01/23/migration-brief/
 # Wait for networking
 Requires=network-online.target
 After=network-online.target

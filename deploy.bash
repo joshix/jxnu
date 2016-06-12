@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Change $SSH to your user@sshhost.example.com string.
-SSH=core@jxnu.joshix.com
+SSH=core@joshix.com
 
 # Build the site into the public/ directory.
 rm -rf public
