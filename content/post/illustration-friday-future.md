@@ -18,5 +18,5 @@ updated: 2013-06-09T20:12:20Z
 
 <div class="separator" style="clear: both; text-align: center;">
   <img border="0" src="/img/continuous8ball.png" /></a>
-  <p>Signs point to Yes</p>
+  <div class="caption">Signs point to Yes</div>
 </div>

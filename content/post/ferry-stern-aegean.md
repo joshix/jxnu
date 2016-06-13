@@ -15,5 +15,5 @@ updated: 2016-05-06T01:53:41Z
 
 <div class="separator" style="clear: both; text-align: center;">
   <img border="0" src="/img/flagaegean.jpg" /></a>
-  <p>Last leg of homeward odyssey on the Blue Star ferry Ithaki from Πειραιάς to Πάρος</p>
+  <div class="caption">Last leg of homeward odyssey on the Blue Star ferry Ithaki from Πειραιάς to Πάρος</div>
 </div>

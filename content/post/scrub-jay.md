@@ -14,5 +14,5 @@ updated: 2013-05-24T01:52:01Z
 
 <div class="separator" style="clear: both; text-align: center;">
   <img border="0" src="/img/scrubjay.jpg" /></a>
-  <p>Western Scrub Jay (<em>Aphelocoma californica</em>)</p>
+  <div class="caption">Western Scrub Jay (<em>Aphelocoma californica</em>)</div>
 </div>
