@@ -10,7 +10,7 @@ tags:
 title: mb(1) - microbe
 ---
 
-*Mb* – New version, new name. – 2011-04-22
+*Mb* &mdash; [New version, new name][mb-update-post], 2011-04-22
 
 Elaborations on the theme of [anothy's original *tweet*][anothy-tweet]. Occasionally useful as prototype API poking sticks during development of larger clients for other systems — and of course to keep up with the web joneses from the comfort and safety of Plan 9.
 
@@ -66,4 +66,5 @@ The `user` argument and the `mbuser` environment variable have no effect when re
 
 
 [anothy-tweet]: http://plan9.bell-labs.com/sources/contrib/anothy/bin/rc/tweet
+[mb-update-post]: ../../2011/04/22/microbe-updated/
 [p9contrib-mb]: http://plan9.bell-labs.com/sources/contrib/josh/rc/mb/

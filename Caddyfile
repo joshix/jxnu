@@ -1,4 +1,4 @@
-https://jxnu.joshix.com {
+https://joshix.com {
 	tls j@joshix.com
 	gzip
 	log stdout
