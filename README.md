@@ -1,8 +1,10 @@
 # Jxnu
 
-(Work in progress) Markdown source, config, and tools for the `com.joshix.coreos.rkt.caddy.hugo` app container.
-
-In "production" at https://joshix.com.
+(Work in progress) Markdown source, config, and tools for the
+`com.joshix.coreos.rkt.caddy.hugo` app container image -- the
+[joshix.com][jx] web site. This image [`acbuild begin`][acbuild-begin]s
+with the [caddybox ACI][caddybox-acbuild], then adds the HTML generated
+by [Hugo][hugo] to bundle the site as an app container.
 
 ##  To generate a joshix.com app container
 
@@ -15,3 +17,9 @@ In "production" at https://joshix.com.
 7. systemctl daemon-reload
 8. sytemctl start jxnu-aci
 9. health check
+
+
+[acbuild-begin]: https://github.com/appc/acbuild/blob/master/Documentation/subcommands/begin.md
+[caddybox-acbuild]: https://github.com/joshix/caddybox/tree/acbuild
+[hugo]: https://gohugo.io/
+[jx]: https://joshix.com/
