@@ -15,8 +15,7 @@ trap acbuildEnd EXIT
 acbuild --debug set-name joshix.com/jxnu
 
 # hugo first to generate public dir.
-mv public html # To avoid ambgiguity of rename during acbuild copy
-acbuild --debug copy-to-dir ./html /var/www
+acbuild --debug copy-to-dir ./public /var/www
 acbuild --debug copy ./Caddyfile /Caddyfile
 
 # Add ports for HTTP, HTTPS, and Caddy's default unprivileged port.
@@ -36,7 +35,7 @@ acbuild --debug copy ./Caddyfile /Caddyfile
 #acbuild --debug mount add dotcaddy /root/.caddy
 
 # How to execute caddy
-#acbuild --debug set-exec -- /bin/caddy -root /var/www/html
+#acbuild --debug set-exec -- /bin/caddy -root /var/www/public
 
 # Save the ACI
 acbuild --debug write --overwrite jxnu-v0.9-caddy-v0.8.3-linux-amd64.aci
