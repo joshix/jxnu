@@ -1,7 +1,9 @@
 ---
-type: "post"
+author: Josh Wood
+description: Description
 draft: true
-author: "Josh Wood"
-description: "Description"
-tags: ["one", "two"]
+tags:
+- one
+- two
+type: post
 ---
