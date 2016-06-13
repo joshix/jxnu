@@ -27,4 +27,4 @@ acbuild --debug copy ./Caddyfile /Caddyfile
 acbuild --debug set-exec -- /bin/caddy -root /var/www/public
 
 # Save the ACI
-acbuild --debug write --overwrite jxnu-v0.9-caddy-v0.8.3-linux-amd64.aci
+acbuild --debug write --overwrite jxnu-v1.0-caddy-v0.8.3-linux-amd64.aci
