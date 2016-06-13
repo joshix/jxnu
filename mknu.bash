@@ -1,17 +1,15 @@
 #!/usr/bin/env bash
 
-# TODO: rename: newcontent.bash
-
-# An update script, so acbuild-jxnu.bash doesn't always update sources,
-# nor depend on a local hugo.
-# Runs on a Linux builder with hugo and acbuild.
-
-# Assume we are in jxnu and ../caddybox/caddybox*.aci exists.
-# Assume we are on the desired jxnu branch and commit.
+# mknu - Make new jxnu
 #
+# Rebases the repo, builds the site, builds an ACI.
+# Requires hugo and acbuild.
+# Isolates content updates from the acbuild script.
+
+# Assume we are in jxnu repo on the right branch.
 git pull
 
-# Do not always want to rebase the theme
+# Do not always want to rebase the theme.
 #cd themes/bootstrap
 #git checkout master
 #git pull
