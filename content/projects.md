@@ -15,6 +15,7 @@ title: Projects
 ## Containers!
 
 * [*Caddybox*][caddybox]: The [Caddy web server][caddy] in a container ([ACI][caddybox-aci] or Docker)
+* [*Jxnu*][jxnu]: Source and tooling to build this site. This site is deployed as an application container based on Caddybox, plus a tree of HTML files generated from Markdown by Hugo.
 
 ## Plan 9 stuff
 
@@ -35,6 +36,7 @@ title: Projects
 [discount]: http://www.pell.portland.or.us/~orc/Code/markdown/
 [discount-gh]: https://github.com/orc/discount
 [discount-gh-joshix]: http://github.com/joshix/discount
+[jxnu]: https://github.com/joshix/jxnu
 [markdown]: http://daringfireball.net/projects/markdown/
 [mb]: ../project/mb/
 [simplish]: http://code.google.com/p/simplish
