@@ -1,7 +1,5 @@
 # Joshix.com New Underneath (`jxnu`)
 
-![Jx prompt logo](https://joshix.com/img/jx-gapps.png)
-
 Work in progress. Move the same old content to new infrastructure.
 
 Markdown source, config, and tools for the [joshix.com][jx] web site
