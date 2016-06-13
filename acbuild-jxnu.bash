@@ -1,9 +1,6 @@
 #!/usr/bin/env bash
 set -e
 
-rm -rf public
-hugo
-
 # Start the build with the caddybox ACI. Not necessary
 # to rebuild it with every site content update.
 # Assumes the base ACI is in ../caddybox/.
@@ -19,7 +16,7 @@ trap acbuildEnd EXIT
 # Name the ACI
 acbuild --debug set-name joshix.com/jxnu
 
-# hugo first to generate public dir.
+# ./public must exist. See mknu.bash to sync and generate it with hugo.
 acbuild --debug copy-to-dir ./public /var/www
 acbuild --debug copy ./Caddyfile /Caddyfile
 
