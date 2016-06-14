@@ -15,7 +15,7 @@ title: Projects
 ## Containers!
 
 * [*Caddybox*][caddybox]: The [Caddy web server][caddy] in a container ([ACI][caddybox-aci] or Docker)
-* [*Jxnu*][jxnu]: Source and tooling to build this site. This site is deployed as an application container based on Caddybox, plus a tree of HTML files generated from Markdown by Hugo.
+* [*Jxnu*][jxnu]: Source and scripts to build this site. This site is deployed as an application container based on Caddybox, plus a tree of HTML files generated from Markdown by Hugo.
 
 ## Plan 9 stuff
 
