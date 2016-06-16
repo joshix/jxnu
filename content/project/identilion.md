@@ -18,7 +18,7 @@ type: page
 
 Identilion evolved to connect to any Twitter-compatible API, rather than being hardwired to a single service. This choice of Twitter-alike web services does not include Twitter itself, because Identilion doesn’t support OAuth. OAuth code exists but is not enabled.
 
-The most recent builds are versioned 1.51.5, the fifth revision of a fork from NatsuLiphone v1.51. Identilion is no longer in use and is not maintained. [Screenshots][screens] give a flavor of the user interface and the API server settings.
+The last builds carry version number 1.51.5, the fifth revision of a fork from NatsuLiphone v1.51. Identilion is no longer in use and is not maintained. [Screenshots][screens] give a flavor of the user interface and the API server settings.
 
 <img src="/img/identilion/screens/2-account.png" title="Account" alt="Account" />
 <img src="/img/identilion/screens/3-read.png" title="Reading" alt="Reading" />
