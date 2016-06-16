@@ -28,6 +28,10 @@ title: Projects
 * [*Simplish*][simplish]: WordPress theme, implementing Microformats nearly everywhere
 * [*Sp*][sp]: Habari theme, simpler sibling of Simplish
 
+## Mobile and misc.
+
+* [*Identilion*][identilion]: iPhone µblog client for Twitter-like APIs
+
 
 [9contrib-josh]: http://plan9.bell-labs.com/sources/contrib/josh/
 [caddy]: https://caddyserver.com
@@ -36,6 +40,7 @@ title: Projects
 [discount]: http://www.pell.portland.or.us/~orc/Code/markdown/
 [discount-gh]: https://github.com/orc/discount
 [discount-gh-joshix]: http://github.com/joshix/discount
+[identilion]: ../project/identilion/
 [jxnu]: https://github.com/joshix/jxnu
 [markdown]: http://daringfireball.net/projects/markdown/
 [mb]: ../project/mb/

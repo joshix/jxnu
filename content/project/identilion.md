@@ -1,0 +1,33 @@
+---
+author: Josh Wood
+date: 2016-06-15T21:37:28-07:00
+description: Description
+draft: false
+tags:
+- Twitter
+- Identi.ca
+- Status.net
+- OMB
+- iPhone
+- microblog
+title: Identilion - an iOS µblog app
+type: page
+---
+
+"Identilion" began as a five minute hack to make [NatsuLiphone][ntlniph], an open source iOS Twitter client, work with our federated [Statusnet][statusnet] instance at [Utopian.net][utopian]. It took about 2 minutes to change the URL strings, the other 3 to rename things so that one could run both apps on the same iPhone. My mutant version was originally referred to as *Lionica*, a name that survives in the [branch for the Identilion source code][lionica-branch].
+
+Identilion evolved to connect to any Twitter-compatible API, rather than being hardwired to a single service. This choice of Twitter-alike web services does not include Twitter itself, because Identilion doesn’t support OAuth. OAuth code exists but is not enabled.
+
+The most recent builds are versioned 1.51.5, the fifth revision of a fork from NatsuLiphone v1.51. Identilion is no longer in use and is not maintained. [Screenshots][screens] give a flavor of the user interface and the API server settings.
+
+<img src="/img/identilion/screens/2-account.png" title="Account" alt="Account" />
+<img src="/img/identilion/screens/3-read.png" title="Reading" alt="Reading" />
+<img src="/img/identilion/screens/4-write.jpg" title="Writing a Reply" alt="Writing" />
+
+
+[lionica-branch]: https://github.com/joshix/identilion/tree/lionica
+[ntlniph]: https://github.com/takuma104/ntlniph
+[ntlniph-forkrev]: https://github.com/takuma104/ntlniph/commit/aeecaa177136d8b541d3e176a6ec05dc2965cc72
+[screens]: /img/identilion/screens/
+[statusnet]: http://gnu.org/software/social/
+[utopian]: http://utopian.net
