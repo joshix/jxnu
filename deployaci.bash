@@ -6,8 +6,9 @@
 ACI=jxnu-v1.0-caddy-v0.8.3-linux-amd64.aci
 SSH=core@joshix.com
 
-scp -i ../acbuild/.vagrant/machines/default/virtualbox/private_key -P 2202 \
-vagrant@127.0.0.1:jxnu/$ACI .
+#scp -i ../acbuild/.vagrant/machines/default/virtualbox/private_key -P 2202 \
+#vagrant@127.0.0.1:jxnu/$ACI .
+scp j@chapeau.local:jxnu/$ACI .
 
 scp $ACI $SSH:
 
