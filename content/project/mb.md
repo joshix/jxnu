@@ -10,7 +10,7 @@ tags:
 title: mb(1) - microbe
 ---
 
-*Mb* &mdash; [New version, new name][mb-update-post], 2011-04-22
+*Mb* -- [New version, new name][mb-update-post], 2011-04-22
 
 Elaborations on the theme of [anothy's original *tweet*][anothy-tweet]. Occasionally useful as prototype API poking sticks during development of larger clients for other systems — and of course to keep up with the web joneses from the comfort and safety of Plan 9.
 
