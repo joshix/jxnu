@@ -4,12 +4,10 @@ date: 2016-02-07T01:32:28-08:00
 description: Plan 9 system manual page for the weather(1) program
 tags:
 - Plan 9
-- rc
-- wx
 - weather
-- NWS
 - Dylan
 title: Plan 9 /sys/man/1/weather
+type: page
 ---
 
 ### NAME
