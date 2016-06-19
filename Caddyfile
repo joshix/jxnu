@@ -2,8 +2,15 @@ https://joshix.com {
 	tls j@joshix.com
 	gzip
 	redir 301 {
-		/projects/weatherman /project/weatherman/
+		/2007/02/illustration-friday-communication.html /2007/02/23/illustration-friday-communication/
+		/2009/09/scrub-jay.html /2009/09/25/scrub-jay/
+		/2011/02/an-advantage-of-angles.html /2005/11/15/an-advantage-of-angles/
+		/2011/04/yatc-mb1-updated.html /2011/04/22/microbe-updated/
 		/2011/07/one-reader-writes.html /2011/07/11/one-reader-writes/
+		/2011/10/roy-orbison.html /2011/10/21/roy-orbison/
+		/2013/05/illustration-friday-future.html /2013/05/12/illustration-friday-future/
+		/2013/12/at-oyster-cellar.html /2013/12/15/oyster-cellar/
+		/projects/weatherman /project/weatherman/
 	}
 	log stdout
 }
