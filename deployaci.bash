@@ -18,7 +18,8 @@
 # $ cd jxnu-aci/jxnu && ./mknu.bash
 
 ACI=jxnu-v1.0-caddy-v0.8.3-linux-amd64.aci
-BLDR=core@jxnu.joshix.com
+#BLDR=core@jxnu.joshix.com
+BLDR=core@bldr-do0.joshix.com
 #BLDR=j@chapeau.local
 #BLDR=-i ../acbuild/.vagrant/machines/default/virtualbox/private_key -P 2202 vagrant@127.0.0.1
 SRVR=core@joshix.com
