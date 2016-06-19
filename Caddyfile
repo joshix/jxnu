@@ -1,5 +1,9 @@
 https://joshix.com {
 	tls j@joshix.com
 	gzip
+	redir 301 {
+		/projects/weatherman /project/weatherman/
+		/2011/07/one-reader-writes.html /2011/07/11/one-reader-writes/
+	}
 	log stdout
 }
