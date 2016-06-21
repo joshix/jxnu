@@ -20,7 +20,7 @@ This is a mostly-migrated version of the once and future joshix.com:
 * Built with [*Hugo*](http://gohugo.io),
 * served by the [*Caddy* web server](https://caddyserver.com) with automatic
   *Let's Encrypt* TLS and HTTP/2,
-* packaged in a [caddybox](https://github.com/joshix/caddybox/tree/acbuild) [App Container Image (ACI)](https://github.com/appc/spec),
+* packaged in a discrete [App Container Image (ACI)](https://github.com/appc/spec) based on [caddybox](https://github.com/joshix/caddybox),
 * executed by the [`rkt` container engine](https://coreos.com/rkt/),
 * running on [CoreOS Linux](https://coreos.com).<!--more-->
 
