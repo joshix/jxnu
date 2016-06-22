@@ -1,6 +1,13 @@
 #!/usr/bin/env bash
 set -e
 
+# Builds the site, builds an ACI.
+# Requires hugo and acbuild.
+
+# Generate the html
+rm -rf public
+hugo
+
 # Start the build with the caddybox ACI. Not necessary
 # to rebuild it with every site content update.
 # Assumes the base ACI is in ../caddybox/.
