@@ -15,7 +15,7 @@ Man about machines. Tech maker, breaker, writer. Enjoys photographing
 polydactyl cats and writing short autobiographies.
 
 * DocOps, [CoreOS][coreos]
-* Licit cannabis industry software pioneer; former Chief Technology Officer, Agrisoft
+* Licit cannabis industry software pioneer; former Chief Technology Officer, [Agrisoft][agrisoft]
 * Cofounder, [Utopian.net][utopian]: Making the web easy for artists
   (now a [John Companies][joco] property)
   * `labs.utopian.net`: Development, experiments, *Track*,
@@ -25,6 +25,7 @@ polydactyl cats and writing short autobiographies.
 * [The Eclectilepsy][blog]
 
 
+[agrisoft]: http://kind.financial/agrisoft-seed-to-sale-software/
 [blog]: /post/
 [coreos]: https://coreos.com/
 [ifri]: http://illustrationfriday.com
