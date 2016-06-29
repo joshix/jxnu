@@ -1,3 +1,7 @@
+http://www.joshix.com, http://blog.joshix.com {
+	redir https://joshix.com{uri}
+}
+
 https://joshix.com {
 	tls j@joshix.com
 	gzip
