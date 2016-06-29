@@ -1,7 +1,7 @@
 [Unit]
 # Metadata
-Description=Run the jxnu ACI image from disk to serve joshix.com
-Documentation=https://joshix.com/2016/06/12/migration-brief/
+Description=Joshix.com web site container
+Documentation=https://github.com/joshix/jxnu
 # Wait for networking
 Requires=network-online.target
 After=network-online.target
