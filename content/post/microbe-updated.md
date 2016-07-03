@@ -9,7 +9,6 @@ tags:
 - Plan 9
 - rc
 - Twitter
-- rc
 title: YATC, mb(1) "microbe" updated
 type: post
 ---
