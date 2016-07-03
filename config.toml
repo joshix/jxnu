@@ -72,6 +72,8 @@ disqusShortname = ""
     youtube = ""  # Your Youtube channel ID
     flattr = ""  # populate with your flattr uid
 
+    showRightSidebar = false
+
 [blackfriday]
     angledQuotes = false
     fractions = true
