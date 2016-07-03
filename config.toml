@@ -74,7 +74,7 @@ disqusShortname = ""
 
 [blackfriday]
     angledQuotes = false
-    fractions = false
+    fractions = true
     hrefTargetBlank = false
     latexDashes = true
     plainIdAnchors = true
