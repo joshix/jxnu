@@ -7,13 +7,15 @@ tags:
 - software
 - code
 - Plan 9
-- Markdown
-- Discount
+- CoreOS
+- Linux
 - rkt
+- microformats
 title: Projects
+type: page
 ---
 
-## Containers! CoreOS! rkt! Go!
+## Containers &c.
 
 * [*Caddybox*][caddybox]: The [Caddy web server][caddy] in a container (ACI or Docker)
 * [*Jxnu*][jxnu]: Source and scripts to build this site. Joshix.com is deployed as an application container based on Caddybox, plus a tree of HTML files generated from Markdown by [Hugo][hugo].
