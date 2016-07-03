@@ -1,5 +1,5 @@
 ---
-author: Josh Wood
+author: Joshua Wood
 blogimport: true
 draft: true
 date: 2011-04-23T23:50:00Z
