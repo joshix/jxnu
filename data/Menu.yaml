@@ -8,10 +8,10 @@ about:
 #     Title: "Show list of posts"
 #     URL: "/post"
 
-tags:
-  Name: "Tags"
-  Title: "Show list of tags"
-  URL: "/tags"
+# tags:
+#   Name: "Tags"
+#   Title: "Show list of tags"
+#   URL: "/tags"
 
 projects:
  Name: "Projects"
