@@ -14,7 +14,7 @@ title: Identilion - an iOS µblog app
 type: page
 ---
 
-"Identilion" began as a five minute hack to make [NatsuLiphone][ntlniph], an open source iOS Twitter client, work with our federated [Statusnet][statusnet] instance at [Utopian.net][utopian]. It took about 2 minutes to change the URL strings, the other 3 to rename things so that both apps could run on the same iPhone. My mutant version was originally referred to as *Lionica*, a name that survives in the [branch for the Identilion source code][lionica-branch].
+"Identilion" began as a five minute hack to make [NatsuLiphone][ntlniph], an open source iOS Twitter client, work with our federated [Statusnet][statusnet] instance at [Utopian.net][utopian]. It took about 2 minutes to change the URL strings, the other 3 to rename things so that both apps could run on the same iPhone. My mutant version was originally referred to as *Lionica*, a name that persists in the [branch for the Identilion source code][lionica-branch].
 
 Identilion evolved to connect to any Twitter-compatible API, rather than being hardwired to a single service. This choice of Twitter-alike web services does not include Twitter itself, because Identilion doesn’t support OAuth. OAuth code exists but is not enabled.
 
