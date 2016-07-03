@@ -14,7 +14,7 @@ Markdown source, config, and tools for the [joshix.com][jx] web site container i
 `$ cd themes/bootstrap && git pull`
 3. Run `jxnu/acbuild-jxnu.bash` to `hugo` the site and `acbuild` the site container:  
 `$ cd .. && ./acbuild-jxnu.bash`
-4. Copy the resulting `jxnu-vM.N-caddy-vX.Y.Z-linux-amd64.aci` to server (see deployaci.bash)
+4. Copy the resulting `jxnu-vN-caddy-vX.Y.Z-linux-amd64.aci` to server (see deployaci.bash)
 
 ### Server
 
