@@ -33,7 +33,7 @@ disqusShortname = ""
     page = "/:filename/"
 
 [taxonomies]
-    tag = "tags"
+    tag = "Tags"
 #    topic = "topics"
 #    category = "categories"
 
@@ -72,7 +72,7 @@ disqusShortname = ""
     youtube = ""  # Your Youtube channel ID
     flattr = ""  # populate with your flattr uid
 
-    showRightSidebar = false
+    showRightSidebar = true
 
 [blackfriday]
     angledQuotes = false
