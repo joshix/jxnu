@@ -33,7 +33,7 @@ disqusShortname = ""
     page = "/:filename/"
 
 [taxonomies]
-    tag = "Tags"
+    tag = "tags"
 #    topic = "topics"
 #    category = "categories"
 
