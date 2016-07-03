@@ -7,6 +7,7 @@ tags:
 - service
 - seafood
 - oyster
+- Collected
 title: At the oyster cellar
 updated: 2014-06-27T22:38:01Z
 ---
