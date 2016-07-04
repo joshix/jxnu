@@ -1,11 +1,11 @@
 ---
 author: Joshua Wood
 blogimport: true
-date: 2011-10-21T18:34:00Z
+date: 2005-12-07T16:59:00Z
 tags:
 - Sessions
 title: Roy Orbison
-updated: 2013-05-24T01:33:26Z
+updated: 2011-10-21T01:33:26Z
 ---
 
 pretty woman, give your smile to me  
