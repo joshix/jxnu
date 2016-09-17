@@ -17,7 +17,7 @@
 # [ $ cd jxnu-aci/caddybox && ./acbuild-caddybox.bash ] (Usually don't rebuild caddybox aci.)
 # $ cd jxnu-aci/jxnu && ./acbuild-jxnu.bash
 
-ACI=jxnu-v2-caddy-v0.8.3-linux-amd64.aci
+ACI=jxnu-v2-caddy-v0.9.1-linux-amd64.aci
 BLDR=core@jxnu.joshix.com
 #BLDR=-i ../acbuild/.vagrant/machines/default/virtualbox/private_key -P 2202 vagrant@127.0.0.1
 SRVR=core@joshix.com
