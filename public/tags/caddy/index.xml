@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Caddy on Josh Wood</title>
+    <link>https://joshix.com/tags/caddy/</link>
+    <description>Recent content in Caddy on Josh Wood</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>j@joshix.com (Josh Wood)</managingEditor>
+    <webMaster>j@joshix.com (Josh Wood)</webMaster>
+    <copyright>(c) 2016 Josh Wood.</copyright>
+    <lastBuildDate>Sun, 12 Jun 2016 04:18:56 -0800</lastBuildDate>
+    <atom:link href="https://joshix.com/tags/caddy/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Migration brief</title>
+      <link>https://joshix.com/2016/06/12/migration-brief/</link>
+      <pubDate>Sun, 12 Jun 2016 04:18:56 -0800</pubDate>
+      <author>j@joshix.com (Josh Wood)</author>
+      <guid>https://joshix.com/2016/06/12/migration-brief/</guid>
+      <description>
+
+&lt;p&gt;This is a mostly-migrated version of the once and future joshix.com:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Built with &lt;a href=&#34;http://gohugo.io&#34;&gt;&lt;em&gt;Hugo&lt;/em&gt;&lt;/a&gt;,&lt;/li&gt;
+&lt;li&gt;served by the &lt;a href=&#34;https://caddyserver.com&#34;&gt;&lt;em&gt;Caddy&lt;/em&gt; web server&lt;/a&gt; with automatic
+&lt;em&gt;Let&amp;rsquo;s Encrypt&lt;/em&gt; TLS and HTTP/2,&lt;/li&gt;
+&lt;li&gt;packaged in a discrete &lt;a href=&#34;https://github.com/appc/spec&#34;&gt;App Container Image (ACI)&lt;/a&gt; based on &lt;a href=&#34;https://github.com/joshix/caddybox&#34;&gt;caddybox&lt;/a&gt;,&lt;/li&gt;
+&lt;li&gt;executed by the &lt;a href=&#34;https://coreos.com/rkt/&#34;&gt;&lt;code&gt;rkt&lt;/code&gt; container engine&lt;/a&gt;,&lt;/li&gt;
+&lt;li&gt;running on &lt;a href=&#34;https://coreos.com&#34;&gt;CoreOS Linux&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;todo&#34;&gt;TODO:&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;[x] Use &lt;code&gt;rkt&lt;/code&gt; instead of docker.&lt;/li&gt;
+&lt;li&gt;[ ] Cluster-ify with K8s and &amp;ldquo;rktnetes&amp;rdquo;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;To be continued&amp;hellip;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

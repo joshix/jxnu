@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Josh Wood</title>
+    <link>https://joshix.com/</link>
+    <description>Recent content on Josh Wood</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>j@joshix.com (Josh Wood)</managingEditor>
+    <webMaster>j@joshix.com (Josh Wood)</webMaster>
+    <copyright>(c) 2016 Josh Wood.</copyright>
+    <lastBuildDate>Wed, 15 Jun 2016 21:37:28 -0700</lastBuildDate>
+    <atom:link href="https://joshix.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Identilion - an iOS µblog app</title>
+      <link>https://joshix.com/project/identilion/</link>
+      <pubDate>Wed, 15 Jun 2016 21:37:28 -0700</pubDate>
+      <author>j@joshix.com (Josh Wood)</author>
+      <guid>https://joshix.com/project/identilion/</guid>
+      <description>&lt;p&gt;&amp;ldquo;Identilion&amp;rdquo; began as a five minute hack to make &lt;a href=&#34;https://github.com/takuma104/ntlniph&#34;&gt;NatsuLiphone&lt;/a&gt;, an open source iOS Twitter client, work with our federated &lt;a href=&#34;http://gnu.org/software/social/&#34;&gt;Statusnet&lt;/a&gt; instance at &lt;a href=&#34;http://utopian.net&#34;&gt;Utopian.net&lt;/a&gt;. It took about 2 minutes to change the URL strings, the other 3 to rename things so that both apps could run on the same iPhone. My mutant version was originally referred to as &lt;em&gt;Lionica&lt;/em&gt;, a name that persists in the &lt;a href=&#34;https://github.com/joshix/identilion/tree/lionica&#34;&gt;branch for the Identilion source code&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Identilion evolved to connect to any Twitter-compatible API, rather than being hardwired to a single service. This choice of Twitter-alike web services does not include Twitter itself, because Identilion doesn’t support OAuth. OAuth code exists but is not enabled.&lt;/p&gt;
+
+&lt;p&gt;The last builds carry version number 1.51.5, the fifth revision of a fork from NatsuLiphone v1.51. Identilion is no longer in use and is not maintained. &lt;a href=&#34;https://joshix.com/img/identilion/screens/&#34;&gt;Screenshots&lt;/a&gt; give a flavor of the user interface and the API server settings.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://joshix.com/img/identilion/screens/2-account.png&#34; title=&#34;Account&#34; alt=&#34;Account&#34; /&gt;
+&lt;img src=&#34;https://joshix.com/img/identilion/screens/3-read.png&#34; title=&#34;Reading&#34; alt=&#34;Reading&#34; /&gt;
+&lt;img src=&#34;https://joshix.com/img/identilion/screens/4-write.jpg&#34; title=&#34;Writing a Reply&#34; alt=&#34;Writing&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Migration brief</title>
+      <link>https://joshix.com/2016/06/12/migration-brief/</link>
+      <pubDate>Sun, 12 Jun 2016 04:18:56 -0800</pubDate>
+      <author>j@joshix.com (Josh Wood)</author>
+      <guid>https://joshix.com/2016/06/12/migration-brief/</guid>
+      <description>
+
+&lt;p&gt;This is a mostly-migrated version of the once and future joshix.com:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Built with &lt;a href=&#34;http://gohugo.io&#34;&gt;&lt;em&gt;Hugo&lt;/em&gt;&lt;/a&gt;,&lt;/li&gt;
+&lt;li&gt;served by the &lt;a href=&#34;https://caddyserver.com&#34;&gt;&lt;em&gt;Caddy&lt;/em&gt; web server&lt;/a&gt; with automatic
+&lt;em&gt;Let&amp;rsquo;s Encrypt&lt;/em&gt; TLS and HTTP/2,&lt;/li&gt;
+&lt;li&gt;packaged in a discrete &lt;a href=&#34;https://github.com/appc/spec&#34;&gt;App Container Image (ACI)&lt;/a&gt; based on &lt;a href=&#34;https://github.com/joshix/caddybox&#34;&gt;caddybox&lt;/a&gt;,&lt;/li&gt;
+&lt;li&gt;executed by the &lt;a href=&#34;https://coreos.com/rkt/&#34;&gt;&lt;code&gt;rkt&lt;/code&gt; container engine&lt;/a&gt;,&lt;/li&gt;
+&lt;li&gt;running on &lt;a href=&#34;https://coreos.com&#34;&gt;CoreOS Linux&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;todo&#34;&gt;TODO:&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;[x] Use &lt;code&gt;rkt&lt;/code&gt; instead of docker.&lt;/li&gt;
+&lt;li&gt;[ ] Cluster-ify with K8s and &amp;ldquo;rktnetes&amp;rdquo;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;To be continued&amp;hellip;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>https://joshix.com/projects/</link>
+      <pubDate>Sun, 28 Feb 2016 15:55:56 -0800</pubDate>
+      <author>j@joshix.com (Josh Wood)</author>
+      <guid>https://joshix.com/projects/</guid>
+      <description>
+
+&lt;h2 id=&#34;containers-c&#34;&gt;Containers &amp;amp;c.&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/joshix/caddybox&#34;&gt;&lt;em&gt;Caddybox&lt;/em&gt;&lt;/a&gt;: The &lt;a href=&#34;https://caddyserver.com&#34;&gt;Caddy web server&lt;/a&gt; in a container (ACI or Docker)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/joshix/jxnu&#34;&gt;&lt;em&gt;Jxnu&lt;/em&gt;&lt;/a&gt;: Source and scripts to build this site. Joshix.com is deployed as an application container based on Caddybox, plus a tree of HTML files generated from Markdown by &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;plan-9&#34;&gt;Plan 9&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.pell.portland.or.us/~orc/Code/markdown/&#34;&gt;&lt;em&gt;Discount&lt;/em&gt;&lt;/a&gt;: Plan 9 build support and documentation for David Parsons’s Discount, a compiler for the &lt;a href=&#34;http://daringfireball.net/projects/markdown/&#34;&gt;&lt;em&gt;Markdown&lt;/em&gt;&lt;/a&gt; formatting syntax. &lt;a href=&#34;https://github.com/orc/discount&#34;&gt;Source for Discount&lt;/a&gt; and for &lt;a href=&#34;https://github.com/joshix/discount/tree/master/Plan9&#34;&gt;my fork for Plan 9 build maintenance&lt;/a&gt; is available on GitHub.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;../project/mb/&#34;&gt;&lt;em&gt;Mb&lt;/em&gt;&lt;/a&gt; (neé &lt;em&gt;µb&lt;/em&gt;): Plan 9 tools for Twitter/StatusNet microblogging&lt;/li&gt;
+&lt;li&gt;See also &lt;a href=&#34;http://plan9.bell-labs.com/sources/contrib/josh/&#34;&gt;&lt;code&gt;/n/sources/contrib/josh/&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;penicillin-farm-old-code-covered-in-mold&#34;&gt;Penicillin farm: Old code covered in mold&lt;/h2&gt;
+
+&lt;p&gt;Carefully neglected to various stages of decomposition.&lt;/p&gt;
+
+&lt;h3 id=&#34;microformats&#34;&gt;Microformats&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://code.google.com/p/simplish&#34;&gt;&lt;em&gt;Simplish&lt;/em&gt;&lt;/a&gt;: WordPress theme, implementing Microformats nearly everywhere&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://code.google.com/p/sp-theme&#34;&gt;&lt;em&gt;Sp&lt;/em&gt;&lt;/a&gt;: Habari theme, simpler sibling of Simplish&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;mobile&#34;&gt;Mobile&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;../project/identilion/&#34;&gt;&lt;em&gt;Identilion&lt;/em&gt;&lt;/a&gt;: iPhone µblog app for Twitter-like APIs&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Plan 9 /sys/man/1/weather</title>
+      <link>https://joshix.com/project/weatherman/</link>
+      <pubDate>Sun, 07 Feb 2016 01:32:28 -0800</pubDate>
+      <author>j@joshix.com (Josh Wood)</author>
+      <guid>https://joshix.com/project/weatherman/</guid>
+      <description>
+
+&lt;h3 id=&#34;name&#34;&gt;NAME&lt;/h3&gt;
+
+&lt;p&gt;weather &amp;ndash; know which way the wind blows&lt;/p&gt;
+
+&lt;h3 id=&#34;synopsis&#34;&gt;SYNOPSIS&lt;/h3&gt;
+
+&lt;p&gt;&lt;code&gt;weather [ air ] [ st ]&lt;/code&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;description&#34;&gt;DESCRIPTION&lt;/h3&gt;
+
+&lt;p&gt;&lt;code&gt;Weather&lt;/code&gt; prints the local conditions and seven-day forecast most recently reported at the US airport with the three–letter location identifier &lt;em&gt;air&lt;/em&gt;. Given a two–letter US state abbreviation &lt;em&gt;st&lt;/em&gt; instead, &lt;code&gt;weather&lt;/code&gt; prints a table of &lt;em&gt;air&lt;/em&gt; location identifiers known for &lt;em&gt;st&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;The arguments are mutually exclusive and case–insensitive. If neither is given, &lt;em&gt;air&lt;/em&gt; defaults to location identifier &lt;code&gt;ewr&lt;/code&gt;, designating the Newark, NJ, airport near Bell Labs, Murray Hill.&lt;/p&gt;
+
+&lt;h3 id=&#34;source&#34;&gt;SOURCE&lt;/h3&gt;
+
+&lt;p&gt;&lt;code&gt;/rc/bin/weather&lt;/code&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;see-also&#34;&gt;SEE ALSO&lt;/h3&gt;
+
+&lt;p&gt;Bob Dylan, &amp;ldquo;Subterranean Homesick Blues&amp;rdquo;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>mb(1) - microbe</title>
+      <link>https://joshix.com/project/mb/</link>
+      <pubDate>Sun, 07 Feb 2016 01:32:28 -0800</pubDate>
+      <author>j@joshix.com (Josh Wood)</author>
+      <guid>https://joshix.com/project/mb/</guid>
+      <description>
+
+&lt;p&gt;&lt;em&gt;Mb&lt;/em&gt; &amp;ndash; &lt;a href=&#34;../../2011/04/22/microbe-updated/&#34;&gt;New version, new name&lt;/a&gt;, 2011-04-22&lt;/p&gt;
+
+&lt;p&gt;Elaborations on the theme of &lt;a href=&#34;http://plan9.bell-labs.com/sources/contrib/anothy/bin/rc/tweet&#34;&gt;anothy&amp;rsquo;s original &lt;em&gt;tweet&lt;/em&gt;&lt;/a&gt;. Occasionally useful as prototype API poking sticks during development of larger clients for other systems — and of course to keep up with the web joneses from the comfort and safety of Plan 9.&lt;/p&gt;
+
+&lt;p&gt;These files are available in the Bell Labs Plan 9 sources contrib area, i.e., &lt;a href=&#34;http://plan9.bell-labs.com/sources/contrib/josh/rc/mb/&#34;&gt;&lt;code&gt;/n/sources/contrib/josh/rc/mb&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;name&#34;&gt;NAME&lt;/h3&gt;
+
+&lt;p&gt;read, write – simple microblogging&lt;/p&gt;
+
+&lt;h3 id=&#34;synopsis&#34;&gt;SYNOPSIS&lt;/h3&gt;
+
+&lt;p&gt;&lt;code&gt;mb/read [ –pr ] [ –h url ] [ user ]&lt;/code&gt;&lt;br /&gt;
+&lt;code&gt;mb/write [ –d ] [ –h url ] [ text ... ]&lt;/code&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;description&#34;&gt;DESCRIPTION&lt;/h3&gt;
+
+&lt;p&gt;These &lt;code&gt;rc(1)&lt;/code&gt; scripts are simple clients for reading and writing on microblogs; that is, short message publication services that implement the so–called Twitter API.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;Read&lt;/code&gt; prints on the standard output a microblog user &lt;code&gt;user&lt;/code&gt;&amp;rsquo;s &amp;ldquo;Personal Timeline&amp;rdquo; at the API root URL &lt;code&gt;url&lt;/code&gt;. In the absence of &lt;code&gt;–h&lt;/code&gt;, the value of the environment variable &lt;code&gt;mbapiurl&lt;/code&gt;, if any, is used. If no &lt;code&gt;user&lt;/code&gt; is given, the environment variable &lt;code&gt;mbuser&lt;/code&gt; is consulted. If &lt;code&gt;$mbuser&lt;/code&gt; is in turn empty, &lt;code&gt;$user&lt;/code&gt; is presumed as the remote user name. Under &lt;code&gt;–r&lt;/code&gt;, &lt;code&gt;read&lt;/code&gt; prints only replies sent to the &lt;code&gt;user&lt;/code&gt;. Option &lt;code&gt;–p&lt;/code&gt; prints the entire &amp;ldquo;Public Timeline&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;Write&lt;/code&gt; publishes text to the microblog service at the API root &lt;code&gt;url&lt;/code&gt;. If &lt;code&gt;–h&lt;/code&gt; is omitted, &lt;code&gt;write&lt;/code&gt; uses the value of the environment variable &lt;code&gt;mbapiurl&lt;/code&gt; for the service URL. If &lt;code&gt;text&lt;/code&gt; is not given, a single line is read from standard input. The &lt;code&gt;–d&lt;/code&gt; flag prints the server response (in XML format) on standard error.&lt;/p&gt;
+
+&lt;p&gt;Both programs query &lt;code&gt;factotum(4)&lt;/code&gt; for authentication as needed.&lt;/p&gt;
+
+&lt;h3 id=&#34;example&#34;&gt;EXAMPLE&lt;/h3&gt;
+
+&lt;p&gt;Read the Identi.ca home timeline of screenname &lt;code&gt;glenda&lt;/code&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;mb/read –h https://identi.ca/api glenda&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Read the Twitter home timeline of the authenticated user:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;mb/read –h http://api.supertweet.net/1&lt;/code&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;source&#34;&gt;SOURCE&lt;/h3&gt;
+
+&lt;p&gt;&lt;code&gt;/rc/bin/mb&lt;/code&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;see-also&#34;&gt;SEE ALSO&lt;/h3&gt;
+
+&lt;p&gt;&lt;code&gt;hget(1)&lt;/code&gt;, &lt;code&gt;read&lt;/code&gt; in &lt;code&gt;cat(1)&lt;/code&gt;&lt;br /&gt;
+&lt;a href=&#34;http://status.net&#34;&gt;http://status.net&lt;/a&gt;, &amp;ldquo;StatusNet&amp;rdquo;&lt;br /&gt;
+&lt;a href=&#34;http://apiwiki.twitter.com&#34;&gt;http://apiwiki.twitter.com&lt;/a&gt;, &amp;ldquo;Twitter API Wiki&amp;rdquo;&lt;br /&gt;
+&lt;a href=&#34;http://www.supertweet.net&#34;&gt;http://www.supertweet.net&lt;/a&gt;, &amp;ldquo;Twitter API Proxy&amp;rdquo;&lt;/p&gt;
+
+&lt;h3 id=&#34;diagnostics&#34;&gt;DIAGNOSTICS&lt;/h3&gt;
+
+&lt;p&gt;Write refuses text &lt;1 or &gt;140 runes, exiting with status &lt;code&gt;length&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;bugs&#34;&gt;BUGS&lt;/h3&gt;
+
+&lt;p&gt;The &lt;code&gt;user&lt;/code&gt; argument and the &lt;code&gt;mbuser&lt;/code&gt; environment variable have no effect when reading Twitter via the known API proxy, which exposes only an authenticated user&amp;rsquo;s timelines.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>At the oyster cellar</title>
+      <link>https://joshix.com/2013/12/15/oyster-cellar/</link>
+      <pubDate>Sun, 15 Dec 2013 21:11:00 +0000</pubDate>
+      <author>j@joshix.com (Josh Wood)</author>
+      <guid>https://joshix.com/2013/12/15/oyster-cellar/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;S&lt;/strong&gt;: What are the oysters tonight?&lt;br /&gt;
+&lt;strong&gt;T&lt;/strong&gt;: We have lots of oysters.&lt;br /&gt;
+&lt;em&gt;Pause&lt;/em&gt;.&lt;br /&gt;
+&lt;strong&gt;S&lt;/strong&gt;: Lots of kinds of oysters, or just very many oysters?&lt;br /&gt;
+&lt;strong&gt;T&lt;/strong&gt;: (&lt;em&gt;uncertainly&lt;/em&gt;) Lots of kinds.&lt;br /&gt;
+&lt;em&gt;Pause&lt;/em&gt;.&lt;br /&gt;
+&lt;strong&gt;S&lt;/strong&gt;: OK. So&amp;hellip; I&amp;rsquo;ll just name all the kinds of oysters I know, and when I hit on one you have, you tap your foot twice.&lt;br /&gt;
+&lt;strong&gt;T&lt;/strong&gt;: I&amp;rsquo;d need to go get a list.&lt;br /&gt;
+&lt;strong&gt;S&lt;/strong&gt;: Probably.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Illustration Friday: Future</title>
+      <link>https://joshix.com/2013/05/12/illustration-friday-future/</link>
+      <pubDate>Sun, 12 May 2013 12:30:00 +0000</pubDate>
+      <author>j@joshix.com (Josh Wood)</author>
+      <guid>https://joshix.com/2013/05/12/illustration-friday-future/</guid>
+      <description>&lt;div class=&#34;separator&#34; style=&#34;clear: both; text-align: center;&#34;&gt;
+  &lt;img border=&#34;0&#34; src=&#34;https://joshix.com/img/continuous8ball.png&#34; /&gt;&lt;/a&gt;
+  &lt;div class=&#34;caption&#34;&gt;Signs point to Yes&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>One reader writes:</title>
+      <link>https://joshix.com/2011/07/11/one-reader-writes/</link>
+      <pubDate>Mon, 11 Jul 2011 14:53:00 +0000</pubDate>
+      <author>j@joshix.com (Josh Wood)</author>
+      <guid>https://joshix.com/2011/07/11/one-reader-writes/</guid>
+      <description>&lt;p&gt;Merger merger Android startup stock option implementation deadline! Professionalize Twitter social patent network effect artificial Linux scarcity! Freedom source monetize Bitcoin buyout Microsoft strategy! Mobile ubiquitous real-time synergy! Venture cap software stack core competency.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>YATC, mb(1) &#34;microbe&#34; updated</title>
+      <link>https://joshix.com/2011/04/22/microbe-updated/</link>
+      <pubDate>Fri, 22 Apr 2011 18:07:17 -0800</pubDate>
+      <author>j@joshix.com (Josh Wood)</author>
+      <guid>https://joshix.com/2011/04/22/microbe-updated/</guid>
+      <description>
+
+&lt;p&gt;I updated the simple Plan 9 microblogging scripts, &lt;a href=&#34;https://joshix.com/project/mb/&#34;&gt;&lt;em&gt;mb&lt;/em&gt;(1)&lt;/a&gt;, not often but
+sometimes also called &amp;ldquo;microbe&amp;rdquo;, and almost never known as &amp;ldquo;&lt;em&gt;meekroh-bee&lt;/em&gt;&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;All file and environment variable names have changed since the last release
+(c.2009, AD), replacing the &amp;ldquo;special&amp;rdquo; character &lt;em&gt;micro&lt;/em&gt; (HTML’s &lt;code&gt;&amp;amp;micro;&lt;/code&gt;, &amp;micro;, µ)
+with a plain &lt;em&gt;m&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;The &lt;code&gt;awk | sed&lt;/code&gt; filter pipeline at the center of any useful improvement was taken
+from &lt;a href=&#34;http://plan9.stanleylieber.com/rc/tw&#34;&gt;Stanley Lieber’s tw&lt;/a&gt; Twitter script.&lt;/p&gt;
+
+&lt;h2 id=&#34;mb-read-changes&#34;&gt;&lt;em&gt;mb/read&lt;/em&gt; changes&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Uses XML API&lt;/li&gt;
+&lt;li&gt;Changed output order: now oldest-first. A feature, especially in
+&lt;a href=&#34;https://plan9.bell-labs.com/sys/man/1/acme&#34;&gt;&lt;em&gt;acme&lt;/em&gt;(1)&lt;/a&gt;.
+Get the old school, newest-first ordering by appending, e.g.,
+&lt;code&gt;| sed &#39;x;1!H;$!d;x&#39;&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;No timestamps shown&lt;/li&gt;
+&lt;li&gt;No “from client” source tag shown&lt;/li&gt;
+&lt;li&gt;Directory moved from &lt;code&gt;/rc/bin/µb/&lt;/code&gt; to &lt;code&gt;/rc/bin/mb/&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Environment variables renamed:
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;µblog&lt;/code&gt; to &lt;code&gt;mbapiurl&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;µsr&lt;/code&gt; to &lt;code&gt;mbuser&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;mb-write-changes&#34;&gt;&lt;em&gt;mb/write&lt;/em&gt; changes&lt;/h2&gt;
+
+&lt;p&gt;Trivial. Write always spoke API, so the the changes were limited, syncing env names, etc.&lt;/p&gt;
+
+&lt;h2 id=&#34;example-twitter&#34;&gt;Example: Twitter&lt;/h2&gt;
+
+&lt;p&gt;A side effect of proper API use gives mb/read ready access to Twitter timelines through services like the Supertweet API proxy.&lt;/p&gt;
+
+&lt;p&gt;To use the Supertweet service, visit their site to OAuth‘orize a Supertweet account to your Twitter account. You must then assign a password to your Supertweet account that will be used for HTTP Basic auth to the API proxy. You can then mb/read and mb/write Twitter:&lt;/p&gt;
+
+&lt;p&gt;Say it:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;mb/write -h http://api.supertweet.net/1 Hello World.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;See it:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;mb/read -h http://api.supertweet.net/1
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;You’ll be asked for the proxy name and password you created at Supertweet unless it is available from &lt;a href=&#34;https://plan9.bell-labs.com/sys/man/4/factotum&#34;&gt;&lt;em&gt;factotum&lt;/em&gt;(4)&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Scrub Jay</title>
+      <link>https://joshix.com/2009/09/25/scrub-jay/</link>
+      <pubDate>Fri, 25 Sep 2009 05:35:00 +0000</pubDate>
+      <author>j@joshix.com (Josh Wood)</author>
+      <guid>https://joshix.com/2009/09/25/scrub-jay/</guid>
+      <description>&lt;div class=&#34;separator&#34; style=&#34;clear: both; text-align: center;&#34;&gt;
+  &lt;img border=&#34;0&#34; src=&#34;https://joshix.com/img/scrubjay.jpg&#34; /&gt;&lt;/a&gt;
+  &lt;div class=&#34;caption&#34;&gt;Western Scrub Jay (&lt;em&gt;Aphelocoma californica&lt;/em&gt;)&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>About Josh</title>
+      <link>https://joshix.com/about/</link>
+      <pubDate>Mon, 19 Jan 2009 02:47:53 +0000</pubDate>
+      <author>j@joshix.com (Josh Wood)</author>
+      <guid>https://joshix.com/about/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;mailto:j@joshix.com&#34;&gt;j@joshix.com&lt;/a&gt; § &lt;a href=&#34;https://twitter.com/joshixisjosh9&#34;&gt;@joshixisjosh9&lt;/a&gt; § &lt;a href=&#34;https://github.com/joshix/&#34;&gt;github.com/joshix&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Man about machines. Tech maker, breaker, writer. Enjoys photographing
+polydactyl cats and writing short autobiographies.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;DocOps, &lt;a href=&#34;https://coreos.com/&#34;&gt;CoreOS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Licit cannabis industry software pioneer; former Chief Technology Officer, &lt;a href=&#34;http://kind.financial/agrisoft-seed-to-sale-software/&#34;&gt;Agrisoft&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Cofounder, &lt;a href=&#34;http://utopian.net&#34;&gt;Utopian.net&lt;/a&gt;: Making the web easy for artists
+(now a &lt;a href=&#34;http://johncompanies.com&#34;&gt;John Companies&lt;/a&gt; property)
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;labs.utopian.net&lt;/code&gt;: Development, experiments, &lt;em&gt;Track&lt;/em&gt;,
+proto-containerization, Plan 9&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Janitor, &lt;a href=&#34;http://illustrationfriday.com&#34;&gt;Illustration Friday&lt;/a&gt;: Creative project&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://joshix.com/projects/&#34;&gt;Projects&lt;/a&gt;, etc.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://joshix.com/post/&#34;&gt;The Eclectilepsy&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Illustration Friday: Communication</title>
+      <link>https://joshix.com/2007/02/23/illustration-friday-communication/</link>
+      <pubDate>Fri, 23 Feb 2007 15:51:00 +0000</pubDate>
+      <author>j@joshix.com (Josh Wood)</author>
+      <guid>https://joshix.com/2007/02/23/illustration-friday-communication/</guid>
+      <description>&lt;div class=&#34;separator&#34; style=&#34;clear: both; text-align: center;&#34;&gt;
+  &lt;img border=&#34;0&#34; src=&#34;https://joshix.com/img/ifri-20070223-communication.png&#34; /&gt;&lt;/a&gt;
+  &lt;div class=&#34;caption&#34;&gt;Beep.&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Ferry stern, Aegean</title>
+      <link>https://joshix.com/2006/11/27/ferry-stern-aegean/</link>
+      <pubDate>Mon, 27 Nov 2006 03:22:00 +0000</pubDate>
+      <author>j@joshix.com (Josh Wood)</author>
+      <guid>https://joshix.com/2006/11/27/ferry-stern-aegean/</guid>
+      <description>&lt;div class=&#34;separator&#34; style=&#34;clear: both; text-align: center;&#34;&gt;
+  &lt;img border=&#34;0&#34; src=&#34;https://joshix.com/img/flagaegean.jpg&#34; /&gt;&lt;/a&gt;
+  &lt;div class=&#34;caption&#34;&gt;Last leg of homeward odyssey on the Blue Star ferry Ithaki from Πειραιάς to Πάρος&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Sunrise, Piraeus</title>
+      <link>https://joshix.com/2006/11/27/sunrise-piraeus/</link>
+      <pubDate>Mon, 27 Nov 2006 00:34:00 +0000</pubDate>
+      <author>j@joshix.com (Josh Wood)</author>
+      <guid>https://joshix.com/2006/11/27/sunrise-piraeus/</guid>
+      <description>&lt;div class=&#34;separator&#34; style=&#34;clear: both; text-align: center;&#34;&gt;
+  &lt;img border=&#34;0&#34; src=&#34;https://joshix.com/img/sunrisepiraeus.jpg&#34; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Guardhouse, Attendorn</title>
+      <link>https://joshix.com/2006/11/26/guardhouse-attendorn/</link>
+      <pubDate>Sun, 26 Nov 2006 08:14:00 +0000</pubDate>
+      <author>j@joshix.com (Josh Wood)</author>
+      <guid>https://joshix.com/2006/11/26/guardhouse-attendorn/</guid>
+      <description>&lt;div class=&#34;separator&#34; style=&#34;clear: both; text-align: center;&#34;&gt;
+  &lt;img border=&#34;0&#34; src=&#34;https://joshix.com/img/guardhouse.jpg&#34; alt=&#34;Guardhouse, Attendorn Castle&#34;/&gt;&lt;/a&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

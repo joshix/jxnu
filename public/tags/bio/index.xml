@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bio on Josh Wood</title>
+    <link>https://joshix.com/tags/bio/</link>
+    <description>Recent content in Bio on Josh Wood</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>j@joshix.com (Josh Wood)</managingEditor>
+    <webMaster>j@joshix.com (Josh Wood)</webMaster>
+    <copyright>(c) 2016 Josh Wood.</copyright>
+    <lastBuildDate>Mon, 19 Jan 2009 02:47:53 +0000</lastBuildDate>
+    <atom:link href="https://joshix.com/tags/bio/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>About Josh</title>
+      <link>https://joshix.com/about/</link>
+      <pubDate>Mon, 19 Jan 2009 02:47:53 +0000</pubDate>
+      <author>j@joshix.com (Josh Wood)</author>
+      <guid>https://joshix.com/about/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;mailto:j@joshix.com&#34;&gt;j@joshix.com&lt;/a&gt; § &lt;a href=&#34;https://twitter.com/joshixisjosh9&#34;&gt;@joshixisjosh9&lt;/a&gt; § &lt;a href=&#34;https://github.com/joshix/&#34;&gt;github.com/joshix&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Man about machines. Tech maker, breaker, writer. Enjoys photographing
+polydactyl cats and writing short autobiographies.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;DocOps, &lt;a href=&#34;https://coreos.com/&#34;&gt;CoreOS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Licit cannabis industry software pioneer; former Chief Technology Officer, &lt;a href=&#34;http://kind.financial/agrisoft-seed-to-sale-software/&#34;&gt;Agrisoft&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Cofounder, &lt;a href=&#34;http://utopian.net&#34;&gt;Utopian.net&lt;/a&gt;: Making the web easy for artists
+(now a &lt;a href=&#34;http://johncompanies.com&#34;&gt;John Companies&lt;/a&gt; property)
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;labs.utopian.net&lt;/code&gt;: Development, experiments, &lt;em&gt;Track&lt;/em&gt;,
+proto-containerization, Plan 9&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Janitor, &lt;a href=&#34;http://illustrationfriday.com&#34;&gt;Illustration Friday&lt;/a&gt;: Creative project&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://joshix.com/projects/&#34;&gt;Projects&lt;/a&gt;, etc.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://joshix.com/post/&#34;&gt;The Eclectilepsy&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

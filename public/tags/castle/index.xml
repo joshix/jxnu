@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Castle on Josh Wood</title>
+    <link>https://joshix.com/tags/castle/</link>
+    <description>Recent content in Castle on Josh Wood</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>j@joshix.com (Josh Wood)</managingEditor>
+    <webMaster>j@joshix.com (Josh Wood)</webMaster>
+    <copyright>(c) 2016 Josh Wood.</copyright>
+    <lastBuildDate>Sun, 26 Nov 2006 08:14:00 +0000</lastBuildDate>
+    <atom:link href="https://joshix.com/tags/castle/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Guardhouse, Attendorn</title>
+      <link>https://joshix.com/2006/11/26/guardhouse-attendorn/</link>
+      <pubDate>Sun, 26 Nov 2006 08:14:00 +0000</pubDate>
+      <author>j@joshix.com (Josh Wood)</author>
+      <guid>https://joshix.com/2006/11/26/guardhouse-attendorn/</guid>
+      <description>&lt;div class=&#34;separator&#34; style=&#34;clear: both; text-align: center;&#34;&gt;
+  &lt;img border=&#34;0&#34; src=&#34;https://joshix.com/img/guardhouse.jpg&#34; alt=&#34;Guardhouse, Attendorn Castle&#34;/&gt;&lt;/a&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
