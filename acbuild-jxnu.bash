@@ -14,7 +14,7 @@ $HUGO
 # Start the build with the caddybox ACI. Not necessary
 # to rebuild it with every site content update.
 # Assumes the base ACI is in ../caddybox/.
-$ACBUILD --debug begin ../caddybox/caddy-v0.9.1-linux-amd64.aci
+$ACBUILD --debug begin ../caddybox/caddy-v0.9.5-linux-amd64.aci
 
 # In the event of the script exiting, end the build
 acbuildEnd() {
@@ -34,4 +34,4 @@ $ACBUILD --debug copy ./Caddyfile /Caddyfile
 $ACBUILD --debug set-exec -- /bin/caddy -root /var/www/public
 
 # Save the ACI
-$ACBUILD --debug write --overwrite jxnu-v2-caddy-v0.9.1-linux-amd64.aci
+$ACBUILD --debug write --overwrite jxnu-v2-caddy-v0.9.5-linux-amd64.aci
