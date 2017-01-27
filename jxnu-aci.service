@@ -18,7 +18,7 @@ ExecStart=/usr/bin/rkt run --insecure-options=image \
 --port http:80 --port https:443 \
 --dns=8.8.8.8 --dns=8.8.4.4 \
 --volume dotcaddy,kind=host,source=/home/core/dotcaddy,readOnly=false \
-/home/core/jxnu-v2-caddy-v0.9.1-linux-amd64.aci
+/home/core/jxnu-v2-caddy-v0.9.5-linux-amd64.aci
 KillMode=mixed
 Restart=always
 
