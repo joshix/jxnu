@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mb on Josh Wood</title>
+    <link>https://joshix.com/tags/mb/</link>
+    <description>Recent content in Mb on Josh Wood</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>j@joshix.com (Josh Wood)</managingEditor>
+    <webMaster>j@joshix.com (Josh Wood)</webMaster>
+    <copyright>(c) 2016 Josh Wood.</copyright>
+    <lastBuildDate>Sun, 07 Feb 2016 01:32:28 -0800</lastBuildDate>
+    <atom:link href="https://joshix.com/tags/mb/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>mb(1) - microbe</title>
+      <link>https://joshix.com/project/mb/</link>
+      <pubDate>Sun, 07 Feb 2016 01:32:28 -0800</pubDate>
+      <author>j@joshix.com (Josh Wood)</author>
+      <guid>https://joshix.com/project/mb/</guid>
+      <description>
+
+&lt;p&gt;&lt;em&gt;Mb&lt;/em&gt; &amp;ndash; &lt;a href=&#34;../../2011/04/22/microbe-updated/&#34;&gt;New version, new name&lt;/a&gt;, 2011-04-22&lt;/p&gt;
+
+&lt;p&gt;Elaborations on the theme of &lt;a href=&#34;http://plan9.bell-labs.com/sources/contrib/anothy/bin/rc/tweet&#34;&gt;anothy&amp;rsquo;s original &lt;em&gt;tweet&lt;/em&gt;&lt;/a&gt;. Occasionally useful as prototype API poking sticks during development of larger clients for other systems — and of course to keep up with the web joneses from the comfort and safety of Plan 9.&lt;/p&gt;
+
+&lt;p&gt;These files are available in the Bell Labs Plan 9 sources contrib area, i.e., &lt;a href=&#34;http://plan9.bell-labs.com/sources/contrib/josh/rc/mb/&#34;&gt;&lt;code&gt;/n/sources/contrib/josh/rc/mb&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;name&#34;&gt;NAME&lt;/h3&gt;
+
+&lt;p&gt;read, write – simple microblogging&lt;/p&gt;
+
+&lt;h3 id=&#34;synopsis&#34;&gt;SYNOPSIS&lt;/h3&gt;
+
+&lt;p&gt;&lt;code&gt;mb/read [ –pr ] [ –h url ] [ user ]&lt;/code&gt;&lt;br /&gt;
+&lt;code&gt;mb/write [ –d ] [ –h url ] [ text ... ]&lt;/code&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;description&#34;&gt;DESCRIPTION&lt;/h3&gt;
+
+&lt;p&gt;These &lt;code&gt;rc(1)&lt;/code&gt; scripts are simple clients for reading and writing on microblogs; that is, short message publication services that implement the so–called Twitter API.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;Read&lt;/code&gt; prints on the standard output a microblog user &lt;code&gt;user&lt;/code&gt;&amp;rsquo;s &amp;ldquo;Personal Timeline&amp;rdquo; at the API root URL &lt;code&gt;url&lt;/code&gt;. In the absence of &lt;code&gt;–h&lt;/code&gt;, the value of the environment variable &lt;code&gt;mbapiurl&lt;/code&gt;, if any, is used. If no &lt;code&gt;user&lt;/code&gt; is given, the environment variable &lt;code&gt;mbuser&lt;/code&gt; is consulted. If &lt;code&gt;$mbuser&lt;/code&gt; is in turn empty, &lt;code&gt;$user&lt;/code&gt; is presumed as the remote user name. Under &lt;code&gt;–r&lt;/code&gt;, &lt;code&gt;read&lt;/code&gt; prints only replies sent to the &lt;code&gt;user&lt;/code&gt;. Option &lt;code&gt;–p&lt;/code&gt; prints the entire &amp;ldquo;Public Timeline&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;Write&lt;/code&gt; publishes text to the microblog service at the API root &lt;code&gt;url&lt;/code&gt;. If &lt;code&gt;–h&lt;/code&gt; is omitted, &lt;code&gt;write&lt;/code&gt; uses the value of the environment variable &lt;code&gt;mbapiurl&lt;/code&gt; for the service URL. If &lt;code&gt;text&lt;/code&gt; is not given, a single line is read from standard input. The &lt;code&gt;–d&lt;/code&gt; flag prints the server response (in XML format) on standard error.&lt;/p&gt;
+
+&lt;p&gt;Both programs query &lt;code&gt;factotum(4)&lt;/code&gt; for authentication as needed.&lt;/p&gt;
+
+&lt;h3 id=&#34;example&#34;&gt;EXAMPLE&lt;/h3&gt;
+
+&lt;p&gt;Read the Identi.ca home timeline of screenname &lt;code&gt;glenda&lt;/code&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;mb/read –h https://identi.ca/api glenda&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Read the Twitter home timeline of the authenticated user:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;mb/read –h http://api.supertweet.net/1&lt;/code&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;source&#34;&gt;SOURCE&lt;/h3&gt;
+
+&lt;p&gt;&lt;code&gt;/rc/bin/mb&lt;/code&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;see-also&#34;&gt;SEE ALSO&lt;/h3&gt;
+
+&lt;p&gt;&lt;code&gt;hget(1)&lt;/code&gt;, &lt;code&gt;read&lt;/code&gt; in &lt;code&gt;cat(1)&lt;/code&gt;&lt;br /&gt;
+&lt;a href=&#34;http://status.net&#34;&gt;http://status.net&lt;/a&gt;, &amp;ldquo;StatusNet&amp;rdquo;&lt;br /&gt;
+&lt;a href=&#34;http://apiwiki.twitter.com&#34;&gt;http://apiwiki.twitter.com&lt;/a&gt;, &amp;ldquo;Twitter API Wiki&amp;rdquo;&lt;br /&gt;
+&lt;a href=&#34;http://www.supertweet.net&#34;&gt;http://www.supertweet.net&lt;/a&gt;, &amp;ldquo;Twitter API Proxy&amp;rdquo;&lt;/p&gt;
+
+&lt;h3 id=&#34;diagnostics&#34;&gt;DIAGNOSTICS&lt;/h3&gt;
+
+&lt;p&gt;Write refuses text &lt;1 or &gt;140 runes, exiting with status &lt;code&gt;length&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;bugs&#34;&gt;BUGS&lt;/h3&gt;
+
+&lt;p&gt;The &lt;code&gt;user&lt;/code&gt; argument and the &lt;code&gt;mbuser&lt;/code&gt; environment variable have no effect when reading Twitter via the known API proxy, which exposes only an authenticated user&amp;rsquo;s timelines.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>YATC, mb(1) &#34;microbe&#34; updated</title>
+      <link>https://joshix.com/2011/04/22/microbe-updated/</link>
+      <pubDate>Fri, 22 Apr 2011 18:07:17 -0800</pubDate>
+      <author>j@joshix.com (Josh Wood)</author>
+      <guid>https://joshix.com/2011/04/22/microbe-updated/</guid>
+      <description>
+
+&lt;p&gt;I updated the simple Plan 9 microblogging scripts, &lt;a href=&#34;https://joshix.com/project/mb/&#34;&gt;&lt;em&gt;mb&lt;/em&gt;(1)&lt;/a&gt;, not often but
+sometimes also called &amp;ldquo;microbe&amp;rdquo;, and almost never known as &amp;ldquo;&lt;em&gt;meekroh-bee&lt;/em&gt;&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;All file and environment variable names have changed since the last release
+(c.2009, AD), replacing the &amp;ldquo;special&amp;rdquo; character &lt;em&gt;micro&lt;/em&gt; (HTML’s &lt;code&gt;&amp;amp;micro;&lt;/code&gt;, &amp;micro;, µ)
+with a plain &lt;em&gt;m&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;The &lt;code&gt;awk | sed&lt;/code&gt; filter pipeline at the center of any useful improvement was taken
+from &lt;a href=&#34;http://plan9.stanleylieber.com/rc/tw&#34;&gt;Stanley Lieber’s tw&lt;/a&gt; Twitter script.&lt;/p&gt;
+
+&lt;h2 id=&#34;mb-read-changes&#34;&gt;&lt;em&gt;mb/read&lt;/em&gt; changes&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Uses XML API&lt;/li&gt;
+&lt;li&gt;Changed output order: now oldest-first. A feature, especially in
+&lt;a href=&#34;https://plan9.bell-labs.com/sys/man/1/acme&#34;&gt;&lt;em&gt;acme&lt;/em&gt;(1)&lt;/a&gt;.
+Get the old school, newest-first ordering by appending, e.g.,
+&lt;code&gt;| sed &#39;x;1!H;$!d;x&#39;&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;No timestamps shown&lt;/li&gt;
+&lt;li&gt;No “from client” source tag shown&lt;/li&gt;
+&lt;li&gt;Directory moved from &lt;code&gt;/rc/bin/µb/&lt;/code&gt; to &lt;code&gt;/rc/bin/mb/&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Environment variables renamed:
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;µblog&lt;/code&gt; to &lt;code&gt;mbapiurl&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;µsr&lt;/code&gt; to &lt;code&gt;mbuser&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;mb-write-changes&#34;&gt;&lt;em&gt;mb/write&lt;/em&gt; changes&lt;/h2&gt;
+
+&lt;p&gt;Trivial. Write always spoke API, so the the changes were limited, syncing env names, etc.&lt;/p&gt;
+
+&lt;h2 id=&#34;example-twitter&#34;&gt;Example: Twitter&lt;/h2&gt;
+
+&lt;p&gt;A side effect of proper API use gives mb/read ready access to Twitter timelines through services like the Supertweet API proxy.&lt;/p&gt;
+
+&lt;p&gt;To use the Supertweet service, visit their site to OAuth‘orize a Supertweet account to your Twitter account. You must then assign a password to your Supertweet account that will be used for HTTP Basic auth to the API proxy. You can then mb/read and mb/write Twitter:&lt;/p&gt;
+
+&lt;p&gt;Say it:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;mb/write -h http://api.supertweet.net/1 Hello World.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;See it:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;mb/read -h http://api.supertweet.net/1
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;You’ll be asked for the proxy name and password you created at Supertweet unless it is available from &lt;a href=&#34;https://plan9.bell-labs.com/sys/man/4/factotum&#34;&gt;&lt;em&gt;factotum&lt;/em&gt;(4)&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Identi.Ca on Josh Wood</title>
+    <link>https://joshix.com/tags/identi/index.ca/</link>
+    <description>Recent content in Identi.Ca on Josh Wood</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>j@joshix.com (Josh Wood)</managingEditor>
+    <webMaster>j@joshix.com (Josh Wood)</webMaster>
+    <copyright>(c) 2016 Josh Wood.</copyright>
+    <lastBuildDate>Wed, 15 Jun 2016 21:37:28 -0700</lastBuildDate>
+    <atom:link href="https://joshix.com/tags/identi.ca/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Identilion - an iOS µblog app</title>
+      <link>https://joshix.com/project/identilion/</link>
+      <pubDate>Wed, 15 Jun 2016 21:37:28 -0700</pubDate>
+      <author>j@joshix.com (Josh Wood)</author>
+      <guid>https://joshix.com/project/identilion/</guid>
+      <description>&lt;p&gt;&amp;ldquo;Identilion&amp;rdquo; began as a five minute hack to make &lt;a href=&#34;https://github.com/takuma104/ntlniph&#34;&gt;NatsuLiphone&lt;/a&gt;, an open source iOS Twitter client, work with our federated &lt;a href=&#34;http://gnu.org/software/social/&#34;&gt;Statusnet&lt;/a&gt; instance at &lt;a href=&#34;http://utopian.net&#34;&gt;Utopian.net&lt;/a&gt;. It took about 2 minutes to change the URL strings, the other 3 to rename things so that both apps could run on the same iPhone. My mutant version was originally referred to as &lt;em&gt;Lionica&lt;/em&gt;, a name that persists in the &lt;a href=&#34;https://github.com/joshix/identilion/tree/lionica&#34;&gt;branch for the Identilion source code&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Identilion evolved to connect to any Twitter-compatible API, rather than being hardwired to a single service. This choice of Twitter-alike web services does not include Twitter itself, because Identilion doesn’t support OAuth. OAuth code exists but is not enabled.&lt;/p&gt;
+
+&lt;p&gt;The last builds carry version number 1.51.5, the fifth revision of a fork from NatsuLiphone v1.51. Identilion is no longer in use and is not maintained. &lt;a href=&#34;https://joshix.com/img/identilion/screens/&#34;&gt;Screenshots&lt;/a&gt; give a flavor of the user interface and the API server settings.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://joshix.com/img/identilion/screens/2-account.png&#34; title=&#34;Account&#34; alt=&#34;Account&#34; /&gt;
+&lt;img src=&#34;https://joshix.com/img/identilion/screens/3-read.png&#34; title=&#34;Reading&#34; alt=&#34;Reading&#34; /&gt;
+&lt;img src=&#34;https://joshix.com/img/identilion/screens/4-write.jpg&#34; title=&#34;Writing a Reply&#34; alt=&#34;Writing&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

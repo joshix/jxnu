@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Josh Wood</title>
+    <link>https://joshix.com/post/</link>
+    <description>Recent content in Posts on Josh Wood</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>j@joshix.com (Josh Wood)</managingEditor>
+    <webMaster>j@joshix.com (Josh Wood)</webMaster>
+    <copyright>(c) 2016 Josh Wood.</copyright>
+    <lastBuildDate>Sun, 12 Jun 2016 04:18:56 -0800</lastBuildDate>
+    <atom:link href="https://joshix.com/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Migration brief</title>
+      <link>https://joshix.com/2016/06/12/migration-brief/</link>
+      <pubDate>Sun, 12 Jun 2016 04:18:56 -0800</pubDate>
+      <author>j@joshix.com (Josh Wood)</author>
+      <guid>https://joshix.com/2016/06/12/migration-brief/</guid>
+      <description>
+
+&lt;p&gt;This is a mostly-migrated version of the once and future joshix.com:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Built with &lt;a href=&#34;http://gohugo.io&#34;&gt;&lt;em&gt;Hugo&lt;/em&gt;&lt;/a&gt;,&lt;/li&gt;
+&lt;li&gt;served by the &lt;a href=&#34;https://caddyserver.com&#34;&gt;&lt;em&gt;Caddy&lt;/em&gt; web server&lt;/a&gt; with automatic
+&lt;em&gt;Let&amp;rsquo;s Encrypt&lt;/em&gt; TLS and HTTP/2,&lt;/li&gt;
+&lt;li&gt;packaged in a discrete &lt;a href=&#34;https://github.com/appc/spec&#34;&gt;App Container Image (ACI)&lt;/a&gt; based on &lt;a href=&#34;https://github.com/joshix/caddybox&#34;&gt;caddybox&lt;/a&gt;,&lt;/li&gt;
+&lt;li&gt;executed by the &lt;a href=&#34;https://coreos.com/rkt/&#34;&gt;&lt;code&gt;rkt&lt;/code&gt; container engine&lt;/a&gt;,&lt;/li&gt;
+&lt;li&gt;running on &lt;a href=&#34;https://coreos.com&#34;&gt;CoreOS Linux&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;todo&#34;&gt;TODO:&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;[x] Use &lt;code&gt;rkt&lt;/code&gt; instead of docker.&lt;/li&gt;
+&lt;li&gt;[ ] Cluster-ify with K8s and &amp;ldquo;rktnetes&amp;rdquo;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;To be continued&amp;hellip;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>At the oyster cellar</title>
+      <link>https://joshix.com/2013/12/15/oyster-cellar/</link>
+      <pubDate>Sun, 15 Dec 2013 21:11:00 +0000</pubDate>
+      <author>j@joshix.com (Josh Wood)</author>
+      <guid>https://joshix.com/2013/12/15/oyster-cellar/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;S&lt;/strong&gt;: What are the oysters tonight?&lt;br /&gt;
+&lt;strong&gt;T&lt;/strong&gt;: We have lots of oysters.&lt;br /&gt;
+&lt;em&gt;Pause&lt;/em&gt;.&lt;br /&gt;
+&lt;strong&gt;S&lt;/strong&gt;: Lots of kinds of oysters, or just very many oysters?&lt;br /&gt;
+&lt;strong&gt;T&lt;/strong&gt;: (&lt;em&gt;uncertainly&lt;/em&gt;) Lots of kinds.&lt;br /&gt;
+&lt;em&gt;Pause&lt;/em&gt;.&lt;br /&gt;
+&lt;strong&gt;S&lt;/strong&gt;: OK. So&amp;hellip; I&amp;rsquo;ll just name all the kinds of oysters I know, and when I hit on one you have, you tap your foot twice.&lt;br /&gt;
+&lt;strong&gt;T&lt;/strong&gt;: I&amp;rsquo;d need to go get a list.&lt;br /&gt;
+&lt;strong&gt;S&lt;/strong&gt;: Probably.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Illustration Friday: Future</title>
+      <link>https://joshix.com/2013/05/12/illustration-friday-future/</link>
+      <pubDate>Sun, 12 May 2013 12:30:00 +0000</pubDate>
+      <author>j@joshix.com (Josh Wood)</author>
+      <guid>https://joshix.com/2013/05/12/illustration-friday-future/</guid>
+      <description>&lt;div class=&#34;separator&#34; style=&#34;clear: both; text-align: center;&#34;&gt;
+  &lt;img border=&#34;0&#34; src=&#34;https://joshix.com/img/continuous8ball.png&#34; /&gt;&lt;/a&gt;
+  &lt;div class=&#34;caption&#34;&gt;Signs point to Yes&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>One reader writes:</title>
+      <link>https://joshix.com/2011/07/11/one-reader-writes/</link>
+      <pubDate>Mon, 11 Jul 2011 14:53:00 +0000</pubDate>
+      <author>j@joshix.com (Josh Wood)</author>
+      <guid>https://joshix.com/2011/07/11/one-reader-writes/</guid>
+      <description>&lt;p&gt;Merger merger Android startup stock option implementation deadline! Professionalize Twitter social patent network effect artificial Linux scarcity! Freedom source monetize Bitcoin buyout Microsoft strategy! Mobile ubiquitous real-time synergy! Venture cap software stack core competency.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>YATC, mb(1) &#34;microbe&#34; updated</title>
+      <link>https://joshix.com/2011/04/22/microbe-updated/</link>
+      <pubDate>Fri, 22 Apr 2011 18:07:17 -0800</pubDate>
+      <author>j@joshix.com (Josh Wood)</author>
+      <guid>https://joshix.com/2011/04/22/microbe-updated/</guid>
+      <description>
+
+&lt;p&gt;I updated the simple Plan 9 microblogging scripts, &lt;a href=&#34;https://joshix.com/project/mb/&#34;&gt;&lt;em&gt;mb&lt;/em&gt;(1)&lt;/a&gt;, not often but
+sometimes also called &amp;ldquo;microbe&amp;rdquo;, and almost never known as &amp;ldquo;&lt;em&gt;meekroh-bee&lt;/em&gt;&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;All file and environment variable names have changed since the last release
+(c.2009, AD), replacing the &amp;ldquo;special&amp;rdquo; character &lt;em&gt;micro&lt;/em&gt; (HTML’s &lt;code&gt;&amp;amp;micro;&lt;/code&gt;, &amp;micro;, µ)
+with a plain &lt;em&gt;m&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;The &lt;code&gt;awk | sed&lt;/code&gt; filter pipeline at the center of any useful improvement was taken
+from &lt;a href=&#34;http://plan9.stanleylieber.com/rc/tw&#34;&gt;Stanley Lieber’s tw&lt;/a&gt; Twitter script.&lt;/p&gt;
+
+&lt;h2 id=&#34;mb-read-changes&#34;&gt;&lt;em&gt;mb/read&lt;/em&gt; changes&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Uses XML API&lt;/li&gt;
+&lt;li&gt;Changed output order: now oldest-first. A feature, especially in
+&lt;a href=&#34;https://plan9.bell-labs.com/sys/man/1/acme&#34;&gt;&lt;em&gt;acme&lt;/em&gt;(1)&lt;/a&gt;.
+Get the old school, newest-first ordering by appending, e.g.,
+&lt;code&gt;| sed &#39;x;1!H;$!d;x&#39;&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;No timestamps shown&lt;/li&gt;
+&lt;li&gt;No “from client” source tag shown&lt;/li&gt;
+&lt;li&gt;Directory moved from &lt;code&gt;/rc/bin/µb/&lt;/code&gt; to &lt;code&gt;/rc/bin/mb/&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Environment variables renamed:
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;µblog&lt;/code&gt; to &lt;code&gt;mbapiurl&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;µsr&lt;/code&gt; to &lt;code&gt;mbuser&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;mb-write-changes&#34;&gt;&lt;em&gt;mb/write&lt;/em&gt; changes&lt;/h2&gt;
+
+&lt;p&gt;Trivial. Write always spoke API, so the the changes were limited, syncing env names, etc.&lt;/p&gt;
+
+&lt;h2 id=&#34;example-twitter&#34;&gt;Example: Twitter&lt;/h2&gt;
+
+&lt;p&gt;A side effect of proper API use gives mb/read ready access to Twitter timelines through services like the Supertweet API proxy.&lt;/p&gt;
+
+&lt;p&gt;To use the Supertweet service, visit their site to OAuth‘orize a Supertweet account to your Twitter account. You must then assign a password to your Supertweet account that will be used for HTTP Basic auth to the API proxy. You can then mb/read and mb/write Twitter:&lt;/p&gt;
+
+&lt;p&gt;Say it:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;mb/write -h http://api.supertweet.net/1 Hello World.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;See it:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;mb/read -h http://api.supertweet.net/1
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;You’ll be asked for the proxy name and password you created at Supertweet unless it is available from &lt;a href=&#34;https://plan9.bell-labs.com/sys/man/4/factotum&#34;&gt;&lt;em&gt;factotum&lt;/em&gt;(4)&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Scrub Jay</title>
+      <link>https://joshix.com/2009/09/25/scrub-jay/</link>
+      <pubDate>Fri, 25 Sep 2009 05:35:00 +0000</pubDate>
+      <author>j@joshix.com (Josh Wood)</author>
+      <guid>https://joshix.com/2009/09/25/scrub-jay/</guid>
+      <description>&lt;div class=&#34;separator&#34; style=&#34;clear: both; text-align: center;&#34;&gt;
+  &lt;img border=&#34;0&#34; src=&#34;https://joshix.com/img/scrubjay.jpg&#34; /&gt;&lt;/a&gt;
+  &lt;div class=&#34;caption&#34;&gt;Western Scrub Jay (&lt;em&gt;Aphelocoma californica&lt;/em&gt;)&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Illustration Friday: Communication</title>
+      <link>https://joshix.com/2007/02/23/illustration-friday-communication/</link>
+      <pubDate>Fri, 23 Feb 2007 15:51:00 +0000</pubDate>
+      <author>j@joshix.com (Josh Wood)</author>
+      <guid>https://joshix.com/2007/02/23/illustration-friday-communication/</guid>
+      <description>&lt;div class=&#34;separator&#34; style=&#34;clear: both; text-align: center;&#34;&gt;
+  &lt;img border=&#34;0&#34; src=&#34;https://joshix.com/img/ifri-20070223-communication.png&#34; /&gt;&lt;/a&gt;
+  &lt;div class=&#34;caption&#34;&gt;Beep.&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Ferry stern, Aegean</title>
+      <link>https://joshix.com/2006/11/27/ferry-stern-aegean/</link>
+      <pubDate>Mon, 27 Nov 2006 03:22:00 +0000</pubDate>
+      <author>j@joshix.com (Josh Wood)</author>
+      <guid>https://joshix.com/2006/11/27/ferry-stern-aegean/</guid>
+      <description>&lt;div class=&#34;separator&#34; style=&#34;clear: both; text-align: center;&#34;&gt;
+  &lt;img border=&#34;0&#34; src=&#34;https://joshix.com/img/flagaegean.jpg&#34; /&gt;&lt;/a&gt;
+  &lt;div class=&#34;caption&#34;&gt;Last leg of homeward odyssey on the Blue Star ferry Ithaki from Πειραιάς to Πάρος&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Sunrise, Piraeus</title>
+      <link>https://joshix.com/2006/11/27/sunrise-piraeus/</link>
+      <pubDate>Mon, 27 Nov 2006 00:34:00 +0000</pubDate>
+      <author>j@joshix.com (Josh Wood)</author>
+      <guid>https://joshix.com/2006/11/27/sunrise-piraeus/</guid>
+      <description>&lt;div class=&#34;separator&#34; style=&#34;clear: both; text-align: center;&#34;&gt;
+  &lt;img border=&#34;0&#34; src=&#34;https://joshix.com/img/sunrisepiraeus.jpg&#34; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Guardhouse, Attendorn</title>
+      <link>https://joshix.com/2006/11/26/guardhouse-attendorn/</link>
+      <pubDate>Sun, 26 Nov 2006 08:14:00 +0000</pubDate>
+      <author>j@joshix.com (Josh Wood)</author>
+      <guid>https://joshix.com/2006/11/26/guardhouse-attendorn/</guid>
+      <description>&lt;div class=&#34;separator&#34; style=&#34;clear: both; text-align: center;&#34;&gt;
+  &lt;img border=&#34;0&#34; src=&#34;https://joshix.com/img/guardhouse.jpg&#34; alt=&#34;Guardhouse, Attendorn Castle&#34;/&gt;&lt;/a&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Athens top front</title>
+      <link>https://joshix.com/2006/10/31/athens-top-front/</link>
+      <pubDate>Tue, 31 Oct 2006 14:33:00 +0000</pubDate>
+      <author>j@joshix.com (Josh Wood)</author>
+      <guid>https://joshix.com/2006/10/31/athens-top-front/</guid>
+      <description>&lt;div class=&#34;separator&#34; style=&#34;clear: both; text-align: center;&#34;&gt;&lt;a href=&#34;https://joshix.com/img/Athens-balcony-buildings.jpg&#34; imageanchor=&#34;1&#34; style=&#34;margin-left: 1em; margin-right: 1em;&#34;&gt;&lt;img border=&#34;0&#34; src=&#34;https://joshix.com/img/Athens-balcony-buildings.jpg&#34; /&gt;&lt;/a&gt;&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Hotel Attalos, Athens</title>
+      <link>https://joshix.com/2006/10/30/hotel-attalos-athens/</link>
+      <pubDate>Mon, 30 Oct 2006 20:23:00 +0000</pubDate>
+      <author>j@joshix.com (Josh Wood)</author>
+      <guid>https://joshix.com/2006/10/30/hotel-attalos-athens/</guid>
+      <description>&lt;div class=&#34;separator&#34; style=&#34;clear: both; text-align: center;&#34;&gt;&lt;a href=&#34;https://joshix.com/img/attalos-sign.jpg&#34; imageanchor=&#34;1&#34; style=&#34;margin-left: 1em; margin-right: 1em;&#34;&gt;&lt;img border=&#34;0&#34; src=&#34;https://joshix.com/img/attalos-sign.jpg&#34; /&gt;&lt;/a&gt;&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Courtyard</title>
+      <link>https://joshix.com/2006/10/13/courtyard/</link>
+      <pubDate>Fri, 13 Oct 2006 22:00:00 +0000</pubDate>
+      <author>j@joshix.com (Josh Wood)</author>
+      <guid>https://joshix.com/2006/10/13/courtyard/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Paros. October 2006.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;I stood on the rail and looked over the stone wall of the courtyard&lt;br /&gt;
+Through the crosshairs of the crucifix atop the blue dome of the church&lt;br /&gt;
+I saw people moving in the house-lights on the hillside&lt;br /&gt;
+They seemed like signals&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Cycladic (Conventionalized)</title>
+      <link>https://joshix.com/2006/09/28/cycladic-conventionalized/</link>
+      <pubDate>Thu, 28 Sep 2006 09:39:00 +0000</pubDate>
+      <author>j@joshix.com (Josh Wood)</author>
+      <guid>https://joshix.com/2006/09/28/cycladic-conventionalized/</guid>
+      <description>&lt;div class=&#34;separator&#34; style=&#34;clear: both; text-align: center;&#34;&gt;
+  &lt;img border=&#34;0&#34; src=&#34;https://joshix.com/img/cycladicfigure.jpg&#34; alt=&#34;Cycladic figure&#34;/&gt;&lt;/a&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Roy Orbison</title>
+      <link>https://joshix.com/2005/12/07/roy-orbison/</link>
+      <pubDate>Wed, 07 Dec 2005 16:59:00 +0000</pubDate>
+      <author>j@joshix.com (Josh Wood)</author>
+      <guid>https://joshix.com/2005/12/07/roy-orbison/</guid>
+      <description>&lt;p&gt;pretty woman, give your smile to me&lt;br /&gt;
+that is an imperative&lt;br /&gt;
+I want to try it on&lt;br /&gt;
+and I promise&lt;br /&gt;
+not to wipe it off&lt;br /&gt;
+with my greaserag this time&lt;br /&gt;
+that last incident having been merely&lt;br /&gt;
+a confusion of identity of me&lt;br /&gt;
+for my brother who is not me&lt;br /&gt;
+but is often mistaken for me&lt;/p&gt;
+
+&lt;p&gt;he’s the one who can play guitar&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

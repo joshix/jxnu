@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Schematic on Josh Wood</title>
+    <link>https://joshix.com/tags/schematic/</link>
+    <description>Recent content in Schematic on Josh Wood</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>j@joshix.com (Josh Wood)</managingEditor>
+    <webMaster>j@joshix.com (Josh Wood)</webMaster>
+    <copyright>(c) 2016 Josh Wood.</copyright>
+    <lastBuildDate>Fri, 23 Feb 2007 15:51:00 +0000</lastBuildDate>
+    <atom:link href="https://joshix.com/tags/schematic/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Illustration Friday: Communication</title>
+      <link>https://joshix.com/2007/02/23/illustration-friday-communication/</link>
+      <pubDate>Fri, 23 Feb 2007 15:51:00 +0000</pubDate>
+      <author>j@joshix.com (Josh Wood)</author>
+      <guid>https://joshix.com/2007/02/23/illustration-friday-communication/</guid>
+      <description>&lt;div class=&#34;separator&#34; style=&#34;clear: both; text-align: center;&#34;&gt;
+  &lt;img border=&#34;0&#34; src=&#34;https://joshix.com/img/ifri-20070223-communication.png&#34; /&gt;&lt;/a&gt;
+  &lt;div class=&#34;caption&#34;&gt;Beep.&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
