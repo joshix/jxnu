@@ -15,7 +15,7 @@ Markdown source, config, and tools for the [joshix.com][jx] web site container i
 ### New caddy->caddybox version
 
 1. New caddybox tag triggers build at Quay
-2. update Dockerfile `FROM` with desired caddybox tag, e.g., `quay.io/josh_wood/caddy:v0.9.5`
+2. update Dockerfile `FROM` with desired caddybox tag, e.g., `quay.io/josh_wood/caddy:v0.9.5-cb.1`
 3. Push jxnu to trigger build
 4. Update joshix.com:/etc/systemd/system/jxnu.service (unless set for :latest)
 
