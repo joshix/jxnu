@@ -1,0 +1,71 @@
+{
+  "hosting": {
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "redirects": [ {
+    "source" : "/2007/02/illustration-friday-communication.html",
+    "destination" : "/2007/02/23/illustration-friday-communication/",
+    "type" : 301
+  }, {
+    "source" : "/2009/09/scrub-jay.html",
+    "destination" : "/2009/09/25/scrub-jay/",
+    "type" : 301
+  }, {
+    "source" : "/2011/02/an-advantage-of-angles.html",
+    "destination" : "/2005/11/15/an-advantage-of-angles/",
+    "type" : 301
+  }, {
+    "source" : "/2011/02/courtyard.html",
+    "destination" : "/2006/10/13/courtyard/",
+    "type" : 301
+  }, {
+    "source" : "/2011/04/yatc-mb1-updated.html",
+    "destination" : "/2011/04/22/microbe-updated/",
+    "type" : 301
+  }, {
+    "source" : "/2011/07/one-reader-writes.html",
+    "destination" : "/2011/07/11/one-reader-writes/",
+    "type" : 301
+  }, {
+    "source" : "/2011/10/roy-orbison.html",
+    "destination" : "/2005/12/07/roy-orbison/",
+    "type" : 301
+  }, {
+    "source" : "/2011/10/21/roy-orbison/",
+    "destination" : "/2005/12/07/roy-orbison/",
+    "type" : 301
+  }, {
+    "source" : "/2013/05/illustration-friday-future.html",
+    "destination" : "/2013/05/12/illustration-friday-future/",
+    "type" : 301
+  }, {
+    "source" : "/2013/12/at-oyster-cellar.html",
+    "destination" : "/2013/12/15/oyster-cellar/",
+    "type" : 301
+  }, {
+    "source" : "/p/about.html",
+    "destination" : "/about/",
+    "type" : 301
+  }, {
+    "source" : "/projects/discount",
+    "destination" : "/projects/#plan-9",
+    "type" : 301
+  }, {
+    "source" : "/projects/discount",
+    "destination" : "/projects/#plan-9",
+    "type" : 301
+  }, {
+    "source" : "/projects/mb",
+    "destination" : "/project/mb/",
+    "type" : 301
+  }, {
+    "source" : "/projects/weatherman",
+    "destination" : "/project/weatherman/",
+    "type" : 301
+    } ]
+  }
+}
