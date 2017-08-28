@@ -6,7 +6,6 @@ tags:
 date: 2009-01-19T02:47:53Z
 menu: main
 title: About Josh
-description: "Josh Wood"
 ---
 
 <j@joshix.com> § [@joshixisjosh9][jxtwitter] § [github.com/joshix][jxgithub]

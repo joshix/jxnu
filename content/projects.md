@@ -1,7 +1,6 @@
 ---
 author: Josh Wood
 date: 2016-02-28T15:55:56-08:00
-description: Code Projects
 draft: false
 tags:
 - software
@@ -18,7 +17,7 @@ type: page
 ## Containers &c.
 
 * [*Caddybox*][caddybox]: The [Caddy web server][caddy] in a container (ACI or Docker)
-* [*Jxnu*][jxnu]: Source and scripts to build this site. Joshix.com is deployed as an application container based on Caddybox, plus a tree of HTML files generated from Markdown by [Hugo][hugo].
+* [*Jxnu*][jxnu]: Markdown source and [Hugo][hugo] configuration to build this site
 
 ## Plan 9
 
