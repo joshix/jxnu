@@ -8,6 +8,7 @@ tags:
 - twitter
 - microblog
 title: mb(1) - microbe
+type: page
 ---
 
 *Mb* -- [New version, new name][mb-update-post], 2011-04-22
