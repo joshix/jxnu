@@ -8,7 +8,7 @@ menu: main
 title: About Josh
 ---
 
-<j@joshix.com> § [@joshixisjosh9][jxtwitter] § [github.com/joshix][jxgithub]
+<j@joshix.com> § [@joshixisjosh9][jxtwitter] § [github.com/joshix][jxgithub] § [speakerdeck.com/joshix][slides]
 
 Man about machines. Tech maker, breaker, writer. Enjoys photographing
 polydactyl cats and writing short autobiographies.
@@ -32,4 +32,5 @@ polydactyl cats and writing short autobiographies.
 [jxgithub]: https://github.com/joshix/
 [jxtwitter]: https://twitter.com/joshixisjosh9
 [projects]: /projects/
+[slides]: https://speakerdeck.com/joshix
 [utopian]: http://utopian.net
