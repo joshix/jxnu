@@ -17,8 +17,6 @@ polydactyl cats and writing short autobiographies.
 * Licit cannabis industry software pioneer; former Chief Technology Officer, [Agrisoft][agrisoft]
 * Cofounder, [Utopian.net][utopian]: Making the web easy for artists
   (now a [John Companies][joco] property)
-  * `labs.utopian.net`: Development, experiments, *Track*,
-     proto-containerization, Plan 9
 * Janitor, [Illustration Friday][ifri]: Creative project
 * [Projects][projects], etc.
 * [The Eclectilepsy][blog]
