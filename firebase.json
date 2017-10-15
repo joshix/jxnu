@@ -66,6 +66,38 @@
     "source" : "/projects/weatherman",
     "destination" : "/project/weatherman/",
     "type" : 301
-    } ]
+  }, {
+    "source" : "/search/label/eightball",
+    "destination" : "/tags/eightball/",
+    "type" : 301
+  }, {
+    "source" : "/search/label/Sessions",
+    "destination" : "/tags/sessions/",
+    "type" : 301
+  }, {
+    "source" : "/search/label/Drawing",
+    "destination" : "/tags/drawing/",
+    "type" : 301
+  }, {
+    "source" : "/search/label/seafood",
+    "destination" : "/tags/seafood/",
+    "type" : 301
+  }, {
+    "source" : "/search/label/illustration%20friday",
+    "destination" : "/tags/illustration-friday/",
+    "type" : 301
+  }, {
+    "source" : "/search/label/iphone",
+    "destination" : "/tags/iphone/",
+    "type" : 301
+  }, {
+    "source" : "/tags/microbe",
+    "destination" : "/tags/mb/",
+    "type" : 301
+  }, {
+    "source" : "/tag/flag",
+    "destination" : "/tags/flag/",
+    "type" : 301
+  } ]
   }
 }
