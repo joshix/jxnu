@@ -1,6 +1,6 @@
 ---
 author: Josh Wood
-date: 2016-02-28T15:55:56-08:00
+date: 2017-12-01T15:55:56-08:00
 draft: false
 tags:
 - software
@@ -16,7 +16,7 @@ type: page
 
 ## Containers &c.
 
-* [*Caddybox*][caddybox]: The [Caddy web server][caddy] in a container (ACI or Docker)
+* [*Caddybox*][caddybox]: The [Caddy web server][caddy] in a container
 * [*Jxnu*][jxnu]: Markdown source and [Hugo][hugo] configuration to build this site
 
 ## Plan 9
