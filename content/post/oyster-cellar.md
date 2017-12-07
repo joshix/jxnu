@@ -4,8 +4,6 @@ blogimport: true
 date: 2013-12-15T21:11:00Z
 draft: false
 tags:
-- service
-- seafood
 - oyster
 - Collected
 title: At the oyster cellar

@@ -7,6 +7,10 @@
       "**/node_modules/**"
     ],
     "redirects": [ {
+    "source" : "/blog/",
+    "destination" : "/",
+    "type" : 301
+  }, {
     "source" : "/2007/02/illustration-friday-communication.html",
     "destination" : "/2007/02/23/illustration-friday-communication/",
     "type" : 301
@@ -67,6 +71,10 @@
     "destination" : "/project/weatherman/",
     "type" : 301
   }, {
+    "source" : "/search/label/Collected",
+    "destination" : "/tags/collected/",
+    "type" : 301
+  }, {
     "source" : "/search/label/eightball",
     "destination" : "/tags/eightball/",
     "type" : 301
@@ -77,10 +85,6 @@
   }, {
     "source" : "/search/label/Drawing",
     "destination" : "/tags/drawing/",
-    "type" : 301
-  }, {
-    "source" : "/search/label/seafood",
-    "destination" : "/tags/seafood/",
     "type" : 301
   }, {
     "source" : "/search/label/illustration%20friday",
