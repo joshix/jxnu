@@ -1,6 +1,6 @@
 ---
 author: Josh Wood
-date: 2016-02-07T01:32:28-08:00
+date: 2009-09-07T01:32:28-08:00
 description: Plan 9 Twitter client
 tags:
 - Plan 9

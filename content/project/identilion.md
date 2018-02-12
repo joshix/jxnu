@@ -1,7 +1,7 @@
 ---
 author: Josh Wood
-date: 2016-06-15T21:37:28-07:00
-description: Description
+date: 2009-06-15T21:37:28-07:00
+description: iOS µblog app
 draft: false
 tags:
 - Twitter
@@ -10,7 +10,7 @@ tags:
 - OMB
 - iPhone
 - microblog
-title: Identilion - an iOS µblog app
+title: Identilion
 type: page
 ---
 
