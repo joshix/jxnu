@@ -71,6 +71,10 @@
     "destination" : "/project/weatherman/",
     "type" : 301
   }, {
+    "source" : "/img/identilion/screens/",
+    "destination" : "/project/identilion/screens/",
+    "type" : 301
+  }, {
     "source" : "/search/label/Collected",
     "destination" : "/tags/collected/",
     "type" : 301

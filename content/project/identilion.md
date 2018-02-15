@@ -28,6 +28,6 @@ The last builds carry version number 1.51.5, the fifth revision of a fork from N
 [lionica-branch]: https://github.com/joshix/identilion/tree/lionica
 [ntlniph]: https://github.com/takuma104/ntlniph
 [ntlniph-forkrev]: https://github.com/takuma104/ntlniph/commit/aeecaa177136d8b541d3e176a6ec05dc2965cc72
-[screens]: /img/identilion/screens/
+[screens]: /project/identilion/screens/
 [statusnet]: http://gnu.org/software/social/
 [utopian]: http://utopian.net
