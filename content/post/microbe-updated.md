@@ -1,7 +1,7 @@
 ---
 author: Josh Wood
 date: 2011-04-22T18:07:17-08:00
-description: Updates to the Plan 9 twitter client
+description:
 draft: false
 tags:
 - mb
