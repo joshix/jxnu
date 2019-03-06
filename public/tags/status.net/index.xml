@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Status.net on Josh Wood</title>
+    <link>https://jxx.joshix.com/tags/status.net/</link>
+    <description>Recent content in Status.net on Josh Wood</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>j@joshix.com (Josh Wood)</managingEditor>
+    <webMaster>j@joshix.com (Josh Wood)</webMaster>
+    <copyright>Josh Wood. All rights reserved.</copyright>
+    <lastBuildDate>Mon, 15 Jun 2009 21:37:28 -0700</lastBuildDate>
+    
+	<atom:link href="https://jxx.joshix.com/tags/status.net/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Identilion</title>
+      <link>https://jxx.joshix.com/project/identilion/</link>
+      <pubDate>Mon, 15 Jun 2009 21:37:28 -0700</pubDate>
+      <author>j@joshix.com (Josh Wood)</author>
+      <guid>https://jxx.joshix.com/project/identilion/</guid>
+      <description>&amp;ldquo;Identilion&amp;rdquo; began as a five minute hack to make NatsuLiphone, an open source iOS Twitter client, work with our federated Statusnet instance at Utopian.net. It took about 2 minutes to change the URL strings, the other 3 to rename things so that both apps could run on the same iPhone. My mutant version was originally referred to as Lionica, a name that persists in the branch for the Identilion source code.</description>
+    </item>
+    
+  </channel>
+</rss>

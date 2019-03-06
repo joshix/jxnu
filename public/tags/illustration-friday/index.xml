@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Illustration Friday on Josh Wood</title>
+    <link>https://jxx.joshix.com/tags/illustration-friday/</link>
+    <description>Recent content in Illustration Friday on Josh Wood</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>j@joshix.com (Josh Wood)</managingEditor>
+    <webMaster>j@joshix.com (Josh Wood)</webMaster>
+    <copyright>Josh Wood. All rights reserved.</copyright>
+    <lastBuildDate>Sun, 12 May 2013 12:30:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://jxx.joshix.com/tags/illustration-friday/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Illustration Friday: Future</title>
+      <link>https://jxx.joshix.com/2013/05/12/illustration-friday-future/</link>
+      <pubDate>Sun, 12 May 2013 12:30:00 +0000</pubDate>
+      <author>j@joshix.com (Josh Wood)</author>
+      <guid>https://jxx.joshix.com/2013/05/12/illustration-friday-future/</guid>
+      <description> Signs point to Yes  </description>
+    </item>
+    
+    <item>
+      <title>Illustration Friday: Communication</title>
+      <link>https://jxx.joshix.com/2007/02/23/illustration-friday-communication/</link>
+      <pubDate>Fri, 23 Feb 2007 15:51:00 +0000</pubDate>
+      <author>j@joshix.com (Josh Wood)</author>
+      <guid>https://jxx.joshix.com/2007/02/23/illustration-friday-communication/</guid>
+      <description> Beep.  </description>
+    </item>
+    
+  </channel>
+</rss>

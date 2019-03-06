@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Josh Wood</title>
+    <link>https://jxx.joshix.com/</link>
+    <description>Recent content on Josh Wood</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>j@joshix.com (Josh Wood)</managingEditor>
+    <webMaster>j@joshix.com (Josh Wood)</webMaster>
+    <copyright>Josh Wood. All rights reserved.</copyright>
+    <lastBuildDate>Sun, 12 Jun 2016 04:18:56 -0800</lastBuildDate>
+    
+	<atom:link href="https://jxx.joshix.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Migration brief</title>
+      <link>https://jxx.joshix.com/2016/06/12/migration-brief/</link>
+      <pubDate>Sun, 12 Jun 2016 04:18:56 -0800</pubDate>
+      <author>j@joshix.com (Josh Wood)</author>
+      <guid>https://jxx.joshix.com/2016/06/12/migration-brief/</guid>
+      <description>&lt;p&gt;The &amp;ldquo;&lt;a href=&#34;https://github.com/joshix/jxnu&#34;&gt;jxnu&lt;/a&gt;&amp;rdquo; project put the site&amp;rsquo;s old content atop new infrastructure. This is a mostly-migrated version of the once and future joshix.com:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Built with &lt;a href=&#34;http://gohugo.io&#34;&gt;&lt;em&gt;Hugo&lt;/em&gt;&lt;/a&gt;,&lt;/li&gt;
+&lt;li&gt;served by the &lt;a href=&#34;https://caddyserver.com&#34;&gt;&lt;em&gt;Caddy&lt;/em&gt; web server&lt;/a&gt; with automatic
+&lt;em&gt;Let&amp;rsquo;s Encrypt&lt;/em&gt; TLS and HTTP/2,&lt;/li&gt;
+&lt;li&gt;packaged in a discrete &lt;a href=&#34;https://github.com/appc/spec&#34;&gt;App Container Image (ACI)&lt;/a&gt; based on &lt;a href=&#34;https://github.com/joshix/caddybox&#34;&gt;caddybox&lt;/a&gt;,&lt;/li&gt;
+&lt;li&gt;executed by the &lt;a href=&#34;https://coreos.com/rkt/&#34;&gt;&lt;code&gt;rkt&lt;/code&gt; container engine&lt;/a&gt;,&lt;/li&gt;
+&lt;li&gt;running on &lt;a href=&#34;https://coreos.com/os/docs/latest/&#34;&gt;CoreOS Linux&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>At the oyster cellar</title>
+      <link>https://jxx.joshix.com/2013/12/15/oyster-cellar/</link>
+      <pubDate>Sun, 15 Dec 2013 21:11:00 +0000</pubDate>
+      <author>j@joshix.com (Josh Wood)</author>
+      <guid>https://jxx.joshix.com/2013/12/15/oyster-cellar/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;S&lt;/strong&gt;: What are the oysters tonight?&lt;br /&gt;
+&lt;strong&gt;T&lt;/strong&gt;: We have lots of oysters.&lt;br /&gt;
+&lt;em&gt;Pause&lt;/em&gt;.&lt;br /&gt;
+&lt;strong&gt;S&lt;/strong&gt;: Lots of kinds of oysters, or just very many oysters?&lt;br /&gt;
+&lt;strong&gt;T&lt;/strong&gt;: (&lt;em&gt;uncertainly&lt;/em&gt;) Lots of kinds.&lt;br /&gt;
+&lt;em&gt;Pause&lt;/em&gt;.&lt;br /&gt;
+&lt;strong&gt;S&lt;/strong&gt;: OK. So&amp;hellip; I&amp;rsquo;ll just name all the kinds of oysters I know, and when I hit on one you have, you tap your foot twice.&lt;br /&gt;
+&lt;strong&gt;T&lt;/strong&gt;: I&amp;rsquo;d need to go get a list.&lt;br /&gt;
+&lt;strong&gt;S&lt;/strong&gt;: Probably.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Illustration Friday: Future</title>
+      <link>https://jxx.joshix.com/2013/05/12/illustration-friday-future/</link>
+      <pubDate>Sun, 12 May 2013 12:30:00 +0000</pubDate>
+      <author>j@joshix.com (Josh Wood)</author>
+      <guid>https://jxx.joshix.com/2013/05/12/illustration-friday-future/</guid>
+      <description> Signs point to Yes  </description>
+    </item>
+    
+    <item>
+      <title>One reader writes:</title>
+      <link>https://jxx.joshix.com/2011/07/11/one-reader-writes/</link>
+      <pubDate>Mon, 11 Jul 2011 14:53:00 +0000</pubDate>
+      <author>j@joshix.com (Josh Wood)</author>
+      <guid>https://jxx.joshix.com/2011/07/11/one-reader-writes/</guid>
+      <description>Merger merger Android startup stock option implementation deadline! Professionalize Twitter social patent network effect artificial Linux scarcity! Freedom source monetize Bitcoin buyout Microsoft strategy! Mobile ubiquitous real-time synergy! Venture cap software stack core competency.</description>
+    </item>
+    
+    <item>
+      <title>From the desert</title>
+      <link>https://jxx.joshix.com/2011/07/10/from-the-desert/</link>
+      <pubDate>Sun, 10 Jul 2011 07:07:00 +0000</pubDate>
+      <author>j@joshix.com (Josh Wood)</author>
+      <guid>https://jxx.joshix.com/2011/07/10/from-the-desert/</guid>
+      <description>I bought some cigarettes with a coupon. I&amp;rsquo;ve only done this once or twice before because buying your addictive drugs with a coupon seems less than shabby and none of my other dealers even take them, but Mr. R.J. Reynolds mails them to me. Direct.
+Because they&amp;rsquo;re mailed to me, the coupons have my name printed on the back. The cashier, who I call Quetzalcoatl, read my name on the coupon.</description>
+    </item>
+    
+    <item>
+      <title>YATC, mb(1) &#34;microbe&#34; updated</title>
+      <link>https://jxx.joshix.com/2011/04/22/microbe-updated/</link>
+      <pubDate>Fri, 22 Apr 2011 18:07:17 -0800</pubDate>
+      <author>j@joshix.com (Josh Wood)</author>
+      <guid>https://jxx.joshix.com/2011/04/22/microbe-updated/</guid>
+      <description>I updated the simple Plan 9 microblogging scripts, mb(1), not often but sometimes also called &amp;ldquo;microbe&amp;rdquo;, and almost never known as &amp;ldquo;meekroh-bee&amp;rdquo;.
+All file and environment variable names have changed since the last release (c.2009, AD), replacing the &amp;ldquo;special&amp;rdquo; character micro (HTML’s &amp;amp;micro;, &amp;micro;, µ) with a plain m.
+The awk | sed filter pipeline at the center of any useful improvement was taken from Stanley Lieber’s tw Twitter script.</description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>https://jxx.joshix.com/projects/</link>
+      <pubDate>Tue, 01 Dec 2009 15:55:56 -0800</pubDate>
+      <author>j@joshix.com (Josh Wood)</author>
+      <guid>https://jxx.joshix.com/projects/</guid>
+      <description>Containers &amp;amp;c.  Caddybox: The Caddy web server in a container Jxnu: Markdown source and Hugo configuration to build this site  Plan 9  Discount: Plan 9 build support and documentation for David Parsons’s Discount, a compiler for the Markdown formatting syntax. Source for Discount and for my fork for Plan 9 build maintenance is available on GitHub. Mb (neé µb): Plan 9 tools for Twitter/StatusNet microblogging See also /n/sources/contrib/josh/  Penicillin farm: Old code covered in mold Carefully neglected to various stages of decomposition.</description>
+    </item>
+    
+    <item>
+      <title>Scrub Jay</title>
+      <link>https://jxx.joshix.com/2009/09/25/scrub-jay/</link>
+      <pubDate>Fri, 25 Sep 2009 05:35:00 +0000</pubDate>
+      <author>j@joshix.com (Josh Wood)</author>
+      <guid>https://jxx.joshix.com/2009/09/25/scrub-jay/</guid>
+      <description> Western Scrub Jay (Aphelocoma californica)  </description>
+    </item>
+    
+    <item>
+      <title>mb(1) - microbe</title>
+      <link>https://jxx.joshix.com/project/mb/</link>
+      <pubDate>Mon, 07 Sep 2009 01:32:28 -0800</pubDate>
+      <author>j@joshix.com (Josh Wood)</author>
+      <guid>https://jxx.joshix.com/project/mb/</guid>
+      <description>Mb &amp;ndash; New version, new name, 2011-04-22
+Elaborations on the theme of anothy&amp;rsquo;s original tweet. Occasionally useful as prototype API poking sticks during development of larger clients for other systems — and of course to keep up with the web joneses from the comfort and safety of Plan 9.
+These files are available in the Bell Labs Plan 9 sources contrib area, i.e., /n/sources/contrib/josh/rc/mb.
+NAME read, write – simple microblogging</description>
+    </item>
+    
+    <item>
+      <title>Identilion</title>
+      <link>https://jxx.joshix.com/project/identilion/</link>
+      <pubDate>Mon, 15 Jun 2009 21:37:28 -0700</pubDate>
+      <author>j@joshix.com (Josh Wood)</author>
+      <guid>https://jxx.joshix.com/project/identilion/</guid>
+      <description>&amp;ldquo;Identilion&amp;rdquo; began as a five minute hack to make NatsuLiphone, an open source iOS Twitter client, work with our federated Statusnet instance at Utopian.net. It took about 2 minutes to change the URL strings, the other 3 to rename things so that both apps could run on the same iPhone. My mutant version was originally referred to as Lionica, a name that persists in the branch for the Identilion source code.</description>
+    </item>
+    
+    <item>
+      <title>About Josh</title>
+      <link>https://jxx.joshix.com/about/</link>
+      <pubDate>Mon, 19 Jan 2009 02:47:53 +0000</pubDate>
+      <author>j@joshix.com (Josh Wood)</author>
+      <guid>https://jxx.joshix.com/about/</guid>
+      <description>j@joshix.com § @joshixisjosh9 § github.com/joshix § speakerdeck.com/joshix
+Man about machines. Tech maker, breaker, writer. Enjoys photographing polydactyl cats and writing short autobiographies.
+ Developer Advocate, Red Hat Former DocOps, CoreOS Licit cannabis industry software pioneer; former Chief Technology Officer, Agrisoft Cofounder, Utopian.net: Making the web easy for artists (now a John Companies property) Janitor, Illustration Friday: Creative project Projects, etc. The Eclectilepsy  </description>
+    </item>
+    
+    <item>
+      <title>Illustration Friday: Communication</title>
+      <link>https://jxx.joshix.com/2007/02/23/illustration-friday-communication/</link>
+      <pubDate>Fri, 23 Feb 2007 15:51:00 +0000</pubDate>
+      <author>j@joshix.com (Josh Wood)</author>
+      <guid>https://jxx.joshix.com/2007/02/23/illustration-friday-communication/</guid>
+      <description> Beep.  </description>
+    </item>
+    
+    <item>
+      <title>Plan 9 /sys/man/1/weather</title>
+      <link>https://jxx.joshix.com/project/weatherman/</link>
+      <pubDate>Wed, 07 Feb 2007 01:32:28 -0800</pubDate>
+      <author>j@joshix.com (Josh Wood)</author>
+      <guid>https://jxx.joshix.com/project/weatherman/</guid>
+      <description>NAME weather &amp;ndash; know which way the wind blows
+SYNOPSIS weather [ air ] [ st ]
+DESCRIPTION Weather prints the local conditions and seven-day forecast most recently reported at the US airport with the three–letter location identifier air. Given a two–letter US state abbreviation st instead, weather prints a table of air location identifiers known for st.
+The arguments are mutually exclusive and case–insensitive. If neither is given, air defaults to location identifier ewr, designating the Newark, NJ, airport near Bell Labs, Murray Hill.</description>
+    </item>
+    
+    <item>
+      <title>Ferry stern, Aegean</title>
+      <link>https://jxx.joshix.com/2006/11/27/ferry-stern-aegean/</link>
+      <pubDate>Mon, 27 Nov 2006 03:22:00 +0000</pubDate>
+      <author>j@joshix.com (Josh Wood)</author>
+      <guid>https://jxx.joshix.com/2006/11/27/ferry-stern-aegean/</guid>
+      <description> Last leg of homeward odyssey on the Blue Star ferry Ithaki from Πειραιάς to Πάρος  </description>
+    </item>
+    
+    <item>
+      <title>Sunrise, Piraeus</title>
+      <link>https://jxx.joshix.com/2006/11/27/sunrise-piraeus/</link>
+      <pubDate>Mon, 27 Nov 2006 00:34:00 +0000</pubDate>
+      <author>j@joshix.com (Josh Wood)</author>
+      <guid>https://jxx.joshix.com/2006/11/27/sunrise-piraeus/</guid>
+      <description>  </description>
+    </item>
+    
+    <item>
+      <title>Guardhouse, Attendorn</title>
+      <link>https://jxx.joshix.com/2006/11/26/guardhouse-attendorn/</link>
+      <pubDate>Sun, 26 Nov 2006 08:14:00 +0000</pubDate>
+      <author>j@joshix.com (Josh Wood)</author>
+      <guid>https://jxx.joshix.com/2006/11/26/guardhouse-attendorn/</guid>
+      <description>  </description>
+    </item>
+    
+    <item>
+      <title>Athens top front</title>
+      <link>https://jxx.joshix.com/2006/10/31/athens-top-front/</link>
+      <pubDate>Tue, 31 Oct 2006 14:33:00 +0000</pubDate>
+      <author>j@joshix.com (Josh Wood)</author>
+      <guid>https://jxx.joshix.com/2006/10/31/athens-top-front/</guid>
+      <description> </description>
+    </item>
+    
+    <item>
+      <title>Hotel Attalos, Athens</title>
+      <link>https://jxx.joshix.com/2006/10/30/hotel-attalos-athens/</link>
+      <pubDate>Mon, 30 Oct 2006 20:23:00 +0000</pubDate>
+      <author>j@joshix.com (Josh Wood)</author>
+      <guid>https://jxx.joshix.com/2006/10/30/hotel-attalos-athens/</guid>
+      <description> </description>
+    </item>
+    
+    <item>
+      <title>Courtyard</title>
+      <link>https://jxx.joshix.com/2006/10/13/courtyard/</link>
+      <pubDate>Fri, 13 Oct 2006 22:00:00 +0000</pubDate>
+      <author>j@joshix.com (Josh Wood)</author>
+      <guid>https://jxx.joshix.com/2006/10/13/courtyard/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Paros. October 2006.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;I stood on the rail and looked over the stone wall of the courtyard&lt;br /&gt;
+Through the crosshairs of the crucifix atop the blue dome of the church&lt;br /&gt;
+I saw people moving in the house-lights on the hillside&lt;br /&gt;
+They seemed like signals&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Cycladic (Conventionalized)</title>
+      <link>https://jxx.joshix.com/2006/09/28/cycladic-conventionalized/</link>
+      <pubDate>Thu, 28 Sep 2006 09:39:00 +0000</pubDate>
+      <author>j@joshix.com (Josh Wood)</author>
+      <guid>https://jxx.joshix.com/2006/09/28/cycladic-conventionalized/</guid>
+      <description>  </description>
+    </item>
+    
+    <item>
+      <title>Roy Orbison</title>
+      <link>https://jxx.joshix.com/2005/12/07/roy-orbison/</link>
+      <pubDate>Wed, 07 Dec 2005 16:59:00 +0000</pubDate>
+      <author>j@joshix.com (Josh Wood)</author>
+      <guid>https://jxx.joshix.com/2005/12/07/roy-orbison/</guid>
+      <description>&lt;p&gt;pretty woman, give your smile to me&lt;br /&gt;
+that is an imperative&lt;br /&gt;
+I want to try it on&lt;br /&gt;
+and I promise&lt;br /&gt;
+not to wipe it off&lt;br /&gt;
+with my greaserag this time&lt;br /&gt;
+that last incident having been merely&lt;br /&gt;
+a confusion of identity of me&lt;br /&gt;
+for my brother who is not me&lt;br /&gt;
+but is often mistaken for me&lt;/p&gt;
+
+&lt;p&gt;he’s the one who can play guitar&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>An advantage of angles</title>
+      <link>https://jxx.joshix.com/2005/11/15/an-advantage-of-angles/</link>
+      <pubDate>Tue, 15 Nov 2005 22:20:00 +0000</pubDate>
+      <author>j@joshix.com (Josh Wood)</author>
+      <guid>https://jxx.joshix.com/2005/11/15/an-advantage-of-angles/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Kansas City/Paros. November 2005.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Not every night is different&lt;br /&gt;
+most begin with much the same choreography&lt;br /&gt;
+a geometry of sky folding closed and Sound&lt;br /&gt;
+thrown out of a day’s dance with the wind&lt;br /&gt;
+when Silence cuts in.&lt;/p&gt;
+
+&lt;p&gt;Stars pick out jasmine’s shadow negative against&lt;br /&gt;
+their black matting, their paper backing, where&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Inked (Don’t You Call Me (two (too) Haikus))</title>
+      <link>https://jxx.joshix.com/2005/11/13/inked/</link>
+      <pubDate>Sun, 13 Nov 2005 22:05:00 +0000</pubDate>
+      <author>j@joshix.com (Josh Wood)</author>
+      <guid>https://jxx.joshix.com/2005/11/13/inked/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Kansas City. November 2005.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;triple ribbon is&lt;br /&gt;
+efficient because it&lt;br /&gt;
+abandoned hue&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

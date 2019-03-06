@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Microblog on Josh Wood</title>
+    <link>https://jxx.joshix.com/tags/microblog/</link>
+    <description>Recent content in Microblog on Josh Wood</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>j@joshix.com (Josh Wood)</managingEditor>
+    <webMaster>j@joshix.com (Josh Wood)</webMaster>
+    <copyright>Josh Wood. All rights reserved.</copyright>
+    <lastBuildDate>Fri, 22 Apr 2011 18:07:17 -0800</lastBuildDate>
+    
+	<atom:link href="https://jxx.joshix.com/tags/microblog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>YATC, mb(1) &#34;microbe&#34; updated</title>
+      <link>https://jxx.joshix.com/2011/04/22/microbe-updated/</link>
+      <pubDate>Fri, 22 Apr 2011 18:07:17 -0800</pubDate>
+      <author>j@joshix.com (Josh Wood)</author>
+      <guid>https://jxx.joshix.com/2011/04/22/microbe-updated/</guid>
+      <description>I updated the simple Plan 9 microblogging scripts, mb(1), not often but sometimes also called &amp;ldquo;microbe&amp;rdquo;, and almost never known as &amp;ldquo;meekroh-bee&amp;rdquo;.
+All file and environment variable names have changed since the last release (c.2009, AD), replacing the &amp;ldquo;special&amp;rdquo; character micro (HTML’s &amp;amp;micro;, &amp;micro;, µ) with a plain m.
+The awk | sed filter pipeline at the center of any useful improvement was taken from Stanley Lieber’s tw Twitter script.</description>
+    </item>
+    
+    <item>
+      <title>mb(1) - microbe</title>
+      <link>https://jxx.joshix.com/project/mb/</link>
+      <pubDate>Mon, 07 Sep 2009 01:32:28 -0800</pubDate>
+      <author>j@joshix.com (Josh Wood)</author>
+      <guid>https://jxx.joshix.com/project/mb/</guid>
+      <description>Mb &amp;ndash; New version, new name, 2011-04-22
+Elaborations on the theme of anothy&amp;rsquo;s original tweet. Occasionally useful as prototype API poking sticks during development of larger clients for other systems — and of course to keep up with the web joneses from the comfort and safety of Plan 9.
+These files are available in the Bell Labs Plan 9 sources contrib area, i.e., /n/sources/contrib/josh/rc/mb.
+NAME read, write – simple microblogging</description>
+    </item>
+    
+    <item>
+      <title>Identilion</title>
+      <link>https://jxx.joshix.com/project/identilion/</link>
+      <pubDate>Mon, 15 Jun 2009 21:37:28 -0700</pubDate>
+      <author>j@joshix.com (Josh Wood)</author>
+      <guid>https://jxx.joshix.com/project/identilion/</guid>
+      <description>&amp;ldquo;Identilion&amp;rdquo; began as a five minute hack to make NatsuLiphone, an open source iOS Twitter client, work with our federated Statusnet instance at Utopian.net. It took about 2 minutes to change the URL strings, the other 3 to rename things so that both apps could run on the same iPhone. My mutant version was originally referred to as Lionica, a name that persists in the branch for the Identilion source code.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Peanut on Josh Wood</title>
+    <link>https://jxx.joshix.com/tags/peanut/</link>
+    <description>Recent content in Peanut on Josh Wood</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>j@joshix.com (Josh Wood)</managingEditor>
+    <webMaster>j@joshix.com (Josh Wood)</webMaster>
+    <copyright>Josh Wood. All rights reserved.</copyright>
+    <lastBuildDate>Fri, 25 Sep 2009 05:35:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://jxx.joshix.com/tags/peanut/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Scrub Jay</title>
+      <link>https://jxx.joshix.com/2009/09/25/scrub-jay/</link>
+      <pubDate>Fri, 25 Sep 2009 05:35:00 +0000</pubDate>
+      <author>j@joshix.com (Josh Wood)</author>
+      <guid>https://jxx.joshix.com/2009/09/25/scrub-jay/</guid>
+      <description> Western Scrub Jay (Aphelocoma californica)  </description>
+    </item>
+    
+  </channel>
+</rss>
