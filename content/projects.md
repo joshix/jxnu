@@ -52,5 +52,5 @@ Carefully neglected to various stages of decomposition.
 [jxnu]: https://github.com/joshix/jxnu
 [markdown]: http://daringfireball.net/projects/markdown/
 [mb]: ../project/mb/
-[simplish]: http://code.google.com/p/simplish
+[simplish]: http://github.com/joshix/simplish
 [sp]: http://code.google.com/p/sp-theme
