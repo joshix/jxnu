@@ -53,6 +53,7 @@ googleAnalytics = "UA-79186834-1"
   brand = "Jx%"
   footline = "Izena duen guzia omen da"
   topline = "rktship"
+  mainSections = ["post"]
 
   # Text for the top menu link, which goes the root URL for the site.
   # Default (if omitted) is "Home".

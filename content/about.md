@@ -10,18 +10,17 @@ title: About Josh
 
 <j@joshix.com> § [@joshixisjosh9][jxtwitter] § [github.com/joshix][jxgithub] § [speakerdeck.com/joshix][slides]
 
-Man about machines. Tech maker, breaker, writer. Enjoys photographing
-polydactyl cats and writing short autobiographies.
+Man about machines. Tech maker, breaker, writer.
 
 * Developer Advocate, [Red Hat][redhat]
+* Co-author, [*Kubernetes Operators*, O'Reilly, 2020][operators-book]
 * Former DocOps, [CoreOS][coreos]
 * Licit cannabis industry software pioneer; former Chief Technology Officer, [Agrisoft][agrisoft]
-* Cofounder, [Utopian.net][utopian]: Making the web easy for artists
+* Co-founder, [Utopian.net][utopian]: Making the web easy for artists
   (now a [John Companies][joco] property)
 * Janitor, [Illustration Friday][ifri]: Creative project
 * [Projects][projects], etc.
 * [The Eclectilepsy][blog]
-
 
 [agrisoft]: http://kind.financial/agrisoft-seed-to-sale-software/
 [blog]: /post/
@@ -30,6 +29,7 @@ polydactyl cats and writing short autobiographies.
 [joco]: http://johncompanies.com
 [jxgithub]: https://github.com/joshix/
 [jxtwitter]: https://twitter.com/joshixisjosh9
+[operators-book]: http://shop.oreilly.com/product/0636920234357.do
 [projects]: /projects/
 [redhat]: https://redhat.com
 [slides]: https://speakerdeck.com/joshix
