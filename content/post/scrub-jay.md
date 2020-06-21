@@ -7,12 +7,10 @@ tags:
 - scrub jay
 - peanut
 - bird
-title: Scrub Jay
-updated: 2013-05-24T01:52:01Z
-#Description: "Western Scrub Jay (Aphelocoma californica)"
+title: Western Scrub Jay
+description: "(Aphelocoma californica)"
+updated: 2020-06-21T05:32:01Z
 ---
 
-<div class="separator" style="clear: both; text-align: center;">
-  <img border="0" src="/img/scrubjay.jpg" /></a>
-  <div class="caption">Western Scrub Jay (<em>Aphelocoma californica</em>)</div>
-</div>
+![Scrub jay with peanut](/img/scrubjay.jpg "Western Scrub Jay (Aphelocoma californica)")
+Western Scrub Jay (*Aphelocoma californica*)
