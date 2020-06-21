@@ -55,9 +55,8 @@
     "destination" : "/about/",
     "type" : 301
   }, {
-    "source" : "/projects/discount",
-    "destination" : "/projects/#plan-9",
-    "type" : 301
+    "source" : "/about",
+    "destination" : "/"
   }, {
     "source" : "/projects/discount",
     "destination" : "/projects/#plan-9",
