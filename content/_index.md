@@ -8,7 +8,7 @@ type: page
 
 <!-- <j@joshix.com> § [@joshixisjosh9][jxtwitter] § [github.com/joshix][jxgithub] § [speakerdeck.com/joshix][slides] -->
 
-Maker, breaker, writer and man about machines.
+Writer and man about machines.
 
 * Developer Advocate, [Red Hat][redhat]
 * Co-author, [*Kubernetes Operators*, O'Reilly, 2020][operators-book]
