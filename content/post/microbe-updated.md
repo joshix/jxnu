@@ -62,7 +62,7 @@ mb/read -h http://api.supertweet.net/1
 You’ll be asked for the proxy name and password you created at Supertweet unless it is available from [*factotum*(4)][man-factotum].
 
 
-[man-acme]: https://plan9.bell-labs.com/sys/man/1/acme
-[man-factotum]: https://plan9.bell-labs.com/sys/man/4/factotum
+[man-acme]: https://9p.io/magic/man2html/1/acme
+[man-factotum]: https://9p.io/magic/man2html/4/factotum
 [mb]: /project/mb/
 [tw]: http://plan9.stanleylieber.com/rc/tw

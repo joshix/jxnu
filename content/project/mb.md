@@ -66,6 +66,6 @@ Write refuses text <1 or >140 runes, exiting with status `length`.
 The `user` argument and the `mbuser` environment variable have no effect when reading Twitter via the known API proxy, which exposes only an authenticated user's timelines.
 
 
-[anothy-tweet]: http://plan9.bell-labs.com/sources/contrib/anothy/bin/rc/tweet
+[anothy-tweet]: http://9p.io/sources/contrib/anothy/bin/rc/tweet
 [mb-update-post]: ../../2011/04/22/microbe-updated/
-[p9contrib-mb]: http://plan9.bell-labs.com/sources/contrib/josh/rc/mb/
+[p9contrib-mb]: http://9p.io/sources/contrib/josh/rc/mb/
