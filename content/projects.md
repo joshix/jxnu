@@ -41,12 +41,12 @@ Carefully neglected to various stages of decomposition.
 * [*Identilion*][identilion]: iPhone µblog app for Twitter-like APIs
 
 
-[9contrib-josh]: http://plan9.bell-labs.com/sources/contrib/josh/
+[9contrib-josh]: http://9p.io/sources/contrib/josh/
 [caddy]: https://caddyserver.com
 [caddybox]: https://github.com/joshix/caddybox
 [discount]: http://www.pell.portland.or.us/~orc/Code/markdown/
 [discount-gh]: https://github.com/orc/discount
-[discount-gh-joshix]: https://github.com/joshix/discount/tree/master/Plan9
+[discount-gh-joshix]: https://github.com/joshix/discount/tree/main/Plan9
 [hugo]: https://gohugo.io
 [identilion]: ../project/identilion/
 [jxnu]: https://github.com/joshix/jxnu
