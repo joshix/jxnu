@@ -23,12 +23,12 @@ The "[jxnu][jxnu]" project put the site's old content atop new infrastructure. T
 * executed by the [`rkt` container engine](https://coreos.com/rkt/),
 * running on [CoreOS Linux](https://coreos.com/os/docs/latest/).<!--more-->
 
-## TODO:
-  * [x] Use `rkt` instead of docker.
-  * [x] Cluster-ify with Kubernetes ~~and "[rktnetes][rktnetes]"~~
+## TODO
+
+* [x] Use `rkt` instead of docker.
+* [x] Cluster-ify with Kubernetes ~~and "[rktnetes][rktnetes]"~~
 
 To be continued...
-
 
 [jxnu]: https://github.com/joshix/jxnu
 [rktnetes]: https://kubernetes.io/docs/getting-started-guides/rkt/

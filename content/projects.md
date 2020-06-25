@@ -14,10 +14,10 @@ title: Projects
 type: page
 ---
 
-## Containers &c.
+## Software for this site
 
 * [*Caddybox*][caddybox]: The [Caddy web server][caddy] in a container
-* [*Jxnu*][jxnu]: Markdown source and [Hugo][hugo] configuration to build this site
+* [*Jxnu*][jxnu]: Markdown source and [Hugo][hugo] configuration for joshix.com
 
 ## Plan 9
 
@@ -39,7 +39,6 @@ Carefully neglected to various stages of decomposition.
 ### Mobile
 
 * [*Identilion*][identilion]: iPhone µblog app for Twitter-like APIs
-
 
 [9contrib-josh]: http://9p.io/sources/contrib/josh/
 [caddy]: https://caddyserver.com
