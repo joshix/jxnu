@@ -32,7 +32,7 @@ privacy:
 
 author:
   name: Josh Wood
-  profile: "https://twitter.com/joshixisjosh9"
+  profile: "https://joshix.com"
 
 taxonomies:
   tag: tags
@@ -43,19 +43,19 @@ params:
   intro: true
   headline: The Eclectilepsy
   description: ""
-  github: "https://github.com/joshix"
-  #gitlab: "https://gitlab.com/XXX"
-  linkedin: "https://linkedin.com/in/joshix/"
   twitter: "https://twitter.com/joshixisjosh9"
-  stackoverflow: "https://stackoverflow.com/users/9604749/josh-wood"
   #facebook: "https://www.facebook.com/username"
+  #gitlab: "https://gitlab.com/XXX"
+  github: "https://github.com/joshix"
+  speakerdeck: "https://speakerdeck.com/joshix"
+  stackoverflow: "https://stackoverflow.com/users/9604749/josh-wood"
+  linkedin: "https://linkedin.com/in/joshix/"
   email: j@joshix.com
   opengraph: true
   shareTwitter: false
   shareFacebook: false
   shareGooglePlus: false
   shareLinkedIn: false
-  #dateFormat: "Mon, Jan 2, 2006"
   dateFormat: "January 2, 2006"
   exponeaJsUrl: ""
   exponeaTarget: ""
