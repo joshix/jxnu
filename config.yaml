@@ -8,6 +8,8 @@ googleAnalytics: UA-79186834-1
 pygmentsUseClasses: true
 pygmentsCodefences: true
 
+# goldmark stanza need live only long enough to convert all inline html brought
+# over from previous incarnations of the site.
 markup:
   goldmark:
     renderer:
@@ -43,32 +45,32 @@ params:
   intro: true
   headline: ""
   description: ""
+  # Navigation square social icons config. Used in partials/header.html. Icons
+  # in CSS classes from https://fontawesome.com/v4.7.0/icons/#web-application
   twitter: "https://twitter.com/joshixisjosh9"
   #facebook: "https://www.facebook.com/username"
   #gitlab: "https://gitlab.com/XXX"
   github: "https://github.com/joshix"
-  speakerdeck: "https://speakerdeck.com/joshix"
-  stackoverflow: "https://stackoverflow.com/users/9604749/josh-wood"
+  #stackoverflow: "https://stackoverflow.com/users/9604749/josh-wood"
   linkedin: "https://linkedin.com/in/joshix/"
   email: j@joshix.com
+  # END social icons config
   opengraph: true
+  # `shareScv` determines what social share action buttons are shown on single
+  # view of item of type post. In theme's partials/post-footer.html.
   shareTwitter: false
   shareFacebook: false
   shareGooglePlus: false
   shareLinkedIn: false
+  # END social share action config
   dateFormat: "January 2, 2006"
-  exponeaJsUrl: ""
-  exponeaTarget: ""
-  exponeaToken: ""
-  exponeaTrackVisits: false
   readingTime: false
   readingTimeText: "Estimated reading time:"
-  fathomUrl: ""
-  fathomSiteId: ""
 
 permalinks:
   post: "/:year/:month/:day/:filename/"
   page: "/:filename/"
+#  presentation: "/:filename/"
 
 menu:
   main:
