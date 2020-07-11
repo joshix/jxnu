@@ -11,7 +11,5 @@ title: 'Illustration Friday: Future'
 updated: 2013-06-09T20:12:20Z
 ---
 
-<div class="separator" style="clear: both; text-align: center;">
-  <img border="0" src="/img/continuous8ball.png" /></a>
-  <div class="caption">Signs point to Yes</div>
-</div>
+![Continuous line hand drawing of Magic 8 ball](/img/continuous8ball.png "Signs point to Yes")
+

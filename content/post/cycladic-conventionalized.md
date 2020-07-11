@@ -11,6 +11,4 @@ title: Cycladic (Conventionalized)
 updated: 2013-05-24T01:59:06Z
 ---
 
-<div class="separator" style="clear: both; text-align: center;">
-  <img border="0" src="/img/cycladicfigure.jpg" alt="Cycladic figure"/></a>
-</div>
+![Cycladic figure](/img/cycladicfigure.jpg)

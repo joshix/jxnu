@@ -10,6 +10,4 @@ title: Guardhouse, Attendorn
 updated: 2013-05-24T01:56:46Z
 ---
 
-<div class="separator" style="clear: both; text-align: center;">
-  <img border="0" src="/img/guardhouse.jpg" alt="Guardhouse, Attendorn Castle"/></a>
-</div>
+![Guardhouse, Attendorn Castle](/img/guardhouse.jpg)

@@ -16,6 +16,4 @@ title: Sunrise, Piraeus
 updated: 2013-05-24T01:54:56Z
 ---
 
-<div class="separator" style="clear: both; text-align: center;">
-  <img border="0" src="/img/sunrisepiraeus.jpg" /></a>
-</div>
+![Sunrise over Piraeus seen from ferry stern](/img/sunrisepiraeus.jpg)

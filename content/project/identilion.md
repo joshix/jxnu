@@ -20,10 +20,9 @@ Identilion evolved to connect to any Twitter-compatible API, rather than being h
 
 The last builds carry version number 1.51.5, the fifth revision of a fork from NatsuLiphone v1.51. Identilion is no longer in use and is not maintained. [Screenshots][screens] give a flavor of the user interface and the API server settings.
 
-<img src="/img/identilion/screens/2-account.png" title="Account" alt="Account" />
-<img src="/img/identilion/screens/3-read.png" title="Reading" alt="Reading" />
-<img src="/img/identilion/screens/4-write.jpg" title="Writing a Reply" alt="Writing" />
-
+![Account](/img/identilion/screens/2-account.png "Account")
+![Reading](/img/identilion/screens/3-read.png "Reading")
+![Writing](/img/identilion/screens/4-write.jpg "Writing a reply")
 
 [lionica-branch]: https://github.com/joshix/identilion/tree/lionica
 [ntlniph]: https://github.com/takuma104/ntlniph
