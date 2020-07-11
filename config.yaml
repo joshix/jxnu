@@ -70,7 +70,7 @@ params:
 permalinks:
   post: "/:year/:month/:day/:filename/"
   page: "/:filename/"
-#  presentation: "/:filename/"
+#  presentation: "/presentation/:filename/"
 
 menu:
   main:
