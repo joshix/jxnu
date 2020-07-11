@@ -3,7 +3,7 @@ title: Operator Hub and your Kubernetes cluster
 date: 2020-06-25
 description: "Red Hat DevNation Tech Talk: Operator Lifecycle Manager on any Kubernetes"
 author: Josh Wood
-draft: false
+draft: true
 type: post
 tags:
 - Kubernetes

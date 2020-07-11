@@ -1,7 +1,7 @@
 ---
 title: "CoreOS rkt, appc, CNI: In pursuit of a platform"
 date: 2016-03-30
-description: "CoreOS goals for platforms and standards expressed in the rkt container engine."
+description: "CoreOS goals for platforms and standards expressed in the rkt container engine"
 author: Josh Wood
 draft: false
 type: post

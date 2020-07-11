@@ -1,7 +1,7 @@
 ---
 title: "Kubernetes and OpenShift: Same, same, different"
 date: 2018-10-30
-description: "Red Hat OpenShift is a Kubernetes distribution. How is it different from \"just Kubernetes\"?"
+description: "OpenShift is a Kubernetes distribution"
 author: Josh Wood
 draft: false
 type: post
@@ -11,7 +11,7 @@ tags:
 - Red Hat Accelerators
 ---
 
-Delivered to the [Red Hat Accelerators][rh-accelerators] and [Convergence][rh-convergence] Communities in June, August, and October 2018
+Red Hat OpenShift is a Kubernetes distribution. How is it different from "just Kubernetes"? Delivered to the [Red Hat Accelerators][rh-accelerators] and [Convergence][rh-convergence] communities in June, August, and October 2018.
 
 ## Slides
 
