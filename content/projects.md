@@ -12,6 +12,11 @@ tags:
 - microformats
 title: Projects
 type: page
+menu:
+    main:
+        identifier: "project"
+        name: "Projects"
+        weight: 20
 ---
 
 ## Software for this site

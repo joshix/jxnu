@@ -71,16 +71,3 @@ permalinks:
   post: "/:year/:month/:day/:filename/"
   page: "/:filename/"
 #  presentation: "/presentation/:filename/"
-
-menu:
-  main:
-    - name: Blog
-      identifier: post
-      url: /post/
-      weight: 1
-    - name: Projects
-      url: /projects/
-      weight: 5
-    - name: Presentations
-      url: /presentation/
-      weight: 10
