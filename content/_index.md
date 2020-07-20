@@ -12,7 +12,7 @@ Writer and man about machines.
 
 * Developer Advocate, [Red Hat][redhat]
 * Co-author, [*Kubernetes Operators*, O'Reilly, 2020][operators-book]
-* Former Head of Documentation, [CoreOS][coreos]
+* Former Documentation Lead, [CoreOS][coreos]
 * Former Chief Technology Officer, [Agrisoft][agrisoft]
 * Co-founder and Systems Priest, [Utopian.net][un2joco]
 * Janitor Emeritus, [Illustration Friday][ifri]

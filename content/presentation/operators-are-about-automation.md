@@ -3,7 +3,7 @@ title: "Operators are about automation"
 date: 2020-06-02
 description: "Why you should care about Kubernetes Operators"
 author: Josh Wood
-draft: false
+draft: true
 type: post
 tags:
 - Kubernetes

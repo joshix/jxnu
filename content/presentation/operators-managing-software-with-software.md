@@ -1,5 +1,5 @@
 ---
-title: "Kubernetes Operators principle and practice"
+title: "Kubernetes Operators: Managing software with software"
 date: 2017-03-29
 description: "Extending Kubernetes with Operators – with Jesus Carillo, Ticketmaster"
 author: Josh Wood
@@ -12,7 +12,7 @@ tags:
 - Prometheus
 ---
 
-Operators extend Kubernetes to manage the complete lifecycle of complex, stateful applications. Jesus Carillo and I discussed Ticketmaster's early adoption of Operators in [this talk at Cloud Native Conf 2017][sched], in Berlin.
+Operators extend Kubernetes to govern the complete lifecycle of complex, stateful applications. Jesus Carillo and I discussed Ticketmaster's early adoption of Operators in [this talk at Cloud Native Conf 2017][sched], in Berlin.
 
 ## Slides
 

@@ -4,7 +4,7 @@ slug: sre-principle-operator-practice
 description: SRE monitoring and automation principles guide the design of advanced Kubernetes Operators
 date: 2020-07-16T16:25:38-05:00
 author: Josh Wood
-type: presentation
+type: post
 draft: false
 menu: 
 tags:
