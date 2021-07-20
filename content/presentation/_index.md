@@ -7,7 +7,6 @@ author: Josh Wood
 type: page
 draft: false
 tags:
--
 menu:
     main:
         identifier: "presentation"

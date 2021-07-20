@@ -7,11 +7,8 @@ author: <no value>
 type: page
 draft: false
 categories:
-- 
 tags:
--
 series:
--
 menu:
     main:
         identifier: "post"
