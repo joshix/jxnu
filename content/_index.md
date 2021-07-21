@@ -6,23 +6,19 @@ title: Josh Wood
 type: page
 ---
 
-<!-- <j@joshix.com> § [@joshixisjosh9][jxtwitter] § [github.com/joshix][jxgithub] § [speakerdeck.com/joshix][slides] -->
-
 Writer and man about machines.
 
-* Developer Advocate, [Red Hat][redhat]
-* Co-author, [*Kubernetes Operators*, O'Reilly, 2020][operators-book]
+* Principal Developer Advocate, [Red Hat][redhat]
+* Books:
+  * [*OpenShift for Developers, 2nd Edition*][openshift-book], O'Reilly, 2021
+  * [*Kubernetes Operators*][operators-book], O'Reilly, 2020
 * Former Documentation Lead, [CoreOS][coreos]
 * Former Chief Technology Officer, [Agrisoft][agrisoft]
 * Co-founder and Systems Priest, [Utopian.net][un2joco]
-* Janitor Emeritus, [Illustration Friday][ifri]
 
 [agrisoft]: http://kind.financial/agrisoft-seed-to-sale-software/ "Acquired by Kind Financial"
 [coreos]: https://coreos.com/ "Acquired by Red Hat"
-[ifri]: http://illustrationfriday.com "Acquired by Illustration Age"
-[un2joco]: http://johncompanies.com "Acquired by John Companies"
-[jxgithub]: https://github.com/joshix/
-[jxtwitter]: https://twitter.com/joshixisjosh9
-[operators-book]: http://shop.oreilly.com/product/0636920234357.do "Acquired by readers everywhere"
+[openshift-book]: https://www.oreilly.com/library/view/openshift-for-developers/9781098103354/ "Acquired by readers everywhere"
+[operators-book]: https://www.oreilly.com/library/view/kubernetes-operators/9781492048039/ "Acquired by readers everywhere"
 [redhat]: https://redhat.com "Acquired by IBM"
-[slides]: https://speakerdeck.com/joshix
+[un2joco]: http://johncompanies.com "Acquired by John Companies"
