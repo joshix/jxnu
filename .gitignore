@@ -4,3 +4,4 @@ themes/
 public/
 .firebase/
 firebase-debug.log
+.hugo_build.lock
