@@ -15,4 +15,4 @@ series:
 -
 ---
 
-{{< tweet 1237418015479730177 >}}
+{{< tweet user="joshixisjosh9" id="1237418015479730177" >}}
