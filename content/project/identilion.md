@@ -1,7 +1,7 @@
 ---
 author: Josh Wood
 date: 2009-06-15T21:37:28-07:00
-description: iOS µblog app
+description: iOS microblog app
 draft: false
 tags:
 - Twitter
