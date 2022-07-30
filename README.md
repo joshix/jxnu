@@ -46,7 +46,7 @@ See [firebase.json][firebase.json].
 
 ## Legal
 
-Methods, tools, and scripts are shared under the ASL or their own license. Text and images beneath `content/` and/or as published on joshix.com are Copyright (C) 2000-2017 Josh Wood, except where noted. All rights reserved.
+Methods, tools, and scripts are shared under the ASL or their own license. Text and images beneath `content/` and/or as published on joshix.com are Copyright (C) 2000-2022 Josh Wood, except where noted. All rights reserved.
 
 [firebase-cli]: https://firebase.google.com/docs/cli#install_the_firebase_cli
 [firebase.json]: firebase.json
