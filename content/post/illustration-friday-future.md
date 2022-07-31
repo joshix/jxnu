@@ -12,4 +12,3 @@ updated: 2013-06-09T20:12:20Z
 ---
 
 ![Continuous line hand drawing of Magic 8 ball](/img/continuous8ball.png "Signs point to Yes")
-

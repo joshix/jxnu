@@ -49,18 +49,17 @@ To use the Supertweet service, visit their site to OAuth‘orize a Supertweet ac
 
 Say it:
 
-```
+```sh
 mb/write -h http://api.supertweet.net/1 Hello World.
 ```
 
 See it:
 
-```
+```sh
 mb/read -h http://api.supertweet.net/1
 ```
 
 You’ll be asked for the proxy name and password you created at Supertweet unless it is available from [*factotum*(4)][man-factotum].
-
 
 [man-acme]: https://9p.io/magic/man2html/1/acme
 [man-factotum]: https://9p.io/magic/man2html/4/factotum
