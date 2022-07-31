@@ -1,7 +1,5 @@
 # Joshix.com New Underneath (`jxnu`)
 
-Move the same old content to new infrastructure.
-
 Markdown source and configuration for the [joshix.com][jx] web site.
 
 ## Prerequisites
@@ -21,7 +19,7 @@ hugo [-DF] serve
 
 ### With firebase web server
 
-Run `hugo` with a temporary `baseURL` to compile the site. Serve the result with `firebase serve`:
+Run `hugo` with a temporary `baseURL` to compile the site. Serve the result with `firebase serve`.
 
 ```sh
 cd /path/to/jxnu
@@ -31,7 +29,7 @@ firebase serve
 
 ## Deploy the site
 
-Run hugo to compile the site. Deploy the result to Firebase Hosting:
+Run hugo to compile the site. Deploy the result to Firebase Hosting.
 
 ```sh
 cd /path/to/jxnu
@@ -40,9 +38,27 @@ hugo
 firebase deploy
 ```
 
-### Redirects
+### Firebase Redirects
 
 See [firebase.json][firebase.json].
+
+## Images
+
+### Markdown (no float styling in theme css)
+
+```markdown
+![OpenShift for Developers, 2e, book cover][coverimg]
+```
+
+See the [source][scrubjay-src] and [rendered][scrubjay] scrub jay post for an example.
+
+### Inline HTML to wrap text around the image
+
+```html
+<img src="/img/openshift-book-cover.jpg" alt="OpenShift for Developers, 2e, book cover" style="float: right; margin: 0 40px 40px 40px;">
+```
+
+See the [source][openshift-book-post-src] and [rendered][openshift-book-post] OpenShift book announcement post for an example.
 
 ## Legal
 
@@ -53,3 +69,7 @@ Methods, tools, and scripts are shared under the ASL or their own license. Text 
 [hugo]: https://gohugo.io/
 [jx]: https://joshix.com/
 [nodejs]: https://nodejs.org/
+[openshift-book-post]: https://joshix.com/2021/09/25/openshift-book-released/
+[openshift-book-post-src]: content/post/openshift-book-released.md
+[scrubjay]: https://joshix.com/2009/09/25/scrub-jay/
+[scrubjay-src]: content/post/scrub-jay.md
