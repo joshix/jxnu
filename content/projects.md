@@ -57,4 +57,4 @@ Carefully neglected to various stages of decomposition.
 [markdown]: http://daringfireball.net/projects/markdown/
 [mb]: ../project/mb/
 [simplish]: http://github.com/joshix/simplish
-[sp]: http://code.google.com/p/sp-theme
+[sp]: http://github.com/joshix/sp
