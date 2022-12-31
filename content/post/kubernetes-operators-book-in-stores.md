@@ -15,4 +15,11 @@ series:
 -
 ---
 
-{{< tweet user="joshixisjosh9" id="1237418015479730177" >}}
+[<img src="/img/operators-book-cover.jpg" alt="Kubernetes Operators book cover with squacco heron (Ardeola ralloides) bird" style="float: left; margin: 0 40px 40px 40px;">][operators-book]
+
+[*Kubernetes Operators*][operators-book] is about how and why the [*Operator* pattern][k8s-doc-operators] combines custom contollers and custom resources to fashion new [Kubernetes][k8s] forms and functions.
+
+[coverimg]: /img/operators-book-cover.jpg "Kubernetes Operators book cover with squacco heron (Ardeola ralloides) bird"
+[k8s]: https://kubernetes.io/
+[k8s-doc-operators]: https://kubernetes.io/docs/concepts/extend-kubernetes/operator/
+[operators-book]: https://www.oreilly.com/library/view/kubernetes-operators/9781492048039/ "Kubernetes Operators, Dobies &amp; Wood, O'Reilly, 2020"

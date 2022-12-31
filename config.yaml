@@ -49,7 +49,7 @@ params:
   description: ""
   # Navigation square social icons config. Used in partials/header.html. Icons
   # in CSS classes from https://fontawesome.com/v4.7.0/icons/#web-application
-  twitter: "https://twitter.com/joshixisjosh9"
+  #twitter: "https://twitter.com/joshixisjosh9"
   #facebook: "https://www.facebook.com/username"
   #gitlab: "https://gitlab.com/XXX"
   github: "https://github.com/joshix"
