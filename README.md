@@ -68,7 +68,6 @@ Methods, tools, and scripts are shared under the ASL or their own license. Text 
 [firebase.json]: firebase.json
 [hugo]: https://gohugo.io/
 [jx]: https://joshix.com/
-[nodejs]: https://nodejs.org/
 [openshift-book-post]: https://joshix.com/2021/09/25/openshift-book-released/
 [openshift-book-post-src]: content/post/openshift-book-released.md
 [scrubjay]: https://joshix.com/2009/09/25/scrub-jay/
