@@ -26,7 +26,7 @@ menu:
 
 ## Software for Plan 9
 
-* [*Discount*][discount]: Plan 9 build support and documentation for David Parsons’s Discount, a compiler for the [*Markdown*][markdown] formatting syntax. [Source for Discount][discount-gh] and for [my fork for Plan 9 build maintenance][discount-gh-joshix] is available on GitHub.
+* Plan 9 build support and documentation for David Parsons’s [Discount][discount], a compiler for the [*Markdown*][markdown] formatting syntax. [Source for Discount][discount-gh] and for [my Plan 9 build maintenance][discount-gh-joshix] is available on GitHub.
 
 ## Microformats
 
