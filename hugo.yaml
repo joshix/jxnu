@@ -73,6 +73,6 @@ params:
   readingTimeText: "Estimated reading time:"
 
 permalinks:
-  post: "/:year/:month/:day/:filename/"
-  page: "/:filename/"
+  post: "/:year/:month/:day/:contentbasename/"
+  page: "/:contentbasename/"
 #  presentation: "/presentation/:filename/"
