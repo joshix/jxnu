@@ -1,5 +1,5 @@
 baseurl: "https://joshix.com/"
-title: joshix.com
+title: Jx%
 theme: ghostwriter
 languageCode: en-us
 copyright: Joshua Wood
@@ -36,11 +36,14 @@ taxonomies:
   tag: tags
 
 params:
-# author.name set to Joshix (instead of Josh Wood) is a hack for the ghostwriter
-# theme, which takes Site.Author.name (instead of eg Site.title) as the second
-# part of <title> elements.
+# author.name set to Joshix (instead of Josh Wood) was a hack for the
+# ghostwriter theme, which takes Site.Params.Author.name (instead of
+# eg Site.title) as the second part of output <title> elements.
+# PAGETITLE • Joshix || PAGETITLE • Josh Wood
+# When swapping this value, change _index.md page title to make sense
+# to avoid titles like Josh Wood • Josh Wood
   author:
-    name: Joshix
+    name: Josh Wood
     profile: "https://joshix.com"
   mainSections:
     - post

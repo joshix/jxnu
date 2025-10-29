@@ -2,9 +2,11 @@
 author: Josh Wood
 date: 2020-06-20T02:47:53Z
 #menu: main
-title: Josh Wood
+title: Jx%
 type: page
 ---
+
+## Josh Wood
 
 Writer and man about machines.
 
